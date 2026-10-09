@@ -388,9 +388,9 @@
     reader.readAsDataURL(file);
   });
 
-  function drawIconOnCanvas(canvas, poster, selector, scale){
-    var el = poster.querySelector(selector);
-    if (!el || !el.dataset.iconSrc) return Promise.resolve();
+  function drawOneIcon(canvas, poster, el, scale){
+    var src = el.dataset.iconSrc || el.getAttribute('src');
+    if (!el || !src) return Promise.resolve();
     var posterRect = poster.getBoundingClientRect();
     var elRect = el.getBoundingClientRect();
     return new Promise(function(resolve){
@@ -398,18 +398,35 @@
       img.onload = function(){
         var ctx = canvas.getContext('2d');
         ctx.setTransform(1, 0, 0, 1, 0, 0);
-        ctx.drawImage(
-          img,
-          (elRect.left - posterRect.left) * scale,
-          (elRect.top - posterRect.top) * scale,
-          elRect.width * scale,
-          elRect.height * scale
-        );
+        var ex = (elRect.left - posterRect.left) * scale;
+        var ey = (elRect.top - posterRect.top) * scale;
+        var ew = elRect.width * scale;
+        var eh = elRect.height * scale;
+        // html2canvas sometimes paints a wrong-colored box behind small images
+        // nested in elements with a translucent background; erase it first by
+        // sampling a known-good pixel from the parent's own padding and flat-filling.
+        try {
+          var parent = el.parentElement;
+          var parentRect = parent ? parent.getBoundingClientRect() : elRect;
+          var sampleX = Math.round((parentRect.left - posterRect.left + 4) * scale);
+          var sampleY = Math.round((parentRect.top - posterRect.top + parentRect.height / 2) * scale);
+          var pixel = ctx.getImageData(sampleX, sampleY, 1, 1).data;
+          ctx.fillStyle = 'rgba(' + pixel[0] + ',' + pixel[1] + ',' + pixel[2] + ',' + (pixel[3] / 255) + ')';
+          ctx.fillRect(Math.round(ex), Math.round(ey), Math.round(ew), Math.round(eh));
+        } catch (e) {}
+        ctx.drawImage(img, ex, ey, ew, eh);
         resolve();
       };
       img.onerror = resolve;
-      img.src = el.dataset.iconSrc;
+      img.src = src;
     });
+  }
+
+  function drawIconsOnCanvas(canvas, poster, selector, scale){
+    var els = poster.querySelectorAll(selector);
+    return Array.prototype.reduce.call(els, function(chain, el){
+      return chain.then(function(){ return drawOneIcon(canvas, poster, el, scale); });
+    }, Promise.resolve());
   }
 
   document.getElementById('download-btn').addEventListener('click', function(){
@@ -427,7 +444,7 @@
         useCORS: true
       });
     }).then(function(canvas){
-      return drawIconOnCanvas(canvas, poster, '.wa-icon', canvasScale).then(function(){
+      return drawIconsOnCanvas(canvas, poster, '.wa-icon, .materia-icon img, .eyebrow-icon', canvasScale).then(function(){
         return canvas;
       });
     }).then(function(canvas){
