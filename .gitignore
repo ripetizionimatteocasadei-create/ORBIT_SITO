@@ -6,3 +6,6 @@ __pycache__/
 .DS_Store
 .tools/
 node_modules/
+bozze/**/_risolto.html
+bozze/**/revisione_*.html
+bozze/**/_blocchi_*.json

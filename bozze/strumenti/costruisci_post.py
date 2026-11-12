@@ -235,6 +235,9 @@ for kind, s in pezzi(sorgente):
         parti.append((kind, fix_tokens(s, "tex").strip()))
         formule.append({"tex": parti[-1][1], "display": kind == "M"})
 
+# copia del sorgente con i numeri già risolti (serve allo strumento di revisione)
+(BOZZA / "_risolto.html").write_text("".join(x if k == "t" else (f"$${x}$$" if k == "M" else f"${x}$") for k, x in parti), encoding="utf-8")
+
 res = subprocess.run(["node", str(QUI / "katex_render.mjs")], input=json.dumps(formule), capture_output=True, text=True, cwd=QUI)
 if res.returncode != 0:
     raise SystemExit("KaTeX ha rifiutato una formula:\n" + res.stderr)
