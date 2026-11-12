@@ -58,7 +58,7 @@
     var style = document.createElement("style");
     style.id = "cookie-banner-style";
     style.textContent =
-      "#cookie-banner{position:fixed;z-index:9999;box-sizing:border-box;" +
+      "#cookie-banner{position:fixed;z-index:150;box-sizing:border-box;" +
       "display:flex;flex-direction:column;gap:16px;" +
       "background:rgba(16,27,48,0.96);border:1px solid rgba(255,255,255,0.08);border-radius:20px;" +
       "box-shadow:0 24px 60px -20px rgba(0,0,0,0.6);" +
