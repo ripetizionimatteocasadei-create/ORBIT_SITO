@@ -1,0 +1,201 @@
+<!-- Sorgente del post. Formule: $...$ (in riga) e $$...$$ (a blocco), pre-renderizzate con KaTeX dal builder.
+     I numeri tra doppi segni minore-maggiore vengono calcolati con sympy da costruisci_post.py: non scriverli a mano. -->
+
+<div class="answer-box">
+  <span class="callout-tag">La risposta breve</span>
+  <p>Come risolvere le equazioni di secondo grado: porta l'equazione in <strong>forma normale</strong>, $ax^2+bx+c=0$, calcola il <strong>discriminante</strong> $\Delta=b^2-4ac$ e guarda com'è fatto:</p>
+  <ul>
+    <li>$\Delta>0$: due soluzioni, $x=\dfrac{-b\pm\sqrt{\Delta}}{2a}$;</li>
+    <li>$\Delta=0$: una soluzione (doppia), $x=-\dfrac{b}{2a}$;</li>
+    <li>$\Delta<0$: nessuna soluzione reale.</li>
+  </ul>
+  <p>Il resto dell'articolo serve a capire perché funziona, così non devi impararla a memoria, e a non sbagliare i segni.</p>
+</div>
+
+<p class="skip">Sai già calcolare Δ? Vai direttamente a <a href="#prova-tu">Prova tu</a> o agli <a href="#errori">errori più comuni</a>.</p>
+
+<h2 id="aggancio">Prima di qualsiasi formula: prova tu</h2>
+
+<p>Un rettangolo ha il perimetro di <strong>20 m</strong> e l'area di <strong>21 m²</strong>. Quanto misurano i suoi lati?</p>
+
+<p>Fermati un minuto, prendi carta e penna e prova, anche per tentativi. Prima di cominciare, a occhio: che ordine di grandezza ti aspetti per i lati? E quando hai un numero candidato, come controlli se va bene?</p>
+
+<h2 id="bridging">Cosa hai notato?</h2>
+
+<p>Se sei andato per tentativi, avrai fatto qualcosa del genere: provo 4 m, l'altro lato deve essere 6 m (perché il perimetro è 20, i due lati insieme fanno 10), area 24, troppo grande. Provo 3 m, l'altro è 7 m, area 21. Ci sei.</p>
+
+<p>Ora metti quel ragionamento in parole generali. Chiamo $x$ un lato: l'altro è $10-x$. L'area è lato per lato:</p>
+
+$$x(10-x)=21 \quad\Longrightarrow\quad x^2-10x+21=0$$
+
+<p>È comparsa un'equazione in cui l'incognita sta <em>al quadrato</em>. Si chiama <strong>di secondo grado</strong> proprio per questo: la potenza più alta di $x$ è 2. Le soluzioni sono $x=<<RET_X1>>$ e $x=<<RET_X2>>$. Sono due, ma il rettangolo è uno solo: <<RET_X1>> m e <<RET_X2>> m sono i due lati dello stesso rettangolo, letti una volta partendo dal lato corto e una volta da quello lungo.</p>
+
+<p>Provare a caso funziona con numeri piccoli. Ma se l'area fosse 30 m² (ops, l'equazione diventa $x^2-10x+30=0$) nessun tentativo andrebbe a buon fine, e non per sfortuna: con 20 m di perimetro il massimo si ottiene con un quadrato $5\times5$, che ha area 25. Serve un metodo che ti dica anche <em>se</em> una soluzione esiste.</p>
+
+<h2 id="formula">La forma normale, il discriminante e la formula</h2>
+
+<p>Il metodo parte da una regola di ordine: si scrive l'equazione in <strong>forma normale</strong>, cioè tutto a sinistra, zero a destra, termini in ordine di potenza:</p>
+
+$$ax^2+bx+c=0 \qquad (a\neq 0)$$
+
+<p>$a$, $b$, $c$ sono i <strong>coefficienti</strong>, con il loro segno. La condizione $a\neq 0$ ha un motivo: se $a$ fosse zero, $x^2$ sparirebbe e non resterebbe un'equazione di secondo grado.</p>
+
+<div class="formula-box">
+  <span class="callout-tag">La formula risolutiva</span>
+  $$x_{1,2}=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
+  <p>Il segno $\pm$ vuol dire due strade: una con il più, una con il meno.</p>
+</div>
+
+<p>Sotto la radice c'è $b^2-4ac$, il <strong>discriminante</strong>, che si indica con $\Delta$ (la lettera greca delta). Il nome ha un senso: <em>discrimina</em>, cioè distingue i casi. E lo fa perché la radice quadrata di un numero negativo non esiste tra i numeri reali.</p>
+
+<div class="casi">
+  <div><strong>Δ &gt; 0</strong>La radice esiste e dà due numeri diversi: <b>due soluzioni</b>.</div>
+  <div><strong>Δ = 0</strong>La radice vale zero, il ± non cambia nulla: <b>una soluzione</b>, detta doppia.</div>
+  <div><strong>Δ &lt; 0</strong>Niente radice reale: <b>nessuna soluzione reale</b>.</div>
+</div>
+
+<p>C'è anche un significato che si vede. Le soluzioni di $ax^2+bx+c=0$ sono i punti in cui la parabola $y=ax^2+bx+c$ incontra l'asse $x$. Due incontri, uno solo (la parabola tocca l'asse), nessuno: sono i tre casi del discriminante.</p>
+
+<h2 id="esempio">Un esempio svolto, ad alta voce</h2>
+
+<p>Risolviamo $2x^2-5x-3=0$. Ti scrivo anche cosa penso mentre lo faccio.</p>
+
+<ol class="passi">
+  <li><strong>Leggo i coefficienti, con il segno.</strong> L'equazione è già in forma normale: $a=2$, $b=-5$, $c=-3$.</li>
+  <li><strong>Stimo prima di calcolare.</strong> $a$ è positivo, quindi la parabola ha la bocca verso l'alto. $c=-3$ dice che per $x=0$ il valore è sotto lo zero. Una parabola che parte da sotto e va in alto da entrambi i lati deve attraversare l'asse due volte: mi aspetto <em>due soluzioni, una negativa e una positiva</em>.</li>
+  <li><strong>Calcolo il discriminante.</strong> $$\Delta=(-5)^2-4\cdot 2\cdot(-3)=<<E_B2>>+<<E_M4AC>>=<<E_D>>$$ È positivo, come mi aspettavo.</li>
+  <li><strong>Uso la formula.</strong> $$x=\frac{-(-5)\pm\sqrt{<<E_D>>}}{2\cdot 2}=\frac{5\pm <<E_SQ>>}{4}$$ Quindi $x_1=\dfrac{5-<<E_SQ>>}{4}=<<E_X1>>$ e $x_2=\dfrac{5+<<E_SQ>>}{4}=<<E_X2>>$.</li>
+  <li><strong>Controllo.</strong> Sostituisco $x=<<E_X2>>$: $2\cdot <<E_X2SQ>> - 5\cdot <<E_X2>> - 3 = <<E_CHK2>>$. Sostituisco $x=<<E_X1>>$: $2\cdot\dfrac{1}{4}+\dfrac{5}{2}-3=<<E_CHK1>>$. Una soluzione negativa e una positiva, come stimato. Il risultato è ragionevole.</li>
+</ol>
+
+<p>Un controllo ancora più rapido: la somma delle due soluzioni deve fare $-\dfrac{b}{a}=<<E_SOMMA>>$ e il prodotto $\dfrac{c}{a}=<<E_PROD>>$. Qui $<<E_X2>>+\left(<<E_X1>>\right)=<<E_SOMMA>>$ e $<<E_X2>>\cdot\left(<<E_X1>>\right)=<<E_PROD>>$. Torna tutto.</p>
+
+<figure class="math-fig" id="eq-widget">
+  <div class="glass">
+    <p class="eq-titolo" data-eq="equazione"><<W_EQ>></p>
+    <<W_SVG>>
+    <div class="fig-key" aria-hidden="true"><span class="k-curva">parabola</span><span class="k-radice">soluzioni (incontri con l'asse x)</span><span class="k-vertice">vertice</span></div>
+    <p class="eq-lettura" data-eq="lettura" aria-live="polite"><<W_LETTURA>></p>
+    <div class="eq-controlli" data-eq="controlli" hidden>
+      <div><label for="eq-a">a <b data-val="a">2</b></label><input type="range" id="eq-a" min="-3" max="3" step="0.5" value="2"></div>
+      <div><label for="eq-b">b <b data-val="b">−5</b></label><input type="range" id="eq-b" min="-8" max="8" step="1" value="-5"></div>
+      <div><label for="eq-c">c <b data-val="c">−3</b></label><input type="range" id="eq-c" min="-8" max="8" step="1" value="-3"></div>
+    </div>
+  </div>
+  <figcaption>La parabola di $y=2x^2-5x-3$. Con JavaScript attivo puoi muovere gli slider: cambiano $a$, $b$, $c$ e il discriminante si aggiorna.</figcaption>
+</figure>
+
+<p>Due domande per giocarci, una alla volta. Prima: lascia $a$ e $b$ come sono e alza $c$. A che valore la parabola smette di toccare l'asse $x$? E cosa fa il discriminante in quel momento? Poi: cambia il segno di $a$. Cosa succede alla parabola, e cosa resta uguale per le soluzioni?</p>
+
+<details class="aiuto">
+  <summary>Controlla la tua osservazione</summary>
+  <div class="aiuto-corpo">
+    <p>Con $a=2$ e $b=-5$ il discriminante è $25-8c$. Per $c=<<G_C3>>$ vale <<G_D3>> (due soluzioni vicine, <<G_R3A>> e <<G_R3B>>), per $c=<<G_C4>>$ vale <<G_D4>> e non ci sono soluzioni reali. Nel mezzo c'è il valore in cui $\Delta=0$: $c=<<G_CCRIT>>$, e la parabola tocca l'asse in un punto solo.</p>
+  </div>
+</details>
+
+<h2 id="scorciatoie">Quando la formula non serve</h2>
+
+<p>La formula funziona sempre, ma in due casi puoi evitarla perché è mancato un pezzo:</p>
+
+<ul>
+  <li><strong>Manca $b$</strong> (es. $x^2-9=0$): isoli $x^2=9$ e prendi le due radici, $x=<<S1_X1>>$ e $x=<<S1_X2>>$. Due, non una: anche $<<S1_X1>>$ al quadrato fa 9.</li>
+  <li><strong>Manca $c$</strong> (es. $x^2-3x=0$): raccogli $x(x-3)=0$. Un prodotto vale zero se lo è uno dei fattori: $x=<<S2_X1>>$ oppure $x=<<S2_X2>>$.</li>
+</ul>
+
+<h2 id="prova-tu">Prova tu</h2>
+
+<p>Tre equazioni. Per ognuna: carta e penna, prima la stima ("quante soluzioni mi aspetto?"), poi i conti. Gli aiuti vanno aperti uno alla volta, solo se ti blocchi.</p>
+
+<div class="prova">
+  <span class="prova-n">Esercizio 1</span>
+  <p class="prova-testo">$3x^2-x-2=0$</p>
+  <details class="aiuto"><summary>Indizio 1</summary><div class="aiuto-corpo"><p>Scrivi $a$, $b$, $c$ con il loro segno. Attenzione a $b$: qui è $-1$, non $1$.</p></div></details>
+  <details class="aiuto"><summary>Indizio 2</summary><div class="aiuto-corpo"><p>Nel discriminante compare $-4ac$ con $c$ negativo: due segni meno insieme. Che segno ha il risultato di quel termine?</p></div></details>
+  <details class="aiuto soluzione"><summary>Soluzione</summary><div class="aiuto-corpo"><p>$\Delta=(-1)^2-4\cdot 3\cdot(-2)=<<A_B2>>+<<A_M4AC>>=<<A_D>>$, quindi $x=\dfrac{1\pm <<A_SQ>>}{6}$: $x_1=<<A_X1>>$ e $x_2=<<A_X2>>$.</p></div></details>
+</div>
+
+<div class="prova">
+  <span class="prova-n">Esercizio 2</span>
+  <p class="prova-testo">$4x^2-12x+9=0$</p>
+  <details class="aiuto"><summary>Indizio 1</summary><div class="aiuto-corpo"><p>Prima di calcolare: quanto ti aspetti che venga $\Delta$? Guarda $4x^2$ e $9$: sono dei quadrati. Ti ricorda qualcosa?</p></div></details>
+  <details class="aiuto"><summary>Indizio 2</summary><div class="aiuto-corpo"><p>Calcola $\Delta$ e guarda il suo valore. Che cosa ti dice sul numero di soluzioni?</p></div></details>
+  <details class="aiuto soluzione"><summary>Soluzione</summary><div class="aiuto-corpo"><p>$\Delta=(-12)^2-4\cdot 4\cdot 9=<<B_B2>>-<<B_4AC>>=<<B_D>>$: una soluzione doppia, $x=-\dfrac{b}{2a}=<<B_X>>$. Non è un caso: $4x^2-12x+9=(2x-3)^2$, un quadrato che vale zero solo quando $2x-3=0$.</p></div></details>
+</div>
+
+<div class="prova">
+  <span class="prova-n">Esercizio 3</span>
+  <p class="prova-testo">$x^2+2x+5=0$</p>
+  <details class="aiuto"><summary>Indizio 1</summary><div class="aiuto-corpo"><p>Non toccare la formula risolutiva: calcola solo $\Delta$ e guarda se è positivo, zero o negativo.</p></div></details>
+  <details class="aiuto"><summary>Indizio 2</summary><div class="aiuto-corpo"><p>$\Delta=2^2-4\cdot 1\cdot 5$. Se esce negativo, cosa puoi concludere e cosa <em>non</em> puoi scrivere?</p></div></details>
+  <details class="aiuto soluzione"><summary>Soluzione</summary><div class="aiuto-corpo"><p>$\Delta=<<C_B2>>-<<C_4AC>>=<<C_D>>$: nessuna soluzione reale, e ti fermi lì. Si vede anche senza discriminante: $x^2+2x+5=(x+1)^2+4$, un quadrato più 4 non può mai fare zero.</p></div></details>
+</div>
+
+<h2 id="errori">Gli errori che vedo più spesso</h2>
+
+<p>Quasi mai l'errore è "non ha capito". Di solito è un segno o un'abitudine. Per ognuno ti dico perché succede e come accorgertene da solo.</p>
+
+<div class="errore">
+  <h3>1. Il segno di $b$</h3>
+  <p>Succede con $b$ negativo, come in $2x^2-5x-3=0$: scrivi $-b=-5$ invece di $-(-5)=5$. Il "meno" della formula e il "meno" del coefficiente sono due cose diverse e si compongono.</p>
+  <p class="come"><strong>Come accorgertene:</strong> metti sempre le parentesi quando sostituisci, $-(-5)$ e $(-5)^2$, e fai il controllo finale: sostituisci le soluzioni nell'equazione.</p>
+</div>
+
+<div class="errore">
+  <h3>2. Dividere solo un pezzo</h3>
+  <p>Scrivi $5\pm\dfrac{7}{4}$ invece di $\dfrac{5\pm7}{4}$. La linea di frazione copre <em>tutto</em> il numeratore, insieme a $-b$ e alla radice. Con il tuo errore verrebbe <<ERR2_X>> invece di <<E_X2>>.</p>
+  <p class="come"><strong>Come accorgertene:</strong> prima calcola il numeratore per intero, poi dividi. E ricordati la stima: se prevedevi una soluzione negativa e non c'è, qualcosa non va.</p>
+</div>
+
+<div class="errore">
+  <h3>3. Applicare la formula senza la forma normale</h3>
+  <p>Con $2x^2=5x+3$ qualcuno legge $a=2$, $b=5$, $c=3$. Ma la forma normale vuole tutto a sinistra: $2x^2-5x-3=0$, quindi $b=-5$ e $c=-3$. Cavolo, cambia tutto: i segni di $b$ e $c$ si ribaltano. Stessa trappola quando manca un termine: in $x^2-4=0$, $b$ vale $0$, non "non c'è".</p>
+  <p class="come"><strong>Come accorgertene:</strong> prima riga, sempre: "$\ldots=0$". Poi scrivi $a=$, $b=$, $c=$ con i segni.</p>
+</div>
+
+<div class="errore">
+  <h3>4. Dividere per $x$ e perdere una soluzione</h3>
+  <p>Da $x^2=3x$ ti viene voglia di "semplificare una $x$" e scrivere $x=3$. Ma $x=0$ è anch'essa una soluzione ($0=0$), e dividendo per $x$ l'hai fatta sparire. Le soluzioni sono $<<ERR4_X1>>$ e $<<ERR4_X2>>$.</p>
+  <p class="come"><strong>Come accorgertene:</strong> un'equazione di secondo grado ha fino a due soluzioni. Se ne trovi una sola e $\Delta$ non era zero, ne manca una. Meglio portare tutto a sinistra e raccogliere: $x(x-3)=0$.</p>
+</div>
+
+<h2 id="problema-nuovo">Un problema che non assomiglia agli esempi</h2>
+
+<p>Dal balcone di casa, a 3 m da terra, lanci un sasso verso l'alto a 4 m/s. Usa la legge del moto con accelerazione costante $s=s_0+v_0t+\tfrac12 a t^2$, con $a=-10$ m/s² (la gravità, arrotondata). L'altezza dopo $t$ secondi è $h(t)=3+4t-5t^2$. <strong>Dopo quanto tempo il sasso tocca terra?</strong></p>
+
+<p>Prima, una stima: se lo lasciassi cadere da 3 m ci metterebbe circa tre quarti di secondo. Questo parte verso l'alto, quindi aspettati di più. E tocca terra quando $h=0$: che equazione ti viene?</p>
+
+<details class="aiuto">
+  <summary>Indizio</summary>
+  <div class="aiuto-corpo"><p>Metti $h(t)=0$ e portala in forma normale: moltiplicando per $-1$ ottieni $5t^2-4t-3=0$. Poi $a$, $b$, $c$ e $\Delta$ come sempre. Alla fine chiediti: tutte le soluzioni hanno senso per un tempo?</p></div>
+</details>
+<details class="aiuto soluzione">
+  <summary>Soluzione</summary>
+  <div class="aiuto-corpo">
+    <p>$\Delta=(-4)^2-4\cdot5\cdot(-3)=<<T_B2>>+<<T_M4AC>>=<<T_D>>$, quindi $t=\dfrac{4\pm\sqrt{<<T_D>>}}{10}=\dfrac{<<T_TEX>>}{5}$.</p>
+    <p>Le due soluzioni sono circa $t\approx <<T_T1>>$ s e $t\approx <<T_T2>>$ s. La seconda è negativa: corrisponderebbe a un istante <em>prima</em> del lancio, e la scartiamo. Il sasso tocca terra dopo circa <strong><<T_T1>> secondi</strong>, più dei tre quarti di secondo della caduta libera, come previsto. Qui il discriminante positivo non basta: devi anche chiederti cosa significa ciascuna soluzione.</p>
+  </div>
+</details>
+
+<h2 id="in-breve">In breve</h2>
+
+<ul>
+  <li>Prima la <strong>forma normale</strong> $ax^2+bx+c=0$, poi leggi $a$, $b$, $c$ <strong>con il segno</strong>.</li>
+  <li>Il <strong>discriminante</strong> $\Delta=b^2-4ac$ decide quante soluzioni reali ci sono: due, una, nessuna.</li>
+  <li>Le soluzioni sono i punti in cui la parabola incontra l'asse $x$.</li>
+  <li><strong>Stima prima</strong> (quante soluzioni? di che segno?) e <strong>controlla dopo</strong> (sostituisci, o somma e prodotto).</li>
+  <li>Se manca $b$ o $c$ ci sono scorciatoie; se la soluzione deve avere un significato fisico o geometrico, verifica che lo abbia.</li>
+</ul>
+
+<h3>Se ti blocchi</h3>
+
+<p>Non cercare la formula giusta: rifai la strategia. Che cosa sono $a$, $b$, $c$ qui? Che segno ha $\Delta$? Che cosa mi aspettavo? Spesso il problema è già nella prima riga, quando l'equazione non è ancora in forma normale. E se vuoi sapere se hai capito davvero, prova a spiegarla a un amico in tre frasi: se riesci a dire cosa fa il discriminante senza guardare gli appunti, lo sai. Se ti serve ripassare come ragiono quando controllo un risultato, trovi il metodo in <a href="../il-metodo-orbit-perche-non-ti-do-mai-la-soluzione-subito/">Il Metodo ORBIT</a>.</p>
+
+<div class="faq">
+  <h2 id="faq">Domande frequenti</h2>
+<<FAQ_HTML>>
+</div>
+
+<div class="correlati">
+  <p>Altri articoli nel <a href="../">blog di ORBIT</a>. Se vuoi sapere <a href="../../index.html#chi-sono">chi sono e come lavoro</a>, o vedere le <a href="../../index.html#materie">materie</a> e i <a href="../../index.html#corsi">corsi</a>, trovi tutto sul sito.</p>
+</div>

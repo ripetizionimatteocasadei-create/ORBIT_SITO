@@ -1,0 +1,6 @@
+{
+  "name": "orbit-blog-strumenti",
+  "private": true,
+  "description": "Strumenti locali per costruire i post del blog (non fanno parte del sito pubblicato).",
+  "dependencies": { "katex": "0.16.11" }
+}
