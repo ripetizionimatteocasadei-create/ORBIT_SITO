@@ -81,7 +81,7 @@
     </div>
     <div class="hero-stats reveal-group">
       <div class="stat-chip glass reveal"><div class="stat-num" data-count="50+">0</div><div class="stat-label">studenti seguiti</div></div>
-      <div class="stat-chip glass reveal"><div class="stat-num" data-count="6">0</div><div class="stat-label">anni di esperienza</div></div>
+      <div class="stat-chip glass reveal"><div class="stat-num" data-count="6" data-dynamic="experience-count">0</div><div class="stat-label">anni di esperienza</div></div>
       <div class="stat-chip glass reveal"><div class="stat-num" data-count="5">0</div><div class="stat-label">materie coperte</div></div>
     </div>
     <div class="scroll-cue"><span class="line"></span>Scorri</div>
@@ -104,7 +104,7 @@
         <img src="assets/img/author-matteo.jpeg" alt="Matteo Casadei">
       </div>
       <div class="bio reveal">
-        <p><strong>Sono Matteo Casadei</strong>, 23 anni, laureato in Fisica. Faccio ripetizioni da quando ne avevo 18: nel frattempo ho seguito studenti di ogni indirizzo — scientifico, classico, linguistico, artistico, professionale — e universitari alle prese con i primi esami tecnici.</p>
+        <p><strong>Sono Matteo Casadei</strong>, <span data-dynamic="age">24</span> anni, laureato in Fisica. Faccio ripetizioni da quando ne avevo 18: nel frattempo ho seguito studenti di ogni indirizzo — scientifico, classico, linguistico, artistico, professionale — e universitari alle prese con i primi esami tecnici.</p>
         <p>Il mio obiettivo è semplice: far capire davvero gli argomenti, trasformando la comprensione in risultati concreti. Non si tratta di imparare a memoria, ma di ragionare — per questo lavoro molto sugli errori, non solo sulle regole: è lì che si vede cosa non è ancora chiaro.</p>
         <div class="mini-stats">
           <div><div class="mini-stat-num">50+</div><div class="mini-stat-label">Studenti seguiti</div></div>
@@ -360,6 +360,7 @@
 
 <script>window.ORBIT_ASSET_PREFIX = "";</script>
 <script src="assets/js/consent.js"></script>
+<script src="assets/js/dynamic-stats.js"></script>
 <script src="assets/js/v2.js"></script>
 </body>
 </html>
