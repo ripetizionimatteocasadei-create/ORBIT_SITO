@@ -75,19 +75,34 @@ Qualunque **errore matematico** è un blocco automatico: il post non esce.
 - Per i controlli ripetitivi usa **script**, non la tua attenzione.
 
 ## 8. ORDINE DI LAVORO E CONSEGNA
-**Fase A — Ingegneria (una volta).** Setup, builder generico, libreria di componenti con i test sympy, harness per Qwen (coda, retry, stato, digest). Quando funziona, scrivi `lavoro/PRONTO.md` (3 righe).
-**Fase B — Pilota di 3 post** (uno di algebra, uno di geometria analitica, uno di analisi). Per ognuno: tempo totale, token di ingresso/uscita di Qwen, numero di retry, punteggio delle 4 domande. Scrivi `lavoro/PILOTA.md`. Se la media è < 7/8 o servono troppi retry, correggi scheda e prompt dei pezzi (massimo 2 giri) **prima** di continuare.
-**Fase C — Produzione.** Tutta l'area `# Matematica` di `bozze/indice/albero.txt` in ordine, dalla 1ª alla 5ª superiore: per ogni argomento prima le **lezioni**, poi la **guida**. Salta ciò che è già fatto (✓: "Come risolvere le equazioni di secondo grado"). Riprendi sempre da `stato.json`.
+**Fase A — Ingegneria (una volta).** Setup, builder generico, libreria di componenti con i test sympy, harness per Qwen (coda, retry, stato, digest, pausa/ripresa: vedi §11). Quando funziona, scrivi `lavoro/PRONTO.md` (3 righe).
+
+**Fase B — UN SOLO POST DI PROVA, poi ti fermi.** Produci **soltanto il primo elemento della scaletta**: nell'area `# Matematica` di `bozze/indice/albero.txt`, 1ª superiore, guida "Numeri naturali e interi", prima lezione ("Operazioni con i numeri naturali e interi e le loro proprietà"). Nient'altro.
+- **Riferimento grafico e di qualità obbligatorio:** il post già fatto da me, `blog/come-risolvere-equazioni-secondo-grado/index.html` (con `assets/css/v2-blog-math.css` e i componenti). Il tuo post deve avere **lo stesso aspetto e la stessa struttura**: stesso `<head>` e metadati, stessa pagina (titolo, riquadro "La risposta breve", aggancio, formalizzazione, esempio svolto a passi numerati, "Prova tu" con aiuti apribili, errori, problema nuovo, "In breve", FAQ, un solo invito finale), stessi stili, formule KaTeX pre-renderizzate, **almeno un componente interattivo** coerente col tema.
+- Verifica la parità con il riferimento: scrivi `lavoro/CONFRONTO.md` con una tabella "elemento del riferimento → presente nel tuo post sì/no" e fai **screenshot desktop e telefono** di entrambe le pagine (Playwright), salvati in `lavoro/confronto/`.
+- Fai anche tutto il §6 (le 4 domande) e i controlli del §5. Scrivi `lavoro/PILOTA.md`: tempo totale, token di ingresso/uscita di Qwen, numero di retry, punteggi, difetti che hai visto, cosa Qwen ha fatto peggio di me e come lo hai compensato.
+- **Poi FERMATI.** Crea `lavoro/ATTENDO_APPROVAZIONE.md` (dove aprire il post, gli screenshot, `PILOTA.md`) e uno zip `orbit_prova.zip` con quel solo post. Avvisa Matteo (notifica push se hai lo strumento) e scrivi in chat: "Pronto il post di prova: attendo approvazione". **Non iniziare la Fase C finché Matteo non scrive esplicitamente di andare avanti.** Se Matteo chiede modifiche, applicale (rimandando i pezzi a Qwen, §6) e aggiorna lo zip; ogni correzione ripetuta va aggiunta alla scheda di stile.
+
+**Fase C — Produzione (solo dopo l'approvazione).** Tutta l'area `# Matematica` di `bozze/indice/albero.txt` in ordine, dalla 1ª alla 5ª superiore: per ogni argomento prima le **lezioni**, poi la **guida**. Salta ciò che è già fatto (✓: "Come risolvere le equazioni di secondo grado") e il post di prova già approvato. Riprendi sempre da `lavoro/stato.json`.
 **Consegna a checkpoint, per livello** (1ª, 2ª, 3ª, 4ª, 5ª): uno zip `orbit_mat_<livello>.zip` con:
-- `blog/<slug>/index.html` per ogni post pronto (percorsi relativi identici al gold standard);
+- `blog/<slug>/index.html` per ogni post pronto (percorsi relativi identici al riferimento);
 - `assets/` **solo ciò che serve e non esiste già** (js dei componenti, css, immagini/video/manim);
 - `MANIFEST.json`: per ogni post slug, titolo, description, keyword, livello, argomento, guida di appartenenza, link interni, punteggi, formati interattivi, data;
 - `RAPPORTO_<livello>.md`: quanti post, quali scartati e perché, tempi, token Qwen e tuoi, regole nuove imparate, dubbi;
 - `REGOLE_NUOVE.md` (da portare in `REGOLE_APPRESE.md` del repo).
-**Non pushare.** Alla fine di ogni livello manda una notifica push a Matteo (se hai lo strumento), scrivi dove si trova lo zip e **continua** con il livello dopo senza aspettare risposta, a meno che il budget (§7) ti dica di fermarti.
+**Non pushare.** Alla fine di ogni livello manda una notifica push a Matteo (se hai lo strumento), scrivi dove si trova lo zip e **continua** con il livello dopo senza aspettare risposta, a meno che il budget (§7) ti dica di fermarti o ci sia una pausa (§11).
 
 ## 9. CHE COSA CONSEGNO IO (la sessione cloud) DOPO
 Matteo mi carica lo zip. Io: aggiorno `blog/index.html`, sitemap, robots, feed RSS, controllo link e canonical, faccio gli ultimi controlli, committo e pusho **solo su GitHub** (mai Netlify). Per questo ogni file nello zip deve essere **già nel formato definitivo**.
 
+## 11. PAUSA E RIPRESA (obbligatorie: il PC di Matteo deve poter tornare libero)
+Matteo può aver bisogno del PC a metà lavoro e riprendere un altro giorno. Costruisci l'harness in modo che si possa **fermare e ripartire in qualunque momento senza perdere nulla e senza rifare nulla**:
+- **Comandi semplici** (script o file): `./lavoro/pausa` (ferma in modo pulito), `./lavoro/riprendi` (riparte da dove era), `./lavoro/stato` (stampa: post fatti, in corso, falliti, in coda, tempo stimato, se Qwen è acceso). Documentali in 5 righe in `lavoro/COME_SI_USA.md`.
+- **Pausa gentile:** esiste un file-segnale `lavoro/PAUSA`. Se c'è, l'harness **finisce il pezzo in corso** (o lo scarta senza danni), salva lo stato, **spegne il server Qwen e libera GPU e RAM**, e si ferma. Se Matteo scrive "pausa" in chat, crei tu il file. Gestisci anche l'interruzione brusca (Ctrl+C, chiusura della sessione): al riavvio non deve restare nulla di corrotto.
+- **Stato a prova di interruzione:** ogni pezzo e `stato.json` si scrivono in modo **atomico** (file temporaneo e rinomina), con un lock per evitare due esecuzioni insieme. Un pezzo è "fatto" solo se validato. Alla ripresa riparte dal **primo pezzo non completato**, non da capo, e **non rifà** i pezzi già validi né i post già consegnati.
+- **Ripresa un altro giorno:** `riprendi` deve rilanciare Qwen con lo script collaudato, controllare che il server risponda, caricare `stato.json` e continuare. Se nel frattempo il repo o la scheda di stile sono cambiati, usa la versione nuova **solo per i pezzi non ancora fatti**.
+- **Finestre di lavoro (facoltativo):** se è facile, permetti `riprendi --fino-alle HH:MM` (si ferma da solo a quell'ora) così Matteo può far lavorare il PC di notte e liberarlo al mattino.
+- Quando Matteo ti scrive "pausa" o "riprendi" in chat, esegui il comando e conferma in **una riga** con lo stato.
+
 ## 10. PRIMA DI INIZIARE
-Riassumimi in **10 righe** cosa hai capito e come pensi di strutturare harness e componenti, poi parti senza aspettare risposta. Se qualcosa nel repo contraddice questo prompt, vince il repo per i fatti (file, percorsi), questo prompt per le regole.
+Riassumimi in **10 righe** cosa hai capito e come pensi di strutturare harness, componenti e pausa/ripresa, poi parti senza aspettare risposta (fino alla Fase B inclusa; **il via alla Fase C lo dà solo Matteo**). Se qualcosa nel repo contraddice questo prompt, vince il repo per i fatti (file, percorsi), questo prompt per le regole.
