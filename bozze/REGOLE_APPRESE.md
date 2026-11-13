@@ -51,3 +51,4 @@ Fonte di ogni regola: correzioni e note fatte da Matteo nello strumento di revis
 Le correzioni originali (JSON) sono in `bozze/correzioni/`.
 
 - 13/11/2026: Matteo si fida delle correzioni applicate e non rilegge il post. Quindi prima di dire "fatto" ricontrollo io ogni punto delle sue note (e le frasi vicine con lo stesso difetto).
+- 13/11/2026: costruiti 3 post con il costruttore generico (discriminante, disequazioni di secondo grado, velocità media e istantanea). Regole che ho applicato in automatico: una sola domanda per aggancio (max 2, aperte), niente personificazioni, meno ripetuto con formule ricorrenti (controllo di somiglianza tra post, soglia 40 sequenze), elenchi veri nel riquadro, numeri sempre calcolati.

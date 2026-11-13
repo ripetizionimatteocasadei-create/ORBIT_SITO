@@ -1,0 +1,177 @@
+<div class="answer-box">
+  <span class="callout-tag">La risposta breve</span>
+  <p>Velocità media e velocità istantanea descrivono lo stesso moto in due modi diversi:</p>
+  <ul>
+    <li>La <strong>velocità media</strong> è lo spostamento diviso il tempo impiegato, $v_m=\dfrac{\Delta s}{\Delta t}$. Descrive un intero tragitto.</li>
+    <li>La <strong>velocità istantanea</strong> è la velocità in un preciso istante, quella che legge il tachimetro. Si ottiene calcolando la velocità media su intervalli di tempo sempre più piccoli.</li>
+  </ul>
+  <p>Qui vedi la differenza con un grafico che puoi modificare, e gli errori che si fanno più spesso.</p>
+</div>
+
+<p class="skip">Sai già calcolare la velocità media? Vai a <a href="#prova-tu">Prova tu</a> o agli <a href="#errori">errori più comuni</a>.</p>
+
+<h2 id="aggancio">Una velocità sola per tutto il viaggio?</h2>
+
+<p>Parti in auto alle 15:00. Alle 16:30 hai percorso $90$ km. Che velocità hai avuto in questo viaggio? Rispondi con un solo numero. Poi: come pensi che si sia mossa la lancetta del tachimetro durante il viaggio?</p>
+
+<h2 id="bridging">Cosa hai notato?</h2>
+
+<p>Il numero è $90\ \text{km}$ diviso $<<A_H>>\ \text{h}$, cioè $<<A_VM>>$ km/h. È una velocità <em>media</em>: livella tutto il viaggio come se la velocità fosse stata sempre la stessa.</p>
+
+<p>Ma durante il viaggio hai accelerato, frenato, magari ti sei fermato a un semaforo. In un istante preciso potevi andare a $0$ km/h oppure a $110$ km/h. Per descrivere un moto servono quindi due grandezze: una che riguarda un tragitto intero, la velocità media, e una che riguarda un istante, la velocità istantanea.</p>
+
+<h2 id="formula">Le due definizioni</h2>
+
+<p>Chiamiamo $s$ la posizione dell'oggetto sulla traiettoria (in metri) e $t$ il tempo (in secondi). Tra due istanti $t_1$ e $t_2$ lo <strong>spostamento</strong> è $\Delta s=s_2-s_1$ e l'<strong>intervallo di tempo</strong> è $\Delta t=t_2-t_1$.</p>
+
+<div class="formula-box">
+  <span class="callout-tag">Velocità media</span>
+  $$v_m=\frac{\Delta s}{\Delta t}=\frac{s_2-s_1}{t_2-t_1}$$
+  <p>Si misura in m/s oppure in km/h. Per passare da km/h a m/s si divide per $3{,}6$: $72$ km/h sono $<<U_72>>$ m/s.</p>
+</div>
+
+<p>Sul grafico spazio-tempo (posizione sull'asse verticale, tempo su quello orizzontale) la velocità media è la <strong>pendenza della retta secante</strong>, cioè della retta che unisce i due punti del grafico.</p>
+
+<p>La velocità istantanea in un istante $t_1$ si ottiene così: prendi intervalli $\Delta t$ sempre più piccoli che partono da $t_1$ e guarda a quale valore si avvicina la velocità media. Quel valore è la velocità istantanea. Si scrive</p>
+
+$$v=\lim_{\Delta t\to 0}\frac{\Delta s}{\Delta t}$$
+
+<p>e si legge "limite per $\Delta t$ che tende a zero": cosa succede al rapporto quando $\Delta t$ diventa piccolissimo. Sul grafico è la <strong>pendenza della retta tangente</strong> nel punto. In quinta superiore questa operazione si chiama derivata.</p>
+
+<h2 id="grafico">Secante e tangente: provaci tu</h2>
+
+<figure class="math-fig" id="moto-widget">
+  <div class="glass">
+    <div data-m="fig"><<M_SVG>></div>
+    <div class="fig-key" aria-hidden="true"><span class="k-curva">posizione s(t)</span><span class="k-sec">secante (velocità media)</span><span class="k-tang">tangente (velocità istantanea)</span></div>
+    <p class="eq-lettura" data-m="lettura" aria-live="polite"><<M_LETTURA>></p>
+    <div class="eq-controlli quattro" data-m="controlli" hidden>
+      <div><label for="m-a">a (m/s²) <b data-val="a">4</b></label><input type="range" id="m-a" min="-4" max="8" step="1" value="4"></div>
+      <div><label for="m-v0">v₀ (m/s) <b data-val="v0">0</b></label><input type="range" id="m-v0" min="0" max="8" step="1" value="0"></div>
+      <div><label for="m-t0">t₀ (s) <b data-val="t0">1</b></label><input type="range" id="m-t0" min="0" max="4" step="0.5" value="1"></div>
+      <div><label for="m-dt">Δt (s) <b data-val="dt">2</b></label><input type="range" id="m-dt" min="0.1" max="2" step="0.1" value="2"></div>
+    </div>
+  </div>
+  <figcaption>Moto con posizione $s(t)=v_0t+\tfrac12 at^2$ (qui $s=2t^2$). Con JavaScript attivo puoi cambiare accelerazione, velocità iniziale, istante e intervallo.</figcaption>
+</figure>
+
+<p>Lascia fermi $a$, $v_0$ e $t_0$ e porta $\Delta t$ da $2$ s fino a $0{,}1$ s. Cosa succede alla secante? E alla velocità media, rispetto alla velocità istantanea? Poi cambia $a$ e rifai la prova: succede la stessa cosa?</p>
+
+<details class="aiuto">
+  <summary>Controlla la tua osservazione</summary>
+  <div class="aiuto-corpo">
+    <p>Più $\Delta t$ diventa piccolo, più la secante si avvicina alla tangente e più la velocità media si avvicina alla velocità istantanea. Succede per qualunque valore di $a$: è il significato di "limite".</p>
+    <p>Con $a=4$ m/s² e $v_0=0$ il moto è $s=2t^2$. Calcolando la velocità media a partire da $t=1$ s con intervalli sempre più piccoli si ottiene:</p>
+    <<TAB>>
+    <p>I valori si avvicinano a $4$ m/s: è la velocità istantanea in $t=1$ s.</p>
+  </div>
+</details>
+
+<h2 id="esempio">Un esempio svolto</h2>
+
+<p>Un oggetto si muove con $s(t)=2t^2$ (con $s$ in metri e $t$ in secondi). Calcoliamo la velocità media tra $t=1$ s e $t=3$ s e scriviamo il ragionamento che bisogna fare.</p>
+
+<ol class="passi">
+  <li><strong>Leggo i dati.</strong> Mi servono la posizione all'inizio e alla fine: $s(1)=2\cdot 1^2=<<E_S1>>$ m e $s(3)=2\cdot 3^2=<<E_S3>>$ m.</li>
+  <li><strong>Stimo prima di calcolare.</strong> L'oggetto parte da $s=2$ m e arriva a $s=18$ m in $2$ s, e accelera: parte lento e finisce veloce. Mi aspetto una velocità media di qualche metro al secondo, a metà strada tra la velocità iniziale e quella finale.</li>
+  <li><strong>Calcolo spostamento e tempo.</strong> $\Delta s=<<E_S3>>-<<E_S1>>=<<E_DS>>$ m e $\Delta t=3-1=2$ s.</li>
+  <li><strong>Applico la definizione.</strong> $$v_m=\frac{\Delta s}{\Delta t}=\frac{<<E_DS>>\ \text{m}}{2\ \text{s}}=<<E_VM>>\ \text{m/s}$$</li>
+  <li><strong>Controllo.</strong> Per questo moto la velocità istantanea è $v=4t$ (lo vedrai nella lezione sul moto uniformemente accelerato): vale $<<E_V1>>$ m/s in $t=1$ s e $<<E_V3>>$ m/s in $t=3$ s. Il valore medio tra queste due, $\dfrac{4+12}{2}=<<E_VM>>$ m/s, coincide con la velocità media: ha senso, perché la velocità cresce in modo uniforme. La velocità media coincide anche con quella istantanea a metà intervallo, $t=2$ s: $<<E_V2>>$ m/s.</li>
+</ol>
+
+<h2 id="prova-tu">Prova tu</h2>
+
+<p>Tre esercizi. Per ognuno: prima stima l'ordine di grandezza del risultato, poi calcola. Gli aiuti sono nascosti: aprili solo quando serve.</p>
+
+<div class="prova">
+  <span class="prova-n">Esercizio 1</span>
+  <p class="prova-testo">Un ciclista percorre $45$ km in $2$ h $30$ min. Qual è la sua velocità media in km/h e in m/s?</p>
+  <details class="aiuto"><summary>Indizio 1</summary><div class="aiuto-corpo"><p>Prima converti il tempo in ore: $30$ min sono mezz'ora. Quanto fa $2$ h $30$ min in ore?</p></div></details>
+  <details class="aiuto"><summary>Indizio 2</summary><div class="aiuto-corpo"><p>Dividi i chilometri per le ore. Per passare a m/s dividi per $3{,}6$.</p></div></details>
+  <details class="aiuto soluzione"><summary>Soluzione</summary><div class="aiuto-corpo"><p>$2$ h $30$ min $=2{,}5$ h. $v_m=\dfrac{45}{2{,}5}=<<P1_V>>$ km/h. In m/s: $<<P1_V>>:3{,}6=<<P1_MS>>$ m/s.</p></div></details>
+</div>
+
+<div class="prova">
+  <span class="prova-n">Esercizio 2</span>
+  <p class="prova-testo">Un treno percorre $120$ km a $60$ km/h, poi torna indietro per gli stessi $120$ km a $120$ km/h. Qual è la velocità media sull'intero percorso (distanza totale diviso tempo totale)? E la velocità media in termini di spostamento?</p>
+  <details class="aiuto"><summary>Indizio 1</summary><div class="aiuto-corpo"><p>Non fare la media dei due numeri $60$ e $120$. Calcola prima il tempo dell'andata e il tempo del ritorno.</p></div></details>
+  <details class="aiuto"><summary>Indizio 2</summary><div class="aiuto-corpo"><p>La distanza totale è $240$ km. Per lo spostamento: dove si trova il treno alla fine rispetto alla partenza?</p></div></details>
+  <details class="aiuto soluzione"><summary>Soluzione</summary><div class="aiuto-corpo"><p>Andata: $120:60=<<P2_TA>>$ h. Ritorno: $120:120=<<P2_TR>>$ h. Tempo totale $3$ h, distanza totale $240$ km: $v=\dfrac{240}{3}=<<P2_V>>$ km/h. Non $<<P2_ERR>>$ km/h, che sarebbe la media dei due numeri. Lo spostamento complessivo è $0$ perché il treno torna al punto di partenza, quindi la velocità media in termini di spostamento è $0$ km/h.</p></div></details>
+</div>
+
+<div class="prova">
+  <span class="prova-n">Esercizio 3</span>
+  <p class="prova-testo">Un oggetto si muove con $s(t)=3t^2$ ($s$ in m, $t$ in s). Calcola la velocità media tra $t=2$ s e $t=2{,}1$ s, poi tra $t=2$ s e $t=2{,}01$ s. A quale valore si avvicinano?</p>
+  <details class="aiuto"><summary>Indizio 1</summary><div class="aiuto-corpo"><p>Calcola $s(2)$ e $s(2{,}1)$. Poi dividi lo spostamento per $\Delta t=0{,}1$ s.</p></div></details>
+  <details class="aiuto"><summary>Indizio 2</summary><div class="aiuto-corpo"><p>Ripeti con $t=2{,}01$ s e $\Delta t=0{,}01$ s. Quanto cambia il risultato rispetto al primo?</p></div></details>
+  <details class="aiuto soluzione"><summary>Soluzione</summary><div class="aiuto-corpo"><p>$s(2)=<<P3_S2>>$ m. Con $t=2{,}1$: $s=<<P3_S21>>$ m, $\Delta s=<<P3_DS1>>$ m, $v_m=\dfrac{<<P3_DS1>>}{0{,}1}=<<P3_VM1>>$ m/s. Con $t=2{,}01$: $s=<<P3_S201>>$ m, $\Delta s=<<P3_DS2>>$ m, $v_m=\dfrac{<<P3_DS2>>}{0{,}01}=<<P3_VM2>>$ m/s. I valori si avvicinano a $<<P3_VI>>$ m/s, la velocità istantanea in $t=2$ s.</p></div></details>
+</div>
+
+<h2 id="errori">Gli errori più frequenti</h2>
+
+<p>Raramente è un problema di formule: di solito è una scelta sbagliata su cosa dividere o sul significato del grafico. Per ognuno vedi cosa succede e come accorgertene.</p>
+
+<div class="errore">
+  <h3>1. Fare la media dei numeri invece di dividere distanza e tempo</h3>
+  <p>Con $60$ km a $30$ km/h e poi $60$ km a $60$ km/h, si fa $\dfrac{30+60}{2}=<<B_ERR>>$ km/h. Ma il tempo non è lo stesso: la prima parte dura $<<B_T1>>$ h, la seconda $<<B_T2>>$ h. In totale $120$ km in $3$ h, quindi $<<B_V>>$ km/h. Chi va più piano passa più tempo a quella velocità, e questo pesa di più.</p>
+  <p class="come"><strong>Come accorgertene:</strong> usa sempre distanza totale diviso tempo totale. Se la media dei due valori ti sembra troppo alta rispetto a dove hai passato più tempo, il risultato non è plausibile.</p>
+</div>
+
+<div class="errore">
+  <h3>2. Sbagliare le unità</h3>
+  <p>Per passare da $72$ km/h a m/s si divide per $3{,}6$ e si ottiene $<<U_72>>$ m/s. Se si moltiplica per $3{,}6$ si ottiene $<<U_ERRD>>$ m/s: più di $250$ m/s, un valore assurdo per un'auto. Succede perché non si ricorda in che verso si converte.</p>
+  <p class="come"><strong>Come accorgertene:</strong> ragiona sull'ordine di grandezza. Un metro al secondo è circa $3{,}6$ km/h: 1 m/s è una camminata lenta, quindi un valore in m/s deve essere un numero più piccolo di quello in km/h.</p>
+</div>
+
+<div class="errore">
+  <h3>3. Dividere per $\Delta t=0$</h3>
+  <p>Per calcolare la velocità istantanea si prova a mettere $\Delta t=0$ nel rapporto $\dfrac{\Delta s}{\Delta t}$. Ma con $\Delta t=0$ anche $\Delta s=0$ e si ottiene $\dfrac{0}{0}$, che non ha significato. La velocità istantanea non è il risultato di quella divisione: è il valore a cui il rapporto si avvicina quando $\Delta t$ diventa piccolo.</p>
+  <p class="come"><strong>Come accorgertene:</strong> calcola la velocità media per $\Delta t$ sempre più piccoli, come nella tabella, e guarda a quale numero tendono i risultati.</p>
+</div>
+
+<div class="errore">
+  <h3>4. Confondere l'altezza del grafico con la velocità</h3>
+  <p>Nel grafico spazio-tempo un punto "alto" è un oggetto lontano dal punto di partenza, non un oggetto veloce. La velocità è la <em>pendenza</em>. Una retta orizzontale a $50$ m è un oggetto fermo, a $50$ m di distanza: velocità $0$.</p>
+  <p class="come"><strong>Come accorgertene:</strong> chiediti sempre "quanto è ripido il grafico in quel punto?", non "quanto è in alto?".</p>
+</div>
+
+<h2 id="problema-nuovo">Un problema che non assomiglia agli esempi</h2>
+
+<p>Devi fare $100$ km in auto e vuoi una velocità media di $100$ km/h. I primi $50$ km li fai a $50$ km/h. <strong>A che velocità devi fare i restanti $50$ km?</strong></p>
+
+<p>Prima di calcolare: quanto tempo hai a disposizione in totale per arrivare con media $100$ km/h? E quanto ne hai già usato?</p>
+
+<details class="aiuto">
+  <summary>Indizio</summary>
+  <div class="aiuto-corpo"><p>Dalla definizione $v_m=\dfrac{\text{distanza totale}}{\text{tempo totale}}$ ricava il tempo totale che hai a disposizione. Poi calcola il tempo già usato nella prima metà.</p></div>
+</details>
+<details class="aiuto soluzione">
+  <summary>Soluzione</summary>
+  <div class="aiuto-corpo">
+    <p>Per avere media $100$ km/h su $100$ km serve un tempo totale di $\dfrac{100}{100}=<<T_TOT>>$ h. Nei primi $50$ km hai già usato $\dfrac{50}{50}=<<T_T1>>$ h: tutto il tempo disponibile. Per i restanti $50$ km non resta tempo: servirebbe una velocità infinita. Il traguardo non è raggiungibile.</p>
+    <p>Il punto è che la velocità media pesa i tempi, non i chilometri: andare piano a lungo non si recupera.</p>
+  </div>
+</details>
+
+<h2 id="in-breve">In breve</h2>
+
+<ul>
+  <li>La <strong>velocità media</strong> è $v_m=\dfrac{\Delta s}{\Delta t}$: riguarda un intero intervallo di tempo ed è la pendenza della secante nel grafico spazio-tempo.</li>
+  <li>La <strong>velocità istantanea</strong> riguarda un solo istante: è il valore a cui si avvicina la velocità media quando $\Delta t$ diventa piccolo, ed è la pendenza della tangente.</li>
+  <li>Con velocità diverse su tratti diversi usa distanza totale diviso tempo totale, non la media dei numeri.</li>
+  <li>Da km/h a m/s si divide per $3{,}6$.</li>
+  <li>Il tachimetro misura la velocità istantanea.</li>
+</ul>
+
+<h3>Se ti blocchi</h3>
+
+<p>Scrivi cosa sai: quale intervallo di tempo, quale spostamento. Poi chiediti se la domanda riguarda un tragitto (velocità media) o un istante (velocità istantanea). Disegna il grafico spazio-tempo e cerca la pendenza. Per sapere se hai capito, raccontalo a un compagno in tre frasi: se sai spiegare perché la velocità istantanea non si calcola con $\Delta t=0$, lo sai. Per come ragiono su stime e controlli trovi <a href="../il-metodo-orbit-perche-non-ti-do-mai-la-soluzione-subito/">il Metodo ORBIT</a>.</p>
+
+<div class="faq">
+  <h2 id="faq">Domande frequenti</h2>
+<<FAQ_HTML>>
+</div>
+
+<div class="correlati">
+  <p>Altri articoli nel <a href="../">blog di ORBIT</a>. Se vuoi sapere <a href="../../index.html#chi-sono">chi sono e come lavoro</a>, o vedere le <a href="../../index.html#materie">materie</a>, trovi tutto sul sito.</p>
+</div>

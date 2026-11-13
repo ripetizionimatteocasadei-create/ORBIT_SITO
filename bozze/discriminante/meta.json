@@ -1,0 +1,15 @@
+{
+  "slug": "discriminante-equazione-secondo-grado",
+  "title": "Il discriminante di un'equazione di secondo grado | ORBIT",
+  "h1_plain": "Il discriminante di un'equazione di secondo grado: cos'è e cosa ti dice",
+  "h1_html": "Il <span class=\"gradient-text\">discriminante</span> di un'equazione di secondo grado: cos'è e cosa ti dice",
+  "description": "Il discriminante di un'equazione di secondo grado: come si calcola e cosa ti dice su quante soluzioni ci sono. Grafico interattivo ed esempi svolti.",
+  "data": "2026-11-13",
+  "keyword": "discriminante di un'equazione di secondo grado",
+  "keyword_secondarie": ["discriminante", "delta equazione secondo grado", "formula del discriminante", "numero di soluzioni equazione secondo grado", "esercizi sul discriminante"],
+  "tag": ["matematica", "algebra", "superiori"],
+  "cluster": "equazioni di secondo grado",
+  "og_image": "/assets/img/blog/discriminante-equazione-secondo-grado-og.png",
+  "og_alt": "Parabola che tocca l'asse x in un solo punto, con il titolo Il discriminante di un'equazione di secondo grado",
+  "scripts": ["equazione2.js"]
+}

@@ -128,3 +128,30 @@ details.aiuto.soluzione > summary::before{color:var(--cyan);}
 /* ---------- Altri articoli / link correlati ---------- */
 .correlati{margin:40px 0 0; padding:20px 24px; border-radius:18px; border:1px dashed rgba(255,255,255,0.14);}
 .correlati p{margin:0; font-size:0.98rem;}
+
+/* ---------- Widget disequazioni ---------- */
+.math-fig .q-sol{stroke:var(--cyan); stroke-width:7; stroke-linecap:round; opacity:.95}
+.math-fig .q-pieno{fill:var(--cyan); stroke:var(--ink); stroke-width:2}
+.math-fig .q-vuoto{fill:var(--ink); stroke:var(--cyan); stroke-width:3}
+.q-ops{display:flex; gap:10px; justify-content:center; flex-wrap:wrap; margin:4px 0 12px}
+.q-ops button{min-width:56px; min-height:44px; border-radius:12px; border:1px solid var(--line); background:var(--glass); color:var(--white); font-family:var(--mono); font-size:1.1rem; cursor:pointer}
+.q-ops button[aria-pressed="true"]{background:linear-gradient(135deg, var(--orange), var(--orange-soft)); color:var(--ink); border-color:transparent}
+.q-ops button:focus-visible{outline:2px solid var(--cyan); outline-offset:2px}
+.fig-key .k-sol::before{background:var(--cyan); border-radius:2px; width:16px; height:5px; vertical-align:2px}
+
+/* l'attributo hidden deve vincere sugli stili dei componenti (finché lo script non li attiva) */
+.math-post [hidden]{display:none !important}
+
+/* ---------- Widget velocità media / istantanea ---------- */
+.math-fig .m-tang{stroke:var(--violet); stroke-width:3; stroke-linecap:round; fill:none}
+.math-fig .m-sec{stroke:var(--cyan); stroke-width:3; stroke-linecap:round; fill:none; stroke-dasharray:9 6}
+.fig-key .k-tang::before{background:var(--violet); border-radius:2px; width:16px; height:4px; vertical-align:2px}
+.fig-key .k-sec::before{background:var(--cyan); border-radius:2px; width:16px; height:4px; vertical-align:2px}
+.eq-controlli.quattro{grid-template-columns:repeat(4,1fr)}
+@media (max-width:760px){ .eq-controlli.quattro{grid-template-columns:repeat(2,1fr)} }
+@media (max-width:330px){ .eq-controlli.quattro{grid-template-columns:1fr} }
+.tab-num{width:100%; border-collapse:collapse; margin:10px 0 22px; font-size:.95rem}
+.tab-num th, .tab-num td{padding:10px 14px; border-bottom:1px solid var(--line); text-align:right; font-variant-numeric:tabular-nums}
+.tab-num th{font-family:var(--mono); font-size:.72rem; letter-spacing:.05em; text-transform:uppercase; color:var(--orange-soft); font-weight:400}
+.tab-num td:first-child, .tab-num th:first-child{text-align:left}
+.tab-wrap{overflow-x:auto}

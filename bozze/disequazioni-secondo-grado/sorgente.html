@@ -1,0 +1,199 @@
+<div class="answer-box">
+  <span class="callout-tag">La risposta breve</span>
+  <p>Le disequazioni di secondo grado, come $ax^2+bx+c>0$, si risolvono con la parabola $y=ax^2+bx+c$: si guarda dove sta sopra o sotto l'asse $x$. Il metodo ha tre passi:</p>
+  <ol>
+    <li>Porta tutto a sinistra, con $0$ a destra, e fai in modo che $a$ sia positivo.</li>
+    <li>Risolvi l'equazione associata $ax^2+bx+c=0$ per trovare le radici.</li>
+    <li>Disegna la parabola, rivolta verso l'alto, e scegli le zone sopra l'asse per $>0$ o sotto l'asse per $<0$.</li>
+  </ol>
+  <p>Qui vedi perché funziona e cosa cambia nei tre casi del discriminante.</p>
+</div>
+
+<p class="skip">Hai già il metodo? Vai a <a href="#prova-tu">Prova tu</a> o agli <a href="#errori">errori più comuni</a>.</p>
+
+<h2 id="aggancio">Un rettangolo con il perimetro fisso</h2>
+
+<p>Un rettangolo ha il perimetro di $20$ m. Un lato misura $x$, quindi l'altro misura $10-x$. Per quali valori di $x$ l'area supera $21$ m²?</p>
+
+<p>Prova a sostituire qualche valore: $x=2$, $x=4$, $x=5$, $x=8$. In quali casi l'area supera $21$?</p>
+
+<h2 id="bridging">Cosa hai notato?</h2>
+
+<p>L'area è $x(10-x)$. Con $x=2$ vale $<<A2>>$, con $x=4$ vale $<<A4>>$, con $x=5$ vale $<<A5>>$, con $x=8$ vale $<<A8>>$. L'area supera $21$ solo per i valori centrali. Quindi la risposta non è un numero ma un intervallo di valori.</p>
+
+<p>Scriviamo la condizione: $x(10-x)>21$ diventa, portando tutto a sinistra, $x^2-10x+21<0$. È una <strong>disequazione di secondo grado</strong>: una disuguaglianza in cui compare $x^2$. Le radici di $x^2-10x+21=0$ sono $<<A_R1>>$ e $<<A_R2>>$ (le trovi nella guida su <a href="../come-risolvere-equazioni-secondo-grado/">come risolvere le equazioni di secondo grado</a>), e la soluzione è $<<A_R1>><x<<<A_R2>>$: l'area supera $21$ quando un lato è compreso tra $<<A_R1>>$ m e $<<A_R2>>$ m, esclusi.</p>
+
+<h2 id="metodo">Il metodo con la parabola</h2>
+
+<p>Una disequazione chiede dove una quantità è positiva o negativa. Per $ax^2+bx+c$ questa quantità è l'altezza della parabola $y=ax^2+bx+c$: dove la parabola sta sopra l'asse $x$ l'espressione è positiva, dove sta sotto è negativa, e vale zero nei punti in cui lo incontra. Quei punti sono le radici.</p>
+
+<div class="formula-box">
+  <span class="callout-tag">I tre passi</span>
+  <p><strong>1.</strong> Forma normale con $a>0$: $ax^2+bx+c \;\gtrless\; 0$. Se $a<0$ moltiplica per $-1$ e <strong>inverti il verso</strong> del simbolo.</p>
+  <p><strong>2.</strong> Calcola $\Delta$ e trova le radici dell'equazione $ax^2+bx+c=0$.</p>
+  <p><strong>3.</strong> Parabola rivolta verso l'alto: $>0$ vuol dire "sopra l'asse", $<0$ vuol dire "sotto l'asse".</p>
+</div>
+
+<p>Con $a>0$ i casi sono tre, come per il discriminante:</p>
+
+<div class="casi">
+  <div><strong>Δ &gt; 0</strong>Due radici $r_1<r_2$. Per $>0$ la soluzione è $x<r_1$ oppure $x>r_2$ (fuori dalle radici). Per $<0$ è $r_1<x<r_2$ (tra le radici).</div>
+  <div><strong>Δ = 0</strong>Una radice $r$. Per $>0$ la soluzione è $x\neq r$. Per $<0$ non ci sono soluzioni. Con $\geq$ o $\leq$ cambia solo il punto $r$.</div>
+  <div><strong>Δ &lt; 0</strong>Nessuna radice: la parabola sta tutta sopra l'asse. Per $>0$ la soluzione è ogni numero reale. Per $<0$ non ci sono soluzioni.</div>
+</div>
+
+<p>Se il simbolo è $\geq$ o $\leq$, gli estremi (le radici) fanno parte della soluzione. Con $>$ o $<$ sono esclusi.</p>
+
+<figure class="math-fig" id="ineq-widget">
+  <div class="glass">
+    <p class="eq-titolo" data-q="titolo"><<Q_TIT>></p>
+    <<Q_SVG>>
+    <div class="fig-key" aria-hidden="true"><span class="k-curva">parabola</span><span class="k-sol">zona delle soluzioni sull'asse x</span></div>
+    <p class="eq-lettura" data-q="lettura" aria-live="polite"><<Q_LETTURA>></p>
+    <div class="q-ops" data-q="controlli" hidden>
+      <button type="button" data-op=">" aria-pressed="true" aria-label="maggiore di">&gt;</button>
+      <button type="button" data-op="<" aria-pressed="false" aria-label="minore di">&lt;</button>
+      <button type="button" data-op=">=" aria-pressed="false" aria-label="maggiore o uguale">≥</button>
+      <button type="button" data-op="<=" aria-pressed="false" aria-label="minore o uguale">≤</button>
+    </div>
+    <div class="eq-controlli" data-q="controlli" hidden>
+      <div><label for="q-a">a <b data-val="a">1</b></label><input type="range" id="q-a" min="-3" max="3" step="0.5" value="1"></div>
+      <div><label for="q-b">b <b data-val="b">−1</b></label><input type="range" id="q-b" min="-8" max="8" step="1" value="-1"></div>
+      <div><label for="q-c">c <b data-val="c">−6</b></label><input type="range" id="q-c" min="-8" max="8" step="1" value="-6"></div>
+    </div>
+  </div>
+  <figcaption>La parabola di $y=x^2-x-6$ con la disequazione $x^2-x-6>0$. Con JavaScript attivo puoi cambiare il simbolo e muovere gli slider.</figcaption>
+</figure>
+
+<p>Esplora il grafico. Con il simbolo $>$ guarda le zone evidenziate, poi passa a $<$: cosa succede all'insieme delle soluzioni? Con $\geq$ cosa cambia nei punti $-2$ e $3$? Infine cambia il segno di $a$ portandolo a $-1$: la parabola si ribalta, e le zone evidenziate?</p>
+
+<details class="aiuto">
+  <summary>Controlla la tua osservazione</summary>
+  <div class="aiuto-corpo">
+    <p>Passando da $>$ a $<$ le zone si scambiano: la soluzione diventa $-2<x<3$, cioè la parte tra le radici. Con $\geq$ i cerchi nei punti $-2$ e $3$ diventano pieni: quei valori fanno parte della soluzione.</p>
+    <p>Con $a=-1$ la parabola è rivolta verso il basso. Per $>0$ la soluzione è la parte tra le radici, perché solo lì la parabola sta sopra l'asse.</p>
+  </div>
+</details>
+
+<h2 id="esempio">Un esempio svolto</h2>
+
+<p>Risolviamo $x^2-x-6>0$ e scriviamo il ragionamento che bisogna fare.</p>
+
+<ol class="passi">
+  <li><strong>Leggo i coefficienti (occhio al segno).</strong> La disequazione è già in forma normale e $a=1$ è positivo: $a=1$, $b=-1$, $c=-6$.</li>
+  <li><strong>Stimo prima di calcolare.</strong> $a>0$: la parabola è rivolta verso l'alto. $c=-6$ è l'ordinata del punto di intersezione con l'asse $y$, ed è negativa. Una parabola rivolta verso l'alto che passa sotto l'asse $x$ lo attraversa in due punti: mi aspetto due radici, con la parte negativa in mezzo e la parte positiva all'esterno.</li>
+  <li><strong>Trovo le radici.</strong> $$\Delta=(-1)^2-4\cdot 1\cdot(-6)=<<E1_B2>>+<<E1_M4AC>>=<<E1_D>>$$ $$x=\frac{1\pm <<E1_SQ>>}{2}\quad\Rightarrow\quad x_1=<<E1_X1>>,\; x_2=<<E1_X2>>$$</li>
+  <li><strong>Leggo il segno.</strong> Voglio $>0$: le zone sopra l'asse sono quelle fuori dalle radici. La soluzione è $x<<<E1_X1>>$ oppure $x><<E1_X2>>$.</li>
+  <li><strong>Controllo.</strong> Provo un numero per ogni zona. Con $x=0$ (tra le radici) l'espressione vale $<<E1_F0>>$: non è maggiore di zero, giusto. Con $x=4$ vale $<<E1_F4>>$ e con $x=-3$ vale $<<E1_FM3>>$: entrambi positivi, giusto.</li>
+</ol>
+
+<p>Un caso con $a<0$: $-x^2+4x-3\geq 0$. Al primo passo moltiplico per $-1$ e <strong>inverto il verso</strong>: $x^2-4x+3\leq 0$. Le radici sono $<<E2_X1>>$ e $<<E2_X2>>$ (con $\Delta=<<E2_D>>$) e voglio la parte sotto o sull'asse, cioè tra le radici, estremi compresi: $<<E2_X1>>\leq x\leq <<E2_X2>>$. Controllo con la disequazione di partenza: per $x=2$ vale $<<E2_F2>>$, che è $\geq 0$; per $x=0$ vale $<<E2_F0>>$, che non lo è.</p>
+
+<h2 id="casi">Quando $\Delta=0$ e quando $\Delta<0$</h2>
+
+<p>Qui il segno si ragiona senza trovare due radici. Con $x^2-4x+4$ si ha $\Delta=<<Z_D>>$ e la parabola tocca l'asse in $x=2$ senza attraversarlo, quindi sta sopra l'asse in tutti gli altri punti:</p>
+
+<ul>
+  <li>$x^2-4x+4>0$ ha soluzione $x\neq 2$ (tutti i numeri tranne il 2);</li>
+  <li>$x^2-4x+4\leq 0$ ha soluzione $x=2$;</li>
+  <li>$x^2-4x+4<0$ non ha soluzioni.</li>
+</ul>
+
+<p>Con $x^2+x+1$ si ha $\Delta=<<N_D>>$: la parabola è rivolta verso l'alto e non tocca l'asse, quindi sta tutta sopra. Allora $x^2+x+1>0$ vale per ogni $x$, e $x^2+x+1<0$ non ha soluzioni.</p>
+
+<h2 id="prova-tu">Prova tu</h2>
+
+<p>Tre disequazioni. Prima stima: quante radici ti aspetti e come sono disposte le soluzioni? Poi calcola. Gli aiuti restano chiusi finché non li apri tu: usali solo se ti blocchi.</p>
+
+<div class="prova">
+  <span class="prova-n">Esercizio 1</span>
+  <p class="prova-testo">$2x^2-3x-2>0$</p>
+  <details class="aiuto"><summary>Indizio 1</summary><div class="aiuto-corpo"><p>$a=2$ è positivo, quindi non serve invertire il verso. Cerca le radici dell'equazione associata.</p></div></details>
+  <details class="aiuto"><summary>Indizio 2</summary><div class="aiuto-corpo"><p>Con $>0$ e $a>0$ la soluzione sta fuori dalle radici. Attenzione al segno di $-4ac$: $c$ è negativo.</p></div></details>
+  <details class="aiuto soluzione"><summary>Soluzione</summary><div class="aiuto-corpo"><p>$\Delta=<<P1_B2>>+<<P1_M4AC>>=<<P1_D>>$, $x=\dfrac{3\pm <<P1_SQ>>}{4}$, quindi $x_1=<<P1_X1>>$ e $x_2=<<P1_X2>>$. Soluzione: $x<<<P1_X1>>$ oppure $x><<P1_X2>>$.</p></div></details>
+</div>
+
+<div class="prova">
+  <span class="prova-n">Esercizio 2</span>
+  <p class="prova-testo">$-x^2+2x+3\geq 0$</p>
+  <details class="aiuto"><summary>Indizio 1</summary><div class="aiuto-corpo"><p>Qui $a=-1$. Come prima cosa moltiplica per $-1$: cosa succede al simbolo $\geq$?</p></div></details>
+  <details class="aiuto"><summary>Indizio 2</summary><div class="aiuto-corpo"><p>Ora hai $x^2-2x-3\leq 0$. Con $\leq 0$ cerchi la parte sotto o sull'asse: dentro o fuori dalle radici?</p></div></details>
+  <details class="aiuto soluzione"><summary>Soluzione</summary><div class="aiuto-corpo"><p>Dopo il passaggio la disequazione è $x^2-2x-3\leq 0$, con $\Delta=<<P2_D>>$ e radici $<<P2_X1>>$ e $<<P2_X2>>$. La soluzione è $<<P2_X1>>\leq x\leq <<P2_X2>>$ (tra le radici, estremi inclusi).</p></div></details>
+</div>
+
+<div class="prova">
+  <span class="prova-n">Esercizio 3</span>
+  <p class="prova-testo">$x^2-6x+9>0$</p>
+  <details class="aiuto"><summary>Indizio 1</summary><div class="aiuto-corpo"><p>Calcola prima $\Delta$. Che tipo di caso è?</p></div></details>
+  <details class="aiuto"><summary>Indizio 2</summary><div class="aiuto-corpo"><p>Se $\Delta=0$ la parabola tocca l'asse in un solo punto e sta sopra l'asse altrove. Quale punto escludi con $>$?</p></div></details>
+  <details class="aiuto soluzione"><summary>Soluzione</summary><div class="aiuto-corpo"><p>$\Delta=<<P3_D>>$ e la radice è $x=<<P3_X>>$. La parabola sta sopra l'asse in ogni punto tranne $x=<<P3_X>>$: soluzione $x\neq <<P3_X>>$. Si vede anche scrivendo $x^2-6x+9=(x-3)^2$, un quadrato, che è positivo tranne in $3$.</p></div></details>
+</div>
+
+<h2 id="errori">Gli errori più frequenti</h2>
+
+<p>In una disequazione il calcolo è lo stesso dell'equazione: gli errori sono nella lettura del segno. Per ognuno vedi cosa succede e come accorgertene.</p>
+
+<div class="errore">
+  <h3>1. Scegliere la zona sbagliata</h3>
+  <p>Con $x^2-x-6>0$ si trovano le radici $-2$ e $3$ e si scrive $-2<x<3$, cioè la parte tra le radici. Ma per $>0$ con $a>0$ la parte positiva è all'esterno. Succede perché si ricorda "tra le radici" dalle disequazioni con $<$ e si applica sempre.</p>
+  <p class="come"><strong>Come accorgertene:</strong> prova un valore dentro l'intervallo trovato. Con $x=0$ l'espressione vale $<<ER1_F0>>$, che non è maggiore di zero: l'intervallo è sbagliato.</p>
+</div>
+
+<div class="errore">
+  <h3>2. Moltiplicare per $-1$ senza invertire il simbolo</h3>
+  <p>Da $-x^2+4x-3\geq 0$ si scrive $x^2-4x+3\geq 0$ e si ottiene $x\leq 1$ oppure $x\geq 3$, il contrario del risultato giusto. Moltiplicare per un numero negativo inverte l'ordine, quindi $\geq$ diventa $\leq$.</p>
+  <p class="come"><strong>Come accorgertene:</strong> prova un numero nella disequazione di partenza. Con $x=2$ l'espressione vale $<<E2_F2>>$ e soddisfa $\geq 0$, ma $2$ non è nella soluzione sbagliata.</p>
+</div>
+
+<div class="errore">
+  <h3>3. Gli estremi: inclusi o esclusi?</h3>
+  <p>Con $>$ e $<$ le radici non sono soluzioni (cerchio vuoto). Con $\geq$ e $\leq$ lo sono (cerchio pieno). Se $\Delta=0$ la differenza si vede subito: $x^2-4x+4\geq 0$ vale per ogni $x$, mentre $x^2-4x+4>0$ esclude $x=2$.</p>
+  <p class="come"><strong>Come accorgertene:</strong> sostituisci le radici nella disequazione originale. Se il risultato è $0$, controlla il simbolo: $0>0$ è falso, $0\geq 0$ è vero.</p>
+</div>
+
+<div class="errore">
+  <h3>4. Fermarsi alle radici</h3>
+  <p>Trovate le radici $-2$ e $3$, si scrive "soluzioni: $x=-2$ e $x=3$", come per un'equazione. Una disequazione chiede un intervallo di valori, non singoli numeri.</p>
+  <p class="come"><strong>Come accorgertene:</strong> rileggi la domanda. Se il simbolo è $>$ o $<$, la risposta è un insieme con $<$ o $>$ sulle $x$, non un'uguaglianza.</p>
+</div>
+
+<h2 id="problema-nuovo">Un problema che non assomiglia agli esempi</h2>
+
+<p>Lanci un pallone dal balcone, a $1$ m da terra, verso l'alto a $8$ m/s. L'altezza dopo $t$ secondi, con $g$ arrotondata a $10$ m/s², è $h(t)=1+8t-5t^2$. <strong>Per quanto tempo il pallone resta sopra i $4$ m?</strong></p>
+
+<p>Prima di calcolare: come cambia l'altezza nel tempo mentre il pallone sale e poi scende? Quante volte passa per i $4$ m?</p>
+
+<details class="aiuto">
+  <summary>Indizio</summary>
+  <div class="aiuto-corpo"><p>La condizione è $1+8t-5t^2>4$. Portala in forma normale e fai attenzione al segno di $a$.</p></div>
+</details>
+<details class="aiuto soluzione">
+  <summary>Soluzione</summary>
+  <div class="aiuto-corpo">
+    <p>$1+8t-5t^2>4$ diventa $-5t^2+8t-3>0$. Moltiplico per $-1$ e inverto il verso: $5t^2-8t+3<0$. Il discriminante è $<<T_D>>$ e le radici sono $t=<<T_T1D>>$ e $t=<<T_T2>>$. Voglio $<0$ con $a>0$, quindi la parte tra le radici: da $t=<<T_T1D>>$ s a $t=<<T_T2>>$ s, estremi esclusi.</p>
+    <p>Il pallone sta sopra i $4$ m per $<<T_T2>>-<<T_T1D>>=<<T_DURD>>$ s. Controllo: a $t=0{,}8$ s l'altezza è $<<T_H08>>$ m (sopra i $4$ m); a $t=0{,}5$ s è $<<T_H05>>$ m (sotto). Passa per i $4$ m due volte: una in salita e una in discesa.</p>
+  </div>
+</details>
+
+<h2 id="in-breve">In breve</h2>
+
+<ul>
+  <li>Una <strong>disequazione di secondo grado</strong> si risolve con la parabola: $>0$ è la zona sopra l'asse $x$, $<0$ è la zona sotto.</li>
+  <li>Prima porta la disequazione in forma normale con $a>0$: se moltiplichi per $-1$, <strong>inverti il verso</strong>.</li>
+  <li>Con $\Delta>0$: $>0$ è fuori dalle radici, $<0$ è tra le radici. Con $\Delta=0$ e $\Delta<0$ ragiona con la parabola.</li>
+  <li>Con $\geq$ e $\leq$ le radici fanno parte della soluzione, con $>$ e $<$ no.</li>
+  <li>Controlla provando un numero in ogni zona nella disequazione di partenza.</li>
+</ul>
+
+<h3>Se ti blocchi</h3>
+
+<p>Disegna la parabola, anche a mano libera: rivolta verso l'alto o verso il basso? Dove incontra l'asse? Poi chiediti quale zona ti serve. Per capire se hai capito, raccontalo a un compagno in tre frasi: se sai spiegare perché con $\Delta<0$ la soluzione di $>0$ è tutta la retta, lo sai. Se ti manca il discriminante, trovi tutto in <a href="../discriminante-equazione-secondo-grado/">il discriminante di un'equazione di secondo grado</a>. Per vedere come ragiono sulle stime e sui controlli c'è <a href="../il-metodo-orbit-perche-non-ti-do-mai-la-soluzione-subito/">il Metodo ORBIT</a>.</p>
+
+<div class="faq">
+  <h2 id="faq">Domande frequenti</h2>
+<<FAQ_HTML>>
+</div>
+
+<div class="correlati">
+  <p>Altri articoli nel <a href="../">blog di ORBIT</a>. Se vuoi sapere <a href="../../index.html#chi-sono">chi sono e come lavoro</a>, o vedere le <a href="../../index.html#materie">materie</a>, trovi tutto sul sito.</p>
+</div>

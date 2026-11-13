@@ -1,0 +1,27 @@
+{
+  "slug": "velocita-media-velocita-istantanea",
+  "title": "Velocità media e velocità istantanea: cosa cambia | ORBIT",
+  "h1_plain": "Velocità media e velocità istantanea: qual è la differenza",
+  "h1_html": "<span class=\"gradient-text\">Velocità media e velocità istantanea</span>: qual è la differenza",
+  "description": "Velocità media e velocità istantanea: cosa sono, come si calcolano e come si passa dalla prima alla seconda. Con grafico interattivo ed esempi svolti.",
+  "data": "2026-11-13",
+  "keyword": "velocità media e velocità istantanea",
+  "keyword_secondarie": [
+    "differenza tra velocità media e istantanea",
+    "velocità media formula",
+    "velocità istantanea",
+    "grafico spazio tempo",
+    "esercizi velocità media"
+  ],
+  "tag": [
+    "fisica",
+    "cinematica",
+    "superiori"
+  ],
+  "cluster": "cinematica",
+  "og_image": "/assets/img/blog/velocita-media-velocita-istantanea-og.png",
+  "og_alt": "Grafico spazio-tempo con una secante e una tangente, con il titolo Velocità media e velocità istantanea",
+  "scripts": [
+    "moto.js"
+  ]
+}

@@ -1,7 +1,7 @@
 // Albero dei contenuti del blog ORBIT (fonte unica: da qui nascono l'indice, la mappa parola chiave → URL e le sitemap)
 // Formato: "# Materia", "## Livello", "### Argomento (= guida completa)  | formato", "- lezione".
 // Formato: S = simulazione con slider, M = animazione Manim, G = grafico, T = solo testo.
-// Marcatori sulla lezione: "✓" fatta (in bozza approvata) · "*" prima ondata (le prossime da scrivere)
+// Marcatori sulla lezione: "✓" approvata · "~" bozza pronta, in revisione · "*" prima ondata (le prossime da scrivere)
 // Regola: nei titoli mai "liceo scientifico"; solo "1ª superiore", "2ª superiore", ecc.
 
 # Matematica
@@ -98,7 +98,7 @@
 
 ### Equazioni di secondo grado | S
 - ✓ Come risolvere le equazioni di secondo grado
-- * Il discriminante: cos'è e cosa ti dice
+- ~ Il discriminante: cos'è e cosa ti dice
 - Equazioni incomplete: spurie, pure e monomie
 - Somma e prodotto delle radici
 - Scomposizione del trinomio di secondo grado
@@ -108,7 +108,7 @@
 - Problemi di secondo grado
 
 ### Disequazioni e sistemi di disequazioni | S
-- * Disequazioni di secondo grado
+- ~ Disequazioni di secondo grado
 - Disequazioni di grado superiore
 - Disequazioni fratte
 - Studio del segno di un prodotto
@@ -369,7 +369,7 @@
 
 ### Cinematica | S, M
 - Sistema di riferimento e traiettoria
-- * Velocità media e velocità istantanea
+- ~ Velocità media e velocità istantanea
 - * Il moto rettilineo uniforme
 - * Il moto uniformemente accelerato
 - Grafici spazio-tempo e velocità-tempo

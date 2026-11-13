@@ -49,6 +49,8 @@ for riga in (D / "albero.txt").read_text(encoding="utf-8").splitlines():
         stato = ""
         if t.startswith("✓"):
             stato, t = "fatta", t[1:].strip()
+        elif t.startswith("~"):
+            stato, t = "bozza", t[1:].strip()
         elif t.startswith("*"):
             stato, t = "prossima", t[1:].strip()
         online = "(già online)" in t
@@ -56,7 +58,8 @@ for riga in (D / "albero.txt").read_text(encoding="utf-8").splitlines():
         cur_a["lezioni"].append({"t": t, "stato": "online" if online else stato})
 
 # ------------------------------------------------------------ slug univoci
-SOVR = {"Come risolvere le equazioni di secondo grado": "come-risolvere-equazioni-secondo-grado",
+SOVR = {"Il discriminante: cos'è e cosa ti dice": "discriminante-equazione-secondo-grado",
+        "Come risolvere le equazioni di secondo grado": "come-risolvere-equazioni-secondo-grado",
         "Il Metodo ORBIT: perché non ti do mai la soluzione subito": "il-metodo-orbit-perche-non-ti-do-mai-la-soluzione-subito"}
 visti = collections.Counter()
 for m in mat:
@@ -85,7 +88,7 @@ with (D / "mappa_url.csv").open("w", newline="", encoding="utf-8") as f:
         for l in m["livelli"]:
             for a in l["argomenti"]:
                 for z in a["lezioni"]:
-                    w.writerow([m["nome"], l["nome"], a["nome"], z["t"], f"/blog/{z['slug']}/", {"fatta": "approvato", "online": "online", "prossima": "prima ondata"}.get(z["stato"], "in programma"), "+".join(a["formati"])])
+                    w.writerow([m["nome"], l["nome"], a["nome"], z["t"], f"/blog/{z['slug']}/", {"fatta": "approvato", "bozza": "bozza in revisione", "online": "online", "prossima": "prima ondata"}.get(z["stato"], "in programma"), "+".join(a["formati"])])
 
 tot_l = sum(len(a["lezioni"]) for m in mat for l in m["livelli"] for a in l["argomenti"])
 tot_a = sum(len(l["argomenti"]) for m in mat for l in m["livelli"])
@@ -125,7 +128,8 @@ details.liv > summary:focus-visible{outline:2px solid var(--cyan);outline-offset
 .arg ul{list-style:none;margin:0;padding:0}
 .arg li{position:relative;padding:3px 0 3px 18px;font-size:.88rem;line-height:1.5;color:var(--slate)}
 .arg li::before{content:"";position:absolute;left:3px;top:.85em;width:5px;height:5px;border-radius:50%;background:var(--slate-light)}
-.arg li.fatta::before,.arg li.online::before{background:#34d399}
+.arg li.fatta::before,.arg li.online::before{background:#34d399} .arg li.bozza::before{background:#FACC15} .arg li.bozza{color:var(--white)}
+.tag.bozza{background:rgba(250,204,21,.14);color:#FACC15}
 .arg li.prossima::before{background:var(--orange)}
 .arg li.fatta,.arg li.online{color:var(--white)}
 .arg li.prossima{color:var(--white)}
@@ -144,6 +148,8 @@ def li(z):
         t += '<span class="tag fatta">approvato</span>'
     elif z["stato"] == "online":
         t += '<span class="tag online">online</span>'
+    elif z["stato"] == "bozza":
+        t += '<span class="tag bozza">in revisione</span>'
     elif z["stato"] == "prossima":
         t += '<span class="tag prossima">prossima</span>'
     return f'<li class="{z["stato"]}" data-k="{html.escape(z["t"].lower())}">{t}</li>'
@@ -193,7 +199,7 @@ pagina = f"""<title>Blog ORBIT: tutte le guide</title>
   <div class="ind-stat"><div><b>{tot_a}</b>guide complete</div><div><b>{tot_l}</b>lezioni</div><div><b>{len(mat)}</b>aree</div></div>
   <div class="ind-tools"><input id="q" type="search" placeholder="Cerca una lezione (es. derivata, discriminante, urti…)" aria-label="Cerca una lezione"><button id="apri" type="button">Apri tutto</button><button id="chiudi" type="button">Chiudi tutto</button></div>
   <div id="esito" aria-live="polite"></div>
-  <div class="legenda"><span><i style="background:#34d399"></i>pronta</span><span><i style="background:#F2811D"></i>prossima da scrivere</span><span><i style="background:#6B7690"></i>in programma</span></div>
+  <div class="legenda"><span><i style="background:#34d399"></i>approvata</span><span><i style="background:#FACC15"></i>bozza in revisione</span><span><i style="background:#F2811D"></i>prossima da scrivere</span><span><i style="background:#6B7690"></i>in programma</span></div>
 </div></section>
 <div class="wrap">
 {''.join(sez)}

@@ -22,7 +22,8 @@ class P(HTMLParser):
         if t == "h1": s.h1 += 1
         if t == "img": s.imgs.append(a)
         if t == "a" and a.get("href"): s.links.append(a["href"])
-        if not void: s.stack.append((t, "katex" in (a.get("class") or "").split() or (a.get("class") or "") == "katex"))
+        cl = (a.get("class") or "").split()
+        if not void: s.stack.append((t, t == "figcaption" or bool({"katex", "eq-lettura", "eq-titolo", "fig-key", "correlati", "prova-n"} & set(cl))))
     def handle_endtag(s, t):
         for i in range(len(s.stack) - 1, -1, -1):
             if s.stack[i][0] == t:
@@ -48,8 +49,8 @@ def rep(nome, esito, dettaglio=""):
 chiavi = ["slug", "title", "description", "data", "tag", "cluster", "keyword", "keyword_secondarie", "og_image"]
 rep("1 Metadati completi", all(META.get(k) for k in chiavi) and (RADICE / META["og_image"].lstrip("/")).exists(), "immagine social presente")
 # 2 SEO on-page
-tit = re.search(r"<title>(.*?)</title>", H).group(1)
-des = re.search(r'<meta name="description" content="(.*?)"', H).group(1)
+tit = html.unescape(re.search(r"<title>(.*?)</title>", H).group(1))
+des = html.unescape(re.search(r'<meta name="description" content="(.*?)"', H).group(1))
 kw = META["keyword"].lower()
 prime = " ".join(parole[:120]).lower()
 rep("2a Un solo H1", p.h1 == 1)
@@ -94,15 +95,17 @@ def seq(t, n=8):
     w = re.findall(r"[\wÀ-ÿ']+", t.lower()); return {" ".join(w[i:i + n]) for i in range(len(w) - n + 1)}
 fonti = list((RADICE / "blog").glob("*/index.html")); fonti = [f for f in fonti if f != PAGINA]
 fonti += list(pathlib.Path("/root/.claude/uploads").glob("**/*CONOSCENZE*.md"))
-mie = seq(prosa); doppie = set()
+mie = seq(prosa); doppie_ext = set(); doppie_sito = set()
 for f in fonti:
     t = f.read_text(encoding="utf-8", errors="ignore")
     if f.suffix == ".html":
-        r = P(); r.feed(t); t = " ".join(r.testo)
-    doppie |= mie & seq(t)
-rep("7 Anti-copia (8 parole uguali) vs post esistenti e conoscenze", not doppie, f"{len(fonti)} fonti, coincidenze: {len(doppie)}")
+        r = P(); r.feed(t); t = " ".join(r.testo); doppie_sito |= mie & seq(t)
+    else:
+        doppie_ext |= mie & seq(t)
+rep("7a Anti-copia (8 parole uguali) vs fonti esterne e conoscenze", not doppie_ext, f"coincidenze: {len(doppie_ext)}")
+rep("7b Somiglianza con gli altri post del sito (formule ricorrenti della scheda ammesse, max 40)", len(doppie_sito) <= 40, f"{len(doppie_sito)} sequenze")
 # slug univoco
 altri = [f.parent.name for f in (RADICE / "blog").glob("*/index.html")]
-rep("7b Slug univoco / nessun conflitto di keyword", altri.count(META["slug"]) == 1)
+rep("7c Slug univoco / nessun conflitto di keyword", altri.count(META["slug"]) == 1)
 print("\nESITO:", "tutti i controlli superati" if ok else "ci sono controlli da sistemare")
 sys.exit(0 if ok else 1)

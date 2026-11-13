@@ -8,7 +8,11 @@ Elenco dei post che Matteo ha approvato ma che non sono ancora in produzione. Si
 
 ## In revisione
 
-_nessuno_
+| Post | Slug | Stato |
+|---|---|---|
+| Il discriminante di un'equazione di secondo grado | `discriminante-equazione-secondo-grado` | Bozza pronta, controlli superati |
+| Disequazioni di secondo grado | `disequazioni-secondo-grado` | Bozza pronta, controlli superati |
+| Velocità media e velocità istantanea | `velocita-media-velocita-istantanea` | Bozza pronta, controlli superati |
 
 ## Da aggiornare nel momento dell'approvazione (lotto)
 - `blog/index.html`: aggiungere la card del post (e togliere un segnaposto "In arrivo")

@@ -1,0 +1,15 @@
+{
+  "slug": "disequazioni-secondo-grado",
+  "title": "Disequazioni di secondo grado: come si risolvono | ORBIT",
+  "h1_plain": "Disequazioni di secondo grado: come si risolvono con la parabola",
+  "h1_html": "<span class=\"gradient-text\">Disequazioni di secondo grado</span>: come si risolvono con la parabola",
+  "description": "Disequazioni di secondo grado: il metodo in tre passi con la parabola, i casi con delta positivo, nullo e negativo, esempi svolti e grafico interattivo.",
+  "data": "2026-11-13",
+  "keyword": "disequazioni di secondo grado",
+  "keyword_secondarie": ["come risolvere una disequazione di secondo grado", "disequazione con parabola", "studio del segno", "disequazioni con delta negativo", "esercizi disequazioni di secondo grado"],
+  "tag": ["matematica", "algebra", "superiori"],
+  "cluster": "disequazioni",
+  "og_image": "/assets/img/blog/disequazioni-secondo-grado-og.png",
+  "og_alt": "Parabola con le zone sopra l'asse x evidenziate, con il titolo Disequazioni di secondo grado",
+  "scripts": ["disequazione2.js"]
+}

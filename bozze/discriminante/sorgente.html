@@ -1,0 +1,198 @@
+<div class="answer-box">
+  <span class="callout-tag">La risposta breve</span>
+  <p>Il discriminante di un'equazione di secondo grado $ax^2+bx+c=0$ è il numero $\Delta=b^2-4ac$. Lo calcoli dai coefficienti e ti dice quante soluzioni reali ci sono, prima ancora di risolvere l'equazione:</p>
+  <ul>
+    <li>$\Delta>0$: due soluzioni reali diverse;</li>
+    <li>$\Delta=0$: una sola soluzione reale (si dice "doppia");</li>
+    <li>$\Delta<0$: nessuna soluzione reale.</li>
+  </ul>
+  <p>Qui vedi da dove viene, cosa significa sul grafico e quali errori di segno evitare.</p>
+</div>
+
+<p class="skip">Sai già calcolare Δ? Vai a <a href="#prova-tu">Prova tu</a> o agli <a href="#errori">errori più comuni</a>.</p>
+
+<h2 id="aggancio">Tre equazioni quasi uguali</h2>
+
+<p>Risolvi queste tre equazioni, anche per tentativi:</p>
+
+$$x^2-4x+3=0 \qquad x^2-4x+4=0 \qquad x^2-4x+5=0$$
+
+<p>Cambia solo l'ultimo numero. Prima di provare: quante soluzioni ti aspetti per ciascuna?</p>
+
+<h2 id="bridging">Cosa hai notato?</h2>
+
+<p>Con la prima trovi $x=<<A_R1>>$ e $x=<<A_R3>>$: due soluzioni. Con la seconda trovi solo $x=<<A_R2>>$. Con la terza non trovi nessun numero reale che funzioni. Cambiando soltanto il termine noto $c$ si passa da due soluzioni a una a nessuna.</p>
+
+<p>Questo comportamento si può prevedere. Guarda il numero $16-4c$ per i tre valori di $c$: con $c=3$ vale $<<A_D3>>$, con $c=4$ vale $<<A_D4>>$, con $c=5$ vale $<<A_D5>>$. Positivo, zero, negativo: sono le tre situazioni. Quel numero è il discriminante.</p>
+
+<h2 id="formula">Cos'è il discriminante</h2>
+
+<p>Nella formula risolutiva compare sempre la stessa espressione sotto la radice quadrata. Quella espressione ha un nome:</p>
+
+<div class="formula-box">
+  <span class="callout-tag">Il discriminante</span>
+  $$\Delta=b^2-4ac$$
+  <p>$a$, $b$, $c$ sono i coefficienti dell'equazione in forma normale $ax^2+bx+c=0$.</p>
+</div>
+
+<p>Il nome viene da qui: <em>discrimina</em>, cioè separa i casi. Dal suo segno capisci come si comporta la formula $x=\dfrac{-b\pm\sqrt{\Delta}}{2a}$:</p>
+
+<ul>
+  <li><strong>$\Delta>0$:</strong> la radice quadrata esiste ed è un numero positivo, quindi il $\pm$ dà due risultati diversi: due soluzioni.</li>
+  <li><strong>$\Delta=0$:</strong> la radice quadrata vale zero, quindi sommare o sottrarre zero dà lo stesso risultato: una sola soluzione, $x=-\dfrac{b}{2a}$.</li>
+  <li><strong>$\Delta<0$:</strong> sotto la radice c'è un numero negativo, e nessun numero reale elevato al quadrato dà un risultato negativo: nessuna soluzione reale.</li>
+</ul>
+
+<p>Un esempio per caso. Con $x^2-5x+6=0$ il discriminante vale $<<C1_D>>$, quindi due soluzioni: $x=<<C1_X1>>$ e $x=<<C1_X2>>$. Con $x^2-4x+4=0$ vale $<<C2_D>>$, quindi una soluzione. Con $x^2+2x+3=0$ vale $<<C3_D>>$, quindi nessuna soluzione reale.</p>
+
+<h2 id="grafico">Cosa vedi sul grafico</h2>
+
+<p>Risolvere $ax^2+bx+c=0$ vuol dire cercare dove la parabola $y=ax^2+bx+c$ incontra l'asse $x$. Il discriminante è legato all'altezza del vertice:</p>
+
+$$y_V=-\frac{\Delta}{4a}$$
+
+<p>Prendi $a>0$: la parabola è rivolta verso l'alto. Se il vertice è sotto l'asse $x$, la parabola attraversa l'asse due volte e $\Delta>0$. Se il vertice sta sull'asse, la parabola lo tocca in un punto e $\Delta=0$. Se il vertice è sopra l'asse, non la incontra e $\Delta<0$. Nelle tre equazioni dell'inizio il vertice ha ordinata $<<A_V3>>$, $<<A_V4>>$ e $<<A_V5>>$.</p>
+
+<figure class="math-fig" id="eq-widget">
+  <div class="glass">
+    <p class="eq-titolo" data-eq="equazione"><<W_EQ>></p>
+    <<W_SVG>>
+    <div class="fig-key" aria-hidden="true"><span class="k-curva">parabola</span><span class="k-radice">soluzioni (incontri con l'asse x)</span><span class="k-vertice">vertice</span></div>
+    <p class="eq-lettura" data-eq="lettura" aria-live="polite"><<W_LETTURA>></p>
+    <div class="eq-controlli" data-eq="controlli" hidden>
+      <div><label for="eq-a">a <b data-val="a">1</b></label><input type="range" id="eq-a" min="-3" max="3" step="0.5" value="1"></div>
+      <div><label for="eq-b">b <b data-val="b">−4</b></label><input type="range" id="eq-b" min="-8" max="8" step="1" value="-4"></div>
+      <div><label for="eq-c">c <b data-val="c">3</b></label><input type="range" id="eq-c" min="-8" max="8" step="1" value="3"></div>
+    </div>
+  </div>
+  <figcaption>La parabola di $y=x^2-4x+3$. Con JavaScript attivo puoi muovere gli slider: cambiano $a$, $b$, $c$ e il discriminante si aggiorna.</figcaption>
+</figure>
+
+<p>Gioca con il grafico. Parti da $a=1$ e $b=-4$ e alza $c$ un passo alla volta: per quale valore di $c$ la parabola tocca l'asse in un solo punto? Cosa vale $\Delta$ in quel punto? Poi cambia il segno di $a$ e osserva dove va il vertice quando il discriminante è positivo.</p>
+
+<details class="aiuto">
+  <summary>Controlla la tua osservazione</summary>
+  <div class="aiuto-corpo">
+    <p>Con $a=1$ e $b=-4$ il discriminante è $16-4c$. Si annulla per $c=4$: la parabola tocca l'asse $x$ nel punto $x=2$. Per $c=3$ vale $<<A_D3>>$ (due soluzioni), per $c=5$ vale $<<A_D5>>$ (nessuna).</p>
+    <p>Con $a=-1$ la parabola è rivolta verso il basso. Il discriminante positivo vuol dire ancora due soluzioni, ma il vertice è sopra l'asse $x$.</p>
+  </div>
+</details>
+
+<h2 id="esempio">Un esempio svolto</h2>
+
+<p>Studiamo $2x^2+3x-5=0$ e scriviamo il ragionamento che bisogna fare.</p>
+
+<ol class="passi">
+  <li><strong>Leggo i coefficienti (occhio al segno).</strong> L'equazione è già in forma normale: $a=2$, $b=3$, $c=-5$.</li>
+  <li><strong>Stimo prima di calcolare.</strong> $a$ e $c$ hanno segni opposti, quindi $-4ac$ è positivo. Il discriminante è la somma di $b^2$ (sempre positivo o nullo) e di un numero positivo: sarà positivo. Mi aspetto <em>due soluzioni</em>. Anche il prodotto delle soluzioni, $\dfrac{c}{a}=<<E_P>>$, è negativo: una soluzione sarà negativa e una positiva.</li>
+  <li><strong>Calcolo il discriminante.</strong> $$\Delta=3^2-4\cdot 2\cdot(-5)=<<E_B2>>+<<E_M4AC>>=<<E_D>>$$ Positivo, come previsto.</li>
+  <li><strong>Uso la formula.</strong> $$x=\frac{-3\pm\sqrt{<<E_D>>}}{2\cdot 2}=\frac{-3\pm <<E_SQ>>}{4}$$ Quindi $x_1=\dfrac{-3-<<E_SQ>>}{4}=<<E_X1>>$ e $x_2=\dfrac{-3+<<E_SQ>>}{4}=<<E_X2>>$.</li>
+  <li><strong>Controllo.</strong> Per $x=<<E_X2>>$: $2\cdot 1+3\cdot 1-5=0$. Per $x=<<E_X1>>$: $2\cdot\dfrac{25}{4}-\dfrac{15}{2}-5=\dfrac{25}{2}-\dfrac{15}{2}-5=0$. Le due soluzioni hanno segni opposti, proprio come avevo previsto.</li>
+</ol>
+
+<p>Una cosa in più: $<<E_D>>=7^2$ è un quadrato perfetto, e infatti le soluzioni sono un numero intero e una frazione. Se il discriminante di un'equazione a coefficienti interi è il quadrato di un intero, le soluzioni sono razionali. Con $x^2-2x-1=0$ il discriminante è $<<I_D>>$, che non è un quadrato perfetto: la radice resta nel risultato.</p>
+
+<h2 id="scorciatoia">Una scorciatoia quando $b$ è pari</h2>
+
+<p>Se $b$ è un numero pari, puoi lavorare con numeri più piccoli usando $\dfrac{\Delta}{4}=\left(\dfrac{b}{2}\right)^2-ac$ e la formula ridotta:</p>
+
+$$x=\frac{-\dfrac{b}{2}\pm\sqrt{\dfrac{\Delta}{4}}}{a}$$
+
+<p>Con $x^2-6x+5=0$: $b=-6$, quindi $\dfrac{b}{2}=-3$ e $\dfrac{\Delta}{4}=(-3)^2-1\cdot 5=<<S_B2>>-<<S_AC>>=<<S_D4>>$. Le soluzioni sono $x=3\pm\sqrt{<<S_D4>>}$, cioè $x=<<S_X1>>$ e $x=<<S_X2>>$. Il segno di $\dfrac{\Delta}{4}$ è lo stesso di $\Delta$, quindi vale la stessa regola sui tre casi.</p>
+
+<h2 id="prova-tu">Prova tu</h2>
+
+<p>Tre equazioni. Per ognuna: prima scrivi $a$, $b$, $c$ e stima quante soluzioni ti aspetti, poi calcola $\Delta$ e risolvi. Gli aiuti sono nascosti: aprili solo quando serve.</p>
+
+<div class="prova">
+  <span class="prova-n">Esercizio 1</span>
+  <p class="prova-testo">$x^2-6x+8=0$</p>
+  <details class="aiuto"><summary>Indizio 1</summary><div class="aiuto-corpo"><p>Qui $b=-6$ è pari: puoi usare anche $\dfrac{\Delta}{4}$. Qual è il segno di $-4ac$?</p></div></details>
+  <details class="aiuto"><summary>Indizio 2</summary><div class="aiuto-corpo"><p>$\Delta=(-6)^2-4\cdot 1\cdot 8$. Attenzione al quadrato di un numero negativo: il risultato è positivo.</p></div></details>
+  <details class="aiuto soluzione"><summary>Soluzione</summary><div class="aiuto-corpo"><p>$\Delta=<<P1_B2>>-<<P1_4AC>>=<<P1_D>>$, positivo: due soluzioni. $x=\dfrac{6\pm <<P1_SQ>>}{2}$, cioè $x=<<P1_X1>>$ e $x=<<P1_X2>>$.</p></div></details>
+</div>
+
+<div class="prova">
+  <span class="prova-n">Esercizio 2</span>
+  <p class="prova-testo">$4x^2+4x+1=0$</p>
+  <details class="aiuto"><summary>Indizio 1</summary><div class="aiuto-corpo"><p>Prima di calcolare: $4x^2$ e $1$ sono quadrati. Come potrebbe essere il discriminante?</p></div></details>
+  <details class="aiuto"><summary>Indizio 2</summary><div class="aiuto-corpo"><p>Calcola $4^2-4\cdot 4\cdot 1$ e guarda il risultato. Cosa ti dice sul numero di soluzioni?</p></div></details>
+  <details class="aiuto soluzione"><summary>Soluzione</summary><div class="aiuto-corpo"><p>$\Delta=<<P2_B2>>-<<P2_4AC>>=<<P2_D>>$: una sola soluzione, $x=-\dfrac{b}{2a}=<<P2_X>>$. Si vede anche scrivendo $4x^2+4x+1=(2x+1)^2$.</p></div></details>
+</div>
+
+<div class="prova">
+  <span class="prova-n">Esercizio 3</span>
+  <p class="prova-testo">$x^2-3x+4=0$</p>
+  <details class="aiuto"><summary>Indizio 1</summary><div class="aiuto-corpo"><p>Calcola solo $\Delta$ e guarda il suo segno. Non serve la formula intera.</p></div></details>
+  <details class="aiuto"><summary>Indizio 2</summary><div class="aiuto-corpo"><p>$\Delta=(-3)^2-4\cdot 1\cdot 4$. Come scrivi la conclusione se esce negativo?</p></div></details>
+  <details class="aiuto soluzione"><summary>Soluzione</summary><div class="aiuto-corpo"><p>$\Delta=<<P3_B2>>-<<P3_4AC>>=<<P3_D>>$: nessuna soluzione reale, e ti fermi qui.</p></div></details>
+</div>
+
+<h2 id="errori">Quattro errori da conoscere</h2>
+
+<p>Raramente il problema è la teoria: di solito è un segno perso per strada. Di ogni errore trovi la causa e il controllo che lo fa emergere.</p>
+
+<div class="errore">
+  <h3>1. Il quadrato di $b$ con $b$ negativo</h3>
+  <p>Con $x^2-5x+4=0$ qualcuno scrive $b^2=-25$ perché vede il segno meno davanti al $5$. Ma $(-5)^2=25$: elevare al quadrato un numero negativo dà un numero positivo. Con questo errore il discriminante verrebbe $<<ER1_BAD>>$ invece di $<<ER1_OK>>$.</p>
+  <p class="come"><strong>Come accorgertene:</strong> scrivi sempre $b$ tra parentesi, $(-5)^2$. Ricorda anche che $b^2$ non può mai essere negativo.</p>
+</div>
+
+<div class="errore">
+  <h3>2. Il segno di $-4ac$ quando $c$ è negativo</h3>
+  <p>Con $2x^2+3x-5=0$ si scrive $9-4\cdot 2\cdot 5=<<ER2_BAD>>$ dimenticando che $c=-5$. Il prodotto $-4\cdot 2\cdot(-5)$ ha due segni meno e vale $+40$: il discriminante corretto è $<<E_D>>$.</p>
+  <p class="come"><strong>Come accorgertene:</strong> usa la stima. Se $a$ e $c$ hanno segni opposti, $-4ac$ è positivo e $\Delta$ è certamente positivo. Un risultato negativo ti avverte che qualcosa non torna.</p>
+</div>
+
+<div class="errore">
+  <h3>3. Pensare che $\Delta=0$ voglia dire "nessuna soluzione"</h3>
+  <p>È la confusione più frequente. Zero è un valore speciale ma non vuol dire "niente": con $x^2-4x+4=0$ si ha $\Delta=0$ e c'è la soluzione $x=<<ER3_X>>$. Sono due soluzioni che coincidono, per questo si chiama soluzione doppia.</p>
+  <p class="come"><strong>Come accorgertene:</strong> sostituisci il valore nell'equazione. Con $x=<<ER3_X>>$ hai $4-8+4=0$.</p>
+</div>
+
+<div class="errore">
+  <h3>4. Scrivere "non ha soluzioni" quando $\Delta<0$</h3>
+  <p>Con $x^2-4x+5=0$ si ha $\Delta=<<ER4_D>>$. La conclusione corretta è <em>nessuna soluzione reale</em>. Il "reale" conta: più avanti, con i numeri complessi, queste equazioni avranno soluzioni anche con $\Delta<0$.</p>
+  <p class="come"><strong>Come accorgertene:</strong> scrivi sempre "reale" e non cercare una radice di un numero negativo.</p>
+</div>
+
+<h2 id="problema-nuovo">Un problema che non assomiglia agli esempi</h2>
+
+<p>Nell'equazione $x^2+kx+4=0$ c'è un parametro $k$: un numero che puoi scegliere. <strong>Per quali valori di $k$ l'equazione ha una sola soluzione?</strong></p>
+
+<p>Prima di calcolare: come cambia il discriminante se $k$ aumenta? Quale caso del discriminante stai cercando?</p>
+
+<details class="aiuto">
+  <summary>Indizio</summary>
+  <div class="aiuto-corpo"><p>Scrivi $a$, $b$, $c$: qui $a=1$, $b=k$, $c=4$. Calcola $\Delta$ e imposta la condizione per una sola soluzione.</p></div>
+</details>
+<details class="aiuto soluzione">
+  <summary>Soluzione</summary>
+  <div class="aiuto-corpo">
+    <p>$\Delta=k^2-4\cdot 1\cdot 4=k^2-16$. Una sola soluzione vuol dire $\Delta=0$, cioè $k^2=16$, quindi $k=4$ oppure $k=-4$. Con $k=4$ l'equazione diventa $x^2+4x+4=0$ e la soluzione è $x=<<T_XP>>$. Con $k=-4$ diventa $x^2-4x+4=0$ e la soluzione è $x=<<T_XM>>$.</p>
+    <p>Controllo con altri valori: per $k=0$ ($x^2+4=0$) il discriminante vale $<<T_D0>>$, nessuna soluzione reale. Per $k=5$ vale $<<T_D5>>$, quindi due soluzioni: $x=<<T_M1>>$ e $x=<<T_M2>>$. Non serve risolvere l'equazione per sapere quante sono.</p>
+  </div>
+</details>
+
+<h2 id="in-breve">In breve</h2>
+
+<ul>
+  <li>Il <strong>discriminante</strong> $\Delta=b^2-4ac$ si calcola dai coefficienti dell'equazione in forma normale.</li>
+  <li>Se $\Delta>0$ ci sono due soluzioni reali, se $\Delta=0$ una sola (doppia), se $\Delta<0$ nessuna soluzione reale.</li>
+  <li>Sul grafico: $y_V=-\dfrac{\Delta}{4a}$, l'altezza del vertice della parabola.</li>
+  <li>Se $a$ e $c$ hanno segni opposti, $\Delta$ è sicuramente positivo: due soluzioni.</li>
+  <li>Se $b$ è pari conviene usare $\dfrac{\Delta}{4}$, con numeri più piccoli.</li>
+</ul>
+
+<h3>Se ti blocchi</h3>
+
+<p>Non cercare di ricordare la formula: ricostruisci la strategia. Scrivi $a$, $b$, $c$ con i segni. Chiediti che segno ha $-4ac$ e che segno ti aspetti per $\Delta$. Poi calcola e confronta con la stima. Per sapere se l'hai capito davvero, prova a raccontarlo a un compagno in tre frasi: se sai dire cosa decide il segno di $\Delta$ senza appunti, lo sai. Per la procedura completa di risoluzione trovi la guida su <a href="../come-risolvere-equazioni-secondo-grado/">come risolvere le equazioni di secondo grado</a>, e su <a href="../il-metodo-orbit-perche-non-ti-do-mai-la-soluzione-subito/">come lavoro con il Metodo ORBIT</a> il perché delle stime e dei controlli.</p>
+
+<div class="faq">
+  <h2 id="faq">Domande frequenti</h2>
+<<FAQ_HTML>>
+</div>
+
+<div class="correlati">
+  <p>Altri articoli nel <a href="../">blog di ORBIT</a>. Se vuoi sapere <a href="../../index.html#chi-sono">chi sono e come lavoro</a>, o vedere le <a href="../../index.html#materie">materie</a> e i <a href="../../index.html#corsi">corsi</a>, trovi tutto sul sito.</p>
+</div>
