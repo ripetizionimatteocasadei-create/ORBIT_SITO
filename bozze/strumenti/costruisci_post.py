@@ -62,6 +62,7 @@ put("RET_X1", r1); put("RET_X2", r2)
 # area 30 impossibile
 d30, s30 = solve(1, -10, 30)
 assert d30 == -20 and s30 == []
+put("P30_D", d30)
 
 # esempio svolto 2x^2-5x-3
 a, b, c = 2, -5, -3
@@ -160,7 +161,7 @@ def svg_iniziale(a, b, c):
     vdy = 24 if a > 0 else -14
     marks += (f'<circle class="eq-vertice" cx="{sx(xv):.1f}" cy="{sy(yv):.1f}" r="6"></circle>'
               f'<text class="g-lab-vertice" x="{sx(xv):.1f}" y="{sy(yv) + vdy:.1f}" text-anchor="middle" font-size="15">V</text>')
-    alt = (f"Grafico della parabola y = 2x² − 5x − 3: ha la bocca verso l'alto, incontra l'asse x nei punti x = −0,5 e x = 3 "
+    alt = (f"Grafico della parabola y = 2x² − 5x − 3: è rivolta verso l'alto, incontra l'asse x nei punti x = −0,5 e x = 3 "
            f"e ha il vertice in basso, circa in (1,25; −6,1).")
     return (f'<svg viewBox="0 0 {W} {H}" role="img" aria-label="{html.escape(alt)}" width="{W}" height="{H}">'
             f'<defs><clipPath id="eq-clip"><rect width="{W}" height="{H}"/></clipPath></defs>'

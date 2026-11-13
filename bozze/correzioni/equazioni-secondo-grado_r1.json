@@ -1,0 +1,111 @@
+{
+ "post": "come-risolvere-equazioni-secondo-grado",
+ "revisione": "r1",
+ "data": "2026-11-13",
+ "correzioni": [
+  {
+   "id": "b001",
+   "tag": "p",
+   "originale": "Come risolvere le equazioni di secondo grado: porta l'equazione in <strong>forma normale</strong>, $ax^2+bx+c=0$, calcola il <strong>discriminante</strong> $\\Delta=b^2-4ac$ e guarda com'è fatto:",
+   "testo": "Come risolvere le equazioni di secondo grado: porta l'equazione in <strong>forma normale</strong>, $ax^2+bx+c=0$, calcola il <strong>discriminante</strong> $\\Delta=b^2-4ac$ e guarda com'è fatto:",
+   "modificato": false,
+   "nota": "Non si capisce cosa intendi con “guarda come è fatto” piuttosto non dirlo"
+  },
+  {
+   "id": "b012",
+   "tag": "p",
+   "originale": "Ora metti quel ragionamento in parole generali. Chiamo $x$ un lato: l'altro è $10-x$. L'area è lato per lato:",
+   "testo": "Ora metti quel ragionamento in “matematichese”. Chiamo $x$ un lato: l'altro è $10-x$. L'area è lato per lato:",
+   "modificato": true,
+   "nota": ""
+  },
+  {
+   "id": "b013",
+   "tag": "p",
+   "originale": "È comparsa un'equazione in cui l'incognita sta <em>al quadrato</em>. Si chiama <strong>di secondo grado</strong> proprio per questo: la potenza più alta di $x$ è 2. Le soluzioni sono $x=3$ e $x=7$. Sono due, ma il rettangolo è uno solo: 3 m e 7 m sono i due lati dello stesso rettangolo, letti una volta partendo dal lato corto e una volta da quello lungo.",
+   "testo": "È comparsa un'equazione in cui l'incognita è <em>al quadrato</em>. Si chiama equazione <strong>di secondo grado</strong> proprio per questo: la potenza più alta di $x$ è 2. Le soluzioni sono $x=3$ e $x=7$. Sono due, ma il rettangolo è uno solo: 3 m e 7 m sono i due lati dello stesso rettangolo, letti una volta partendo dal lato corto e una volta da quello lungo.",
+   "modificato": true,
+   "nota": ""
+  },
+  {
+   "id": "b014",
+   "tag": "p",
+   "originale": "Provare a caso funziona con numeri piccoli. Ma se l'area fosse 30 m² (ops, l'equazione diventa $x^2-10x+30=0$) nessun tentativo andrebbe a buon fine, e non per sfortuna: con 20 m di perimetro il massimo si ottiene con un quadrato $5\\times5$, che ha area 25. Serve un metodo che ti dica anche <em>se</em> una soluzione esiste.",
+   "testo": "Provare a caso funziona con numeri piccoli. Ma se l'area fosse 30 m² (ops, l'equazione diventa $x^2-10x+30=0$) nessun tentativo andrebbe a buon fine, e non per sfortuna: con 20 m di perimetro il massimo si ottiene con un quadrato $5\\times5$, che ha area 25. Serve un metodo che ti dica anche <em>se</em> una soluzione esiste.",
+   "modificato": false,
+   "nota": "Qua non si capisce proprio la connessione logica. Cosa vuoi dire???"
+  },
+  {
+   "id": "b016",
+   "tag": "p",
+   "originale": "Il metodo parte da una regola di ordine: si scrive l'equazione in <strong>forma normale</strong>, cioè tutto a sinistra, zero a destra, termini in ordine di potenza:",
+   "testo": "Il metodo parte da qui: si scrive l'equazione in <strong>forma normale</strong>, cioè tutto a sinistra, zero a destra, con i termini in ordine di potenza:",
+   "modificato": true,
+   "nota": ""
+  },
+  {
+   "id": "b017",
+   "tag": "p",
+   "originale": "$a$, $b$, $c$ sono i <strong>coefficienti</strong>, con il loro segno. La condizione $a\\neq 0$ ha un motivo: se $a$ fosse zero, $x^2$ sparirebbe e non resterebbe un'equazione di secondo grado.",
+   "testo": "$a$, $b$, $c$ sono i <strong>coefficienti</strong>. La condizione $a\\neq 0$ ha un motivo: se $a$ fosse zero, $x^2$ sparirebbe e non resterebbe un'equazione di secondo grado.",
+   "modificato": true,
+   "nota": ""
+  },
+  {
+   "id": "b019",
+   "tag": "p",
+   "originale": "Sotto la radice c'è $b^2-4ac$, il <strong>discriminante</strong>, che si indica con $\\Delta$ (la lettera greca delta). Il nome ha un senso: <em>discrimina</em>, cioè distingue i casi. E lo fa perché la radice quadrata di un numero negativo non esiste tra i numeri reali.",
+   "testo": "Sotto la radice c'è $b^2-4ac$, il <strong>discriminante</strong>, che si indica con $\\Delta$ (la lettera greca “delta”). Il nome ha un senso: <em>discrimina</em>, cioè distingue i casi. E lo fa perché la radice quadrata di un numero negativo non esiste tra i numeri reali.",
+   "modificato": true,
+   "nota": ""
+  },
+  {
+   "id": "b023",
+   "tag": "p",
+   "originale": "C'è anche un significato che si vede. Le soluzioni di $ax^2+bx+c=0$ sono i punti in cui la parabola $y=ax^2+bx+c$ incontra l'asse $x$. Due incontri, uno solo (la parabola tocca l'asse), nessuno: sono i tre casi del discriminante.",
+   "testo": "C'è anche un significato che si vede. Le soluzioni di $ax^2+bx+c=0$ sono i punti in cui la parabola $y=ax^2+bx+c$ incontra l'asse $x$. Due incontri, uno solo (la parabola tocca l'asse), nessuno: sono i tre casi del discriminante.",
+   "modificato": false,
+   "nota": "Qua non si capisce bene è troppo stringato. Mi riferisco al pezzo che parte da “Due incontri…”"
+  },
+  {
+   "id": "b025",
+   "tag": "p",
+   "originale": "Risolviamo $2x^2-5x-3=0$. Ti scrivo anche cosa penso mentre lo faccio.",
+   "testo": "Risolviamo $2x^2-5x-3=0$. Ti scrivo anche cosa penso mentre lo faccio.",
+   "modificato": false,
+   "nota": "Ho capito cosa intendi ma non si capisce: piuttosto una cosa tipo “ti scrivo anche il ragionamento che bisogna fare”"
+  },
+  {
+   "id": "b026",
+   "tag": "li",
+   "originale": "<strong>Leggo i coefficienti, con il segno.</strong> L'equazione è già in forma normale: $a=2$, $b=-5$, $c=-3$.",
+   "testo": "<strong>Leggo i coefficienti (occhio al segno).</strong> L'equazione è già in forma normale: $a=2$, $b=-5$, $c=-3$.",
+   "modificato": true,
+   "nota": ""
+  },
+  {
+   "id": "b027",
+   "tag": "li",
+   "originale": "<strong>Stimo prima di calcolare.</strong> $a$ è positivo, quindi la parabola ha la bocca verso l'alto. $c=-3$ dice che per $x=0$ il valore è sotto lo zero. Una parabola che parte da sotto e va in alto da entrambi i lati deve attraversare l'asse due volte: mi aspetto <em>due soluzioni, una negativa e una positiva</em>.",
+   "testo": "<strong>Stimo prima di calcolare.</strong> $a$ è positivo, quindi la parabola rivolta verso l'alto. $c=-3$ corrisponde all’ordinata del punto di intersezione con l’asse y. Una parabola rivolta verso l’alto con intersezione in y negativa deve attraversare l'asse due volte: mi aspetto <em>due soluzioni, una negativa e una positiva</em>.",
+   "modificato": true,
+   "nota": ""
+  },
+  {
+   "id": "b064",
+   "tag": "p",
+   "originale": "Quasi mai l'errore è \"non ha capito\". Di solito è un segno o un'abitudine. Per ognuno ti dico perché succede e come accorgertene da solo.",
+   "testo": "Quasi mai l'errore è \"non ha capito\". Di solito è un segno scappato o un'abitudine sbagliato. Per ognuno ti dico perché succede e come accorgertene da solo.",
+   "modificato": true,
+   "nota": ""
+  },
+  {
+   "id": "b069",
+   "tag": "p",
+   "originale": "Scrivi $5\\pm\\dfrac{7}{4}$ invece di $\\dfrac{5\\pm7}{4}$. La linea di frazione copre <em>tutto</em> il numeratore, insieme a $-b$ e alla radice. Con il tuo errore verrebbe 6,75 (e 3,25) invece di 3.",
+   "testo": "Scrivi $5\\pm\\dfrac{7}{4}$ invece di $\\dfrac{5\\pm7}{4}$. La linea di frazione copre <em>tutto</em> il numeratore, insieme a $-b$ e alla radice. Con questo errore verrebbe 6,75 (e 3,25) invece di 3.",
+   "modificato": true,
+   "nota": ""
+  }
+ ]
+}
