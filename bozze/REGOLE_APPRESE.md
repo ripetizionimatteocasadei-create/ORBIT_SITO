@@ -49,3 +49,5 @@ Fonte di ogni regola: correzioni e note fatte da Matteo nello strumento di revis
 | 13/11/2026 | Equazioni di secondo grado (r1) | 9 modifiche + 4 note, applicate | regole A1–A10 |
 
 Le correzioni originali (JSON) sono in `bozze/correzioni/`.
+
+- 13/11/2026: Matteo si fida delle correzioni applicate e non rilegge il post. Quindi prima di dire "fatto" ricontrollo io ogni punto delle sue note (e le frasi vicine con lo stesso difetto).

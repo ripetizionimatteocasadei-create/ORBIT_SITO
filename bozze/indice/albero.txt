@@ -1,0 +1,776 @@
+// Albero dei contenuti del blog ORBIT (fonte unica: da qui nascono l'indice, la mappa parola chiave → URL e le sitemap)
+// Formato: "# Materia", "## Livello", "### Argomento (= guida completa)  | formato", "- lezione".
+// Formato: S = simulazione con slider, M = animazione Manim, G = grafico, T = solo testo.
+// Marcatori sulla lezione: "✓" fatta (in bozza approvata) · "*" prima ondata (le prossime da scrivere)
+// Regola: nei titoli mai "liceo scientifico"; solo "1ª superiore", "2ª superiore", ecc.
+
+# Matematica
+
+## 1ª superiore
+
+### Numeri naturali e interi | G
+- Operazioni con i numeri naturali e interi e le loro proprietà
+- Potenze e proprietà delle potenze
+- Multipli e divisori, MCD e mcm
+- Criteri di divisibilità
+- Scomposizione in fattori primi
+- Espressioni con i numeri interi: come si risolvono
+
+### Frazioni e numeri razionali | G, S
+- Frazioni e operazioni con le frazioni
+- Confrontare le frazioni
+- Numeri decimali e frazione generatrice
+- Potenze con esponente negativo
+- Percentuali: come si calcolano
+- Proporzioni e proprietà delle proporzioni
+- Rapporti e grandezze proporzionali
+
+### Insiemi e logica | G
+- Insiemi e modi per rappresentarli
+- Unione, intersezione e differenza tra insiemi
+- Proposizioni logiche e connettivi
+- Quantificatori e negazione di una frase
+
+### Calcolo letterale | G, S
+- Monomi e operazioni con i monomi
+- Polinomi e operazioni con i polinomi
+- Prodotti notevoli: quadrato di binomio e differenza di quadrati
+- Cubo di binomio e altri prodotti notevoli
+- Divisione tra polinomi
+- Regola di Ruffini
+- Scomposizione: raccoglimento totale e parziale
+- Scomposizione con i prodotti notevoli
+- Scomposizione del trinomio di secondo grado
+- MCD e mcm tra polinomi
+- Frazioni algebriche e operazioni
+
+### Equazioni di primo grado | S
+- Principi di equivalenza e come si risolve un'equazione lineare
+- Equazioni numeriche intere
+- Equazioni fratte
+- Equazioni letterali
+- Problemi che si risolvono con le equazioni
+
+### Disequazioni di primo grado | S
+- Intervalli e rappresentazione sulla retta
+- Disequazioni lineari
+- Sistemi di disequazioni
+
+### Funzioni e piano cartesiano | S
+- Relazioni e funzioni
+- Il piano cartesiano: distanza tra due punti e punto medio
+- Proporzionalità diretta e inversa
+- La funzione lineare e la retta
+
+### Statistica descrittiva | S
+- Frequenze, tabelle e grafici
+- Media, mediana e moda
+- Varianza e deviazione standard
+
+### Geometria: triangoli e quadrilateri | G
+- Enti geometrici fondamentali
+- Segmenti e angoli
+- Triangoli e criteri di congruenza
+- Triangoli isosceli e disuguaglianze triangolari
+- Rette perpendicolari e parallele
+- Parallelogrammi e loro proprietà
+- Rettangolo, rombo, quadrato e trapezio
+
+## 2ª superiore
+
+### Sistemi lineari | S
+- Metodo di sostituzione
+- Metodo del confronto
+- Metodo di riduzione
+- Metodo di Cramer
+- Sistemi fratti e letterali
+- Sistemi di tre equazioni in tre incognite
+- Problemi che si risolvono con i sistemi
+- Interpretazione grafica di un sistema
+
+### Radicali | G
+- Radicali aritmetici e proprietà
+- Semplificare un radicale: portare fuori e dentro la radice
+- Operazioni con i radicali
+- Razionalizzazione del denominatore
+- Potenze con esponente razionale
+- Equazioni e sistemi con coefficienti irrazionali
+
+### Equazioni di secondo grado | S
+- ✓ Come risolvere le equazioni di secondo grado
+- * Il discriminante: cos'è e cosa ti dice
+- Equazioni incomplete: spurie, pure e monomie
+- Somma e prodotto delle radici
+- Scomposizione del trinomio di secondo grado
+- Equazioni di secondo grado fratte
+- Equazioni parametriche
+- Equazioni di grado superiore: binomie, trinomie e biquadratiche
+- Problemi di secondo grado
+
+### Disequazioni e sistemi di disequazioni | S
+- * Disequazioni di secondo grado
+- Disequazioni di grado superiore
+- Disequazioni fratte
+- Studio del segno di un prodotto
+- Sistemi di disequazioni
+
+### La retta nel piano cartesiano | S
+- Equazione della retta e coefficiente angolare
+- Retta per due punti
+- Rette parallele e perpendicolari
+- Distanza di un punto da una retta
+- Fascio di rette
+- Problemi con la retta
+
+### Geometria: circonferenza, equivalenza, similitudine | G, S
+- Circonferenza, cerchio e angoli alla circonferenza
+- Poligoni inscritti e circoscritti
+- Equivalenza e aree dei poligoni
+- Teorema di Pitagora
+- Teoremi di Euclide
+- Similitudine e criteri di similitudine
+- Teorema di Talete
+
+### Introduzione alla probabilità | S
+- Probabilità classica
+- Eventi composti: unione e intersezione
+- Probabilità condizionata
+- Eventi indipendenti
+
+## 3ª superiore
+
+### Funzioni: dominio, segno e trasformazioni | S
+- Come calcolare il dominio di una funzione
+- Segno di una funzione e intersezioni con gli assi
+- Funzioni pari e dispari
+- Funzioni composte
+- Funzione inversa
+- Trasformazioni geometriche di un grafico
+- Funzione valore assoluto e funzioni definite a tratti
+
+### Equazioni e disequazioni irrazionali e con valore assoluto | G
+- Equazioni irrazionali
+- Disequazioni irrazionali
+- Equazioni con valore assoluto
+- Disequazioni con valore assoluto
+
+### La parabola | S
+- Equazione della parabola
+- Vertice, asse, fuoco e direttrice
+- Parabola e retta: secanti e tangenti
+- Come trovare l'equazione di una parabola
+- Fascio di parabole
+- Segmento parabolico
+
+### La circonferenza | S
+- Equazione della circonferenza
+- Centro e raggio da un'equazione
+- Circonferenza e retta: posizioni reciproche
+- Rette tangenti da un punto
+- Posizione di due circonferenze
+- Fascio di circonferenze
+
+### L'ellisse | S
+- Equazione canonica dell'ellisse
+- Fuochi ed eccentricità
+- Ellisse e retta
+- Ellisse traslata
+
+### L'iperbole | S
+- Equazione canonica dell'iperbole
+- Asintoti e fuochi
+- Iperbole equilatera
+- Iperbole e retta
+
+### Esponenziali e logaritmi | S, G
+- La funzione esponenziale
+- Equazioni esponenziali
+- Disequazioni esponenziali
+- Cos'è un logaritmo
+- Proprietà dei logaritmi
+- Equazioni logaritmiche
+- Disequazioni logaritmiche
+- Cambiamento di base
+
+### Successioni e progressioni | G, S
+- Successioni numeriche
+- Progressioni aritmetiche
+- Progressioni geometriche
+- Somma dei termini di una progressione
+- Il principio di induzione
+
+## 4ª superiore
+
+### Goniometria | S, M
+- Misura degli angoli: gradi e radianti
+- La circonferenza goniometrica
+- Seno, coseno e tangente
+- Grafici delle funzioni goniometriche
+- Archi associati
+- Formule di addizione e sottrazione
+- Formule di duplicazione e bisezione
+- Formule parametriche, di prostaferesi e di Werner
+
+### Equazioni e disequazioni goniometriche | S
+- Equazioni goniometriche elementari
+- Equazioni lineari in seno e coseno
+- Equazioni omogenee
+- Equazioni risolvibili per sostituzione
+- Disequazioni goniometriche
+
+### Trigonometria | S
+- Triangoli rettangoli
+- Teorema dei seni
+- Teorema del coseno
+- Area di un triangolo con la trigonometria
+- Risolvere un triangolo qualsiasi
+- Problemi con la trigonometria
+
+### Numeri complessi | M
+- L'unità immaginaria e la forma algebrica
+- Il piano di Gauss
+- La forma trigonometrica
+- Potenze e radici dei numeri complessi
+- La formula di Eulero
+
+### Calcolo combinatorio | G, S
+- Permutazioni
+- Disposizioni
+- Combinazioni
+- Coefficiente binomiale e binomio di Newton
+
+### Probabilità | S
+- Probabilità condizionata e teorema di Bayes
+- Variabili casuali discrete
+- Distribuzione binomiale
+
+### Geometria nello spazio | G
+- Rette e piani nello spazio
+- Poliedri
+- Solidi di rotazione
+- Aree e volumi dei solidi
+- Principio di Cavalieri
+
+## 5ª superiore
+
+### Limiti | S, M
+- * L'idea di limite
+- Definizione di limite e verifica
+- Teoremi sui limiti
+- Algebra dei limiti
+- Forme indeterminate
+- Limiti notevoli
+- Infinitesimi e infiniti
+- Asintoti
+
+### Funzioni continue | S
+- Cos'è una funzione continua
+- Punti di discontinuità
+- Teorema di Weierstrass
+- Teorema dei valori intermedi e teorema degli zeri
+
+### Derivate | S, M
+- * La derivata come pendenza
+- Rapporto incrementale e definizione di derivata
+- Derivate delle funzioni fondamentali
+- Regole di derivazione
+- Derivata di una funzione composta
+- Retta tangente a una curva
+- Derivabilità e punti di non derivabilità
+- Derivate successive
+
+### Teoremi del calcolo differenziale | S, G
+- Teorema di Rolle
+- Teorema di Lagrange
+- Teorema di Cauchy
+- Teorema di De L'Hôpital
+- Massimi e minimi
+- Concavità e flessi
+- Problemi di ottimizzazione
+
+### Studio di funzione | G
+- Come si studia una funzione: la procedura completa
+- Studio di una funzione razionale
+- Studio di una funzione irrazionale
+- Studio di una funzione esponenziale o logaritmica
+- Studio di una funzione goniometrica
+- Dal grafico di f al grafico di f'
+- Metodi numerici: bisezione e Newton
+
+### Integrali | S, M
+- Primitive e integrale indefinito
+- Integrali immediati
+- Integrazione per sostituzione
+- Integrazione per parti
+- Integrazione di funzioni razionali fratte
+- L'integrale definito
+- Teorema fondamentale del calcolo integrale
+- Calcolo di aree e volumi
+- Integrali impropri
+
+### Equazioni differenziali | G, S
+- Equazioni differenziali del primo ordine a variabili separabili
+- Equazioni differenziali lineari del primo ordine
+- Problema di Cauchy
+- Modelli: crescita e decadimento
+
+### Distribuzioni di probabilità | S
+- Distribuzioni discrete e continue
+- La distribuzione binomiale
+- La distribuzione di Poisson
+- La distribuzione normale
+
+### Geometria analitica nello spazio | G
+- Coordinate nello spazio
+- Piani e rette nello spazio
+- La sfera e la sua equazione
+- Distanze nello spazio
+
+# Fisica
+
+## 1ª superiore
+
+### Misure e grandezze | G, S
+- Grandezze fisiche e unità del Sistema Internazionale
+- Notazione scientifica e ordine di grandezza
+- Incertezza di una misura e cifre significative
+- Equivalenze tra unità di misura
+- Densità
+
+### I vettori | S
+- Grandezze scalari e vettoriali
+- Somma e differenza di vettori
+- Scomposizione di un vettore in componenti
+- Prodotto scalare e prodotto vettoriale
+
+### Le forze | S
+- Forza peso e massa
+- Forza elastica e legge di Hooke
+- Attrito statico e dinamico
+- Reazioni vincolari
+- Equilibrio del punto materiale
+- Il piano inclinato: equilibrio
+
+### L'equilibrio del corpo rigido | S
+- Momento di una forza
+- Coppie di forze
+- Baricentro
+- Le leve
+- Equilibrio di un corpo rigido
+
+### I fluidi | S
+- Pressione e legge di Stevin
+- Principio di Pascal
+- Vasi comunicanti
+- Spinta di Archimede e galleggiamento
+- La pressione atmosferica
+
+## 2ª superiore
+
+### Cinematica | S, M
+- Sistema di riferimento e traiettoria
+- * Velocità media e velocità istantanea
+- * Il moto rettilineo uniforme
+- * Il moto uniformemente accelerato
+- Grafici spazio-tempo e velocità-tempo
+- La caduta libera
+- Il moto del proiettile
+- Il moto circolare uniforme
+- Il moto armonico
+- Composizione dei moti e velocità relativa
+
+### Le leggi della dinamica | S
+- Il primo principio della dinamica
+- Il secondo principio: F = ma
+- Il terzo principio
+- Il piano inclinato con l'attrito
+- Sistemi di corpi: macchina di Atwood
+- La forza centripeta
+- Sistemi di riferimento non inerziali e forze apparenti
+
+### Lavoro ed energia | S
+- Il lavoro di una forza
+- La potenza
+- Energia cinetica e teorema dell'energia cinetica
+- Energia potenziale gravitazionale ed elastica
+- Conservazione dell'energia meccanica
+- Forze non conservative e dissipazione
+
+### Termologia | S
+- Temperatura e scale termometriche
+- Dilatazione termica
+- Calore e calore specifico
+- Calorimetria
+- Cambiamenti di stato
+- Propagazione del calore
+
+## 3ª superiore
+
+### Quantità di moto e urti | S
+- Quantità di moto e impulso
+- Conservazione della quantità di moto
+- Urti elastici
+- Urti anelastici
+- Centro di massa
+- Urti in due dimensioni
+
+### Dinamica del corpo rigido | S, M
+- Momento angolare
+- Momento d'inerzia
+- Dinamica rotazionale
+- Conservazione del momento angolare
+
+### Gravitazione | S, M
+- Le leggi di Keplero
+- La legge di gravitazione universale
+- Campo gravitazionale
+- Energia potenziale gravitazionale e velocità di fuga
+- Moto dei satelliti
+
+### Oscillazioni | S
+- Il moto armonico e la molla
+- Il pendolo
+- L'energia nell'oscillatore armonico
+
+### Onde e suono | S
+- Onde meccaniche e loro grandezze
+- Le onde sonore
+- L'effetto Doppler
+- Riflessione e rifrazione
+- Interferenza
+- Onde stazionarie
+
+## 4ª superiore
+
+### Termodinamica | S, G
+- Le leggi dei gas
+- L'equazione di stato del gas perfetto
+- La teoria cinetica dei gas
+- Il primo principio della termodinamica
+- Le trasformazioni termodinamiche
+- Il secondo principio e le macchine termiche
+- Il ciclo di Carnot
+- L'entropia
+
+### Ottica | S
+- Riflessione e specchi
+- Rifrazione e legge di Snell
+- Le lenti
+- Interferenza e esperimento di Young
+- Diffrazione
+
+### Elettrostatica | S
+- La carica elettrica e la legge di Coulomb
+- Il campo elettrico
+- Flusso del campo elettrico e teorema di Gauss
+- Potenziale elettrico
+- Conduttori in equilibrio
+- Condensatori
+
+### La corrente elettrica | S
+- Intensità di corrente e prima legge di Ohm
+- Resistenze in serie e in parallelo
+- Leggi di Kirchhoff
+- Effetto Joule e potenza elettrica
+- Circuiti RC
+
+## 5ª superiore
+
+### Il campo magnetico | S, M
+- Magneti e campo magnetico
+- La forza di Lorentz
+- Moto di una carica in un campo magnetico
+- Forza su un filo percorso da corrente
+- Legge di Biot-Savart e legge di Ampère
+- Il solenoide
+
+### Induzione elettromagnetica | S
+- Flusso del campo magnetico
+- Legge di Faraday-Neumann-Lenz
+- Autoinduzione e circuiti RL
+- Corrente alternata
+- Il trasformatore
+
+### Le equazioni di Maxwell e le onde elettromagnetiche | G, M
+- Le equazioni di Maxwell
+- Le onde elettromagnetiche
+- Lo spettro elettromagnetico
+- La polarizzazione
+
+### Relatività ristretta | M
+- I postulati della relatività
+- Dilatazione dei tempi
+- Contrazione delle lunghezze
+- Trasformazioni di Lorentz
+- Energia e quantità di moto relativistiche
+
+### Fisica quantistica | S, G
+- Il corpo nero e l'ipotesi di Planck
+- L'effetto fotoelettrico
+- L'effetto Compton
+- Il modello atomico di Bohr
+- Le onde di materia di De Broglie
+- Il principio di indeterminazione
+
+### Fisica nucleare | G
+- Struttura del nucleo e radioattività
+- I decadimenti e la legge del decadimento
+- Fissione e fusione
+
+# Università · Analisi 1
+
+## Analisi matematica 1
+
+### Fondamenti | G
+- Insiemi numerici e estremo superiore
+- Funzioni elementari e loro grafici
+- Il principio di induzione
+- Il binomio di Newton e le sommatorie
+
+### Successioni | G, S
+- Limite di una successione
+- Teoremi sui limiti di successioni
+- Successioni monotone e numero di Nepero
+- Sottosuccessioni e successioni di Cauchy
+
+### Limiti di funzioni | S, M
+- * La definizione di limite con ε e δ
+- Teoremi sui limiti di funzioni
+- Limiti notevoli
+- Il simbolo o e gli infinitesimi
+- Gerarchia degli infiniti e asintotici
+
+### Continuità | G
+- Funzioni continue
+- Teorema di Weierstrass
+- Teorema degli zeri e dei valori intermedi
+- Continuità uniforme
+
+### Derivate | S
+- Definizione di derivata e significato geometrico
+- Regole di derivazione
+- Teoremi di Rolle, Lagrange e Cauchy
+- Teorema di De L'Hôpital
+- Formula di Taylor
+- Convessità e studio di funzione
+
+### Integrali | S, M
+- L'integrale di Riemann
+- Teorema fondamentale del calcolo integrale
+- Tecniche di integrazione
+- Integrali impropri e criteri di convergenza
+
+### Serie numeriche | S
+- Cos'è una serie e quando converge
+- Criteri di convergenza: confronto, rapporto e radice
+- Serie a segni alterni e criterio di Leibniz
+- Convergenza assoluta
+- Serie di potenze e raggio di convergenza
+- Serie di Taylor
+
+### Equazioni differenziali | G
+- Equazioni differenziali del primo ordine
+- Il problema di Cauchy
+- Equazioni lineari del secondo ordine a coefficienti costanti
+
+# Università · Algebra lineare
+
+## Algebra lineare
+
+### Matrici e sistemi lineari | S
+- Matrici e operazioni tra matrici
+- * Risolvere un sistema lineare con il metodo di Gauss
+- Il rango di una matrice
+- Il teorema di Rouché-Capelli
+- La matrice inversa
+
+### Determinanti | G
+- Definizione di determinante
+- Sviluppo di Laplace
+- Proprietà del determinante
+- Regola di Cramer
+
+### Spazi vettoriali | M
+- Cos'è uno spazio vettoriale
+- Sottospazi e combinazioni lineari
+- Indipendenza lineare
+- Basi e dimensione
+- Formula di Grassmann
+
+### Applicazioni lineari | M
+- Cos'è un'applicazione lineare
+- Nucleo e immagine
+- Il teorema del rango
+- Matrice associata e cambio di base
+
+### Autovalori e autovettori | S, M
+- Autovalori e polinomio caratteristico
+- Autospazi
+- Diagonalizzabilità
+- Come si diagonalizza una matrice
+
+### Prodotto scalare e ortogonalità | S
+- Il prodotto scalare
+- Ortogonalità e proiezioni
+- Il metodo di Gram-Schmidt
+- Matrici ortogonali e teorema spettrale
+
+### Geometria nello spazio | G
+- Rette e piani in R³
+- Distanze tra punti, rette e piani
+
+# Università · Fisica
+
+## Fisica 1
+
+### Cinematica del punto | S
+- Vettori e sistemi di riferimento
+- Moto in una dimensione
+- Moto in due dimensioni
+- Moto relativo
+
+### Dinamica del punto | S
+- Le leggi di Newton
+- Forze di attrito e vincoli
+- Moto circolare
+- Sistemi di riferimento non inerziali
+
+### Lavoro ed energia | S
+- Lavoro e energia cinetica
+- Forze conservative ed energia potenziale
+- Conservazione dell'energia
+
+### Sistemi di punti materiali | S
+- Quantità di moto e centro di massa
+- Urti
+- Sistemi a massa variabile
+
+### Corpo rigido | S, M
+- Cinematica del corpo rigido
+- Momento d'inerzia
+- Momento angolare
+- Rotolamento
+- Equilibrio
+
+### Oscillazioni e onde | S
+- Oscillatore armonico
+- Oscillazioni smorzate e forzate, risonanza
+- L'equazione delle onde
+- Effetto Doppler
+
+### Fluidi | S
+- Statica dei fluidi
+- Dinamica dei fluidi e teorema di Bernoulli
+- Viscosità
+
+### Termodinamica | S
+- Temperatura e calore
+- Gas ideale
+- Primo e secondo principio
+- Macchine termiche ed entropia
+
+## Fisica 2
+
+### Elettrostatica | S
+- Legge di Coulomb e campo elettrico
+- Teorema di Gauss
+- Potenziale elettrico
+- Conduttori, condensatori e dielettrici
+
+### Corrente e circuiti | S
+- Legge di Ohm e resistenze
+- Leggi di Kirchhoff
+- Circuiti RC
+
+### Magnetismo | S, M
+- Campo magnetico e forza di Lorentz
+- Biot-Savart e Ampère
+- Materiali magnetici
+
+### Induzione e circuiti | S
+- Legge di Faraday
+- Induttanza e circuiti RL, LC, RLC
+- Corrente alternata
+
+### Onde elettromagnetiche | G, M
+- Equazioni di Maxwell
+- Onde elettromagnetiche e vettore di Poynting
+- Ottica ondulatoria
+
+# Metodo di studio
+
+## Metodo ORBIT
+
+### Studiare matematica e fisica | T
+- Il Metodo ORBIT: perché non ti do mai la soluzione subito (già online)
+- * Come studiare matematica senza memorizzare
+- Come usare gli errori per migliorare
+- Cosa fare quando non sai da dove partire
+- Come prepararsi a una verifica nell'ultima settimana
+- Come usare l'intelligenza artificiale senza farsi fare i compiti
+- Come si studia un teorema: cosa serve davvero
+- Come organizzare gli appunti di matematica
+- Come preparare un esame di Analisi 1
+- Come preparare un esame di Fisica 1
+- Come si risolve un problema di fisica: la procedura
+
+# Prossimamente · Altre materie
+
+## Chimica
+
+### Dalla materia alla mole | G
+- La materia e le misure
+- Atomo e tavola periodica
+- I legami chimici
+- Nomenclatura dei composti
+- Reazioni e bilanciamento
+- La mole e la stechiometria
+- Concentrazione delle soluzioni
+
+### Equilibri e reazioni | G, S
+- Le leggi dei gas
+- Equilibrio chimico
+- Acidi, basi e pH
+- Ossidoriduzioni
+- Termochimica e cinetica
+
+### Chimica organica | G
+- Gli idrocarburi
+- I gruppi funzionali
+- Isomeria
+
+## Biologia
+
+### La cellula e la genetica | G
+- La cellula
+- DNA e replicazione
+- Sintesi proteica
+- Mitosi e meiosi
+- Genetica mendeliana
+
+### Evoluzione ed ecologia | G
+- La selezione naturale
+- Ecologia e ecosistemi
+
+## Informatica · Python e robotica
+
+### Python da zero | T, S
+- Variabili e tipi di dato
+- Condizioni
+- Cicli
+- Funzioni
+- Liste e dizionari
+- Lavorare con i file
+
+### Algoritmi | S
+- Algoritmi di ricerca
+- Algoritmi di ordinamento
+- Complessità computazionale
+- Ricorsione
+
+## Test universitari
+
+### Preparazione ai test | T
+- Matematica di base per i test
+- Fisica di base per i test
+- Logica e ragionamento

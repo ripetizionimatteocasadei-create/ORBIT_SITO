@@ -4,13 +4,11 @@ Elenco dei post che Matteo ha approvato ma che non sono ancora in produzione. Si
 
 | Post | Slug | Data prevista | Stato |
 |---|---|---|---|
-| _nessuno approvato per ora_ | | | |
+| Come risolvere le equazioni di secondo grado | `come-risolvere-equazioni-secondo-grado` | 13/11/2026 | approvato da Matteo (ha applicato le sue correzioni senza rileggere) |
 
 ## In revisione
 
-| Post | Slug | Stato |
-|---|---|---|
-| Come risolvere le equazioni di secondo grado | `come-risolvere-equazioni-secondo-grado` | Bozza pronta, in attesa di Approva / Modifica / Scarta |
+_nessuno_
 
 ## Da aggiornare nel momento dell'approvazione (lotto)
 - `blog/index.html`: aggiungere la card del post (e togliere un segnaposto "In arrivo")

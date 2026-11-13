@@ -1,0 +1,518 @@
+materia,livello,argomento_guida,lezione,url_proposto,stato,formato
+Matematica,1ª superiore,Numeri naturali e interi,Operazioni con i numeri naturali e interi e le loro proprietà,/blog/operazioni-numeri-naturali-interi-loro-proprieta/,in programma,G
+Matematica,1ª superiore,Numeri naturali e interi,Potenze e proprietà delle potenze,/blog/potenze-proprieta-potenze/,in programma,G
+Matematica,1ª superiore,Numeri naturali e interi,"Multipli e divisori, MCD e mcm",/blog/multipli-divisori-mcd-mcm/,in programma,G
+Matematica,1ª superiore,Numeri naturali e interi,Criteri di divisibilità,/blog/criteri-divisibilita/,in programma,G
+Matematica,1ª superiore,Numeri naturali e interi,Scomposizione in fattori primi,/blog/scomposizione-fattori-primi/,in programma,G
+Matematica,1ª superiore,Numeri naturali e interi,Espressioni con i numeri interi: come si risolvono,/blog/espressioni-numeri-interi-si-risolvono/,in programma,G
+Matematica,1ª superiore,Frazioni e numeri razionali,Frazioni e operazioni con le frazioni,/blog/frazioni-operazioni-frazioni/,in programma,G+S
+Matematica,1ª superiore,Frazioni e numeri razionali,Confrontare le frazioni,/blog/confrontare-frazioni/,in programma,G+S
+Matematica,1ª superiore,Frazioni e numeri razionali,Numeri decimali e frazione generatrice,/blog/numeri-decimali-frazione-generatrice/,in programma,G+S
+Matematica,1ª superiore,Frazioni e numeri razionali,Potenze con esponente negativo,/blog/potenze-esponente-negativo/,in programma,G+S
+Matematica,1ª superiore,Frazioni e numeri razionali,Percentuali: come si calcolano,/blog/percentuali-si-calcolano/,in programma,G+S
+Matematica,1ª superiore,Frazioni e numeri razionali,Proporzioni e proprietà delle proporzioni,/blog/proporzioni-proprieta-proporzioni/,in programma,G+S
+Matematica,1ª superiore,Frazioni e numeri razionali,Rapporti e grandezze proporzionali,/blog/rapporti-grandezze-proporzionali/,in programma,G+S
+Matematica,1ª superiore,Insiemi e logica,Insiemi e modi per rappresentarli,/blog/insiemi-modi-rappresentarli/,in programma,G
+Matematica,1ª superiore,Insiemi e logica,"Unione, intersezione e differenza tra insiemi",/blog/unione-intersezione-differenza-insiemi/,in programma,G
+Matematica,1ª superiore,Insiemi e logica,Proposizioni logiche e connettivi,/blog/proposizioni-logiche-connettivi/,in programma,G
+Matematica,1ª superiore,Insiemi e logica,Quantificatori e negazione di una frase,/blog/quantificatori-negazione-frase/,in programma,G
+Matematica,1ª superiore,Calcolo letterale,Monomi e operazioni con i monomi,/blog/monomi-operazioni-monomi/,in programma,G+S
+Matematica,1ª superiore,Calcolo letterale,Polinomi e operazioni con i polinomi,/blog/polinomi-operazioni-polinomi/,in programma,G+S
+Matematica,1ª superiore,Calcolo letterale,Prodotti notevoli: quadrato di binomio e differenza di quadrati,/blog/prodotti-notevoli-quadrato-binomio-differenza-quadrati/,in programma,G+S
+Matematica,1ª superiore,Calcolo letterale,Cubo di binomio e altri prodotti notevoli,/blog/cubo-binomio-altri-prodotti-notevoli/,in programma,G+S
+Matematica,1ª superiore,Calcolo letterale,Divisione tra polinomi,/blog/divisione-polinomi/,in programma,G+S
+Matematica,1ª superiore,Calcolo letterale,Regola di Ruffini,/blog/regola-ruffini/,in programma,G+S
+Matematica,1ª superiore,Calcolo letterale,Scomposizione: raccoglimento totale e parziale,/blog/scomposizione-raccoglimento-totale-parziale/,in programma,G+S
+Matematica,1ª superiore,Calcolo letterale,Scomposizione con i prodotti notevoli,/blog/scomposizione-prodotti-notevoli/,in programma,G+S
+Matematica,1ª superiore,Calcolo letterale,Scomposizione del trinomio di secondo grado,/blog/scomposizione-trinomio-secondo-grado-1a-superiore/,in programma,G+S
+Matematica,1ª superiore,Calcolo letterale,MCD e mcm tra polinomi,/blog/mcd-mcm-polinomi/,in programma,G+S
+Matematica,1ª superiore,Calcolo letterale,Frazioni algebriche e operazioni,/blog/frazioni-algebriche-operazioni/,in programma,G+S
+Matematica,1ª superiore,Equazioni di primo grado,Principi di equivalenza e come si risolve un'equazione lineare,/blog/principi-equivalenza-si-risolve-equazione-lineare/,in programma,S
+Matematica,1ª superiore,Equazioni di primo grado,Equazioni numeriche intere,/blog/equazioni-numeriche-intere/,in programma,S
+Matematica,1ª superiore,Equazioni di primo grado,Equazioni fratte,/blog/equazioni-fratte/,in programma,S
+Matematica,1ª superiore,Equazioni di primo grado,Equazioni letterali,/blog/equazioni-letterali/,in programma,S
+Matematica,1ª superiore,Equazioni di primo grado,Problemi che si risolvono con le equazioni,/blog/problemi-si-risolvono-equazioni/,in programma,S
+Matematica,1ª superiore,Disequazioni di primo grado,Intervalli e rappresentazione sulla retta,/blog/intervalli-rappresentazione-sulla-retta/,in programma,S
+Matematica,1ª superiore,Disequazioni di primo grado,Disequazioni lineari,/blog/disequazioni-lineari/,in programma,S
+Matematica,1ª superiore,Disequazioni di primo grado,Sistemi di disequazioni,/blog/sistemi-disequazioni-1a-superiore/,in programma,S
+Matematica,1ª superiore,Funzioni e piano cartesiano,Relazioni e funzioni,/blog/relazioni-funzioni/,in programma,S
+Matematica,1ª superiore,Funzioni e piano cartesiano,Il piano cartesiano: distanza tra due punti e punto medio,/blog/piano-cartesiano-distanza-due-punti-punto-medio/,in programma,S
+Matematica,1ª superiore,Funzioni e piano cartesiano,Proporzionalità diretta e inversa,/blog/proporzionalita-diretta-inversa/,in programma,S
+Matematica,1ª superiore,Funzioni e piano cartesiano,La funzione lineare e la retta,/blog/funzione-lineare-retta/,in programma,S
+Matematica,1ª superiore,Statistica descrittiva,"Frequenze, tabelle e grafici",/blog/frequenze-tabelle-grafici/,in programma,S
+Matematica,1ª superiore,Statistica descrittiva,"Media, mediana e moda",/blog/media-mediana-moda/,in programma,S
+Matematica,1ª superiore,Statistica descrittiva,Varianza e deviazione standard,/blog/varianza-deviazione-standard/,in programma,S
+Matematica,1ª superiore,Geometria: triangoli e quadrilateri,Enti geometrici fondamentali,/blog/enti-geometrici-fondamentali/,in programma,G
+Matematica,1ª superiore,Geometria: triangoli e quadrilateri,Segmenti e angoli,/blog/segmenti-angoli/,in programma,G
+Matematica,1ª superiore,Geometria: triangoli e quadrilateri,Triangoli e criteri di congruenza,/blog/triangoli-criteri-congruenza/,in programma,G
+Matematica,1ª superiore,Geometria: triangoli e quadrilateri,Triangoli isosceli e disuguaglianze triangolari,/blog/triangoli-isosceli-disuguaglianze-triangolari/,in programma,G
+Matematica,1ª superiore,Geometria: triangoli e quadrilateri,Rette perpendicolari e parallele,/blog/rette-perpendicolari-parallele/,in programma,G
+Matematica,1ª superiore,Geometria: triangoli e quadrilateri,Parallelogrammi e loro proprietà,/blog/parallelogrammi-loro-proprieta/,in programma,G
+Matematica,1ª superiore,Geometria: triangoli e quadrilateri,"Rettangolo, rombo, quadrato e trapezio",/blog/rettangolo-rombo-quadrato-trapezio/,in programma,G
+Matematica,2ª superiore,Sistemi lineari,Metodo di sostituzione,/blog/metodo-sostituzione/,in programma,S
+Matematica,2ª superiore,Sistemi lineari,Metodo del confronto,/blog/metodo-confronto/,in programma,S
+Matematica,2ª superiore,Sistemi lineari,Metodo di riduzione,/blog/metodo-riduzione/,in programma,S
+Matematica,2ª superiore,Sistemi lineari,Metodo di Cramer,/blog/metodo-cramer/,in programma,S
+Matematica,2ª superiore,Sistemi lineari,Sistemi fratti e letterali,/blog/sistemi-fratti-letterali/,in programma,S
+Matematica,2ª superiore,Sistemi lineari,Sistemi di tre equazioni in tre incognite,/blog/sistemi-tre-equazioni-tre-incognite/,in programma,S
+Matematica,2ª superiore,Sistemi lineari,Problemi che si risolvono con i sistemi,/blog/problemi-si-risolvono-sistemi/,in programma,S
+Matematica,2ª superiore,Sistemi lineari,Interpretazione grafica di un sistema,/blog/interpretazione-grafica-sistema/,in programma,S
+Matematica,2ª superiore,Radicali,Radicali aritmetici e proprietà,/blog/radicali-aritmetici-proprieta/,in programma,G
+Matematica,2ª superiore,Radicali,Semplificare un radicale: portare fuori e dentro la radice,/blog/semplificare-radicale-portare-fuori-dentro-radice/,in programma,G
+Matematica,2ª superiore,Radicali,Operazioni con i radicali,/blog/operazioni-radicali/,in programma,G
+Matematica,2ª superiore,Radicali,Razionalizzazione del denominatore,/blog/razionalizzazione-denominatore/,in programma,G
+Matematica,2ª superiore,Radicali,Potenze con esponente razionale,/blog/potenze-esponente-razionale/,in programma,G
+Matematica,2ª superiore,Radicali,Equazioni e sistemi con coefficienti irrazionali,/blog/equazioni-sistemi-coefficienti-irrazionali/,in programma,G
+Matematica,2ª superiore,Equazioni di secondo grado,Come risolvere le equazioni di secondo grado,/blog/come-risolvere-equazioni-secondo-grado/,approvato,S
+Matematica,2ª superiore,Equazioni di secondo grado,Il discriminante: cos'è e cosa ti dice,/blog/discriminante-ti-dice/,prima ondata,S
+Matematica,2ª superiore,Equazioni di secondo grado,"Equazioni incomplete: spurie, pure e monomie",/blog/equazioni-incomplete-spurie-pure-monomie/,in programma,S
+Matematica,2ª superiore,Equazioni di secondo grado,Somma e prodotto delle radici,/blog/somma-prodotto-radici/,in programma,S
+Matematica,2ª superiore,Equazioni di secondo grado,Scomposizione del trinomio di secondo grado,/blog/scomposizione-trinomio-secondo-grado-2a-superiore/,in programma,S
+Matematica,2ª superiore,Equazioni di secondo grado,Equazioni di secondo grado fratte,/blog/equazioni-secondo-grado-fratte/,in programma,S
+Matematica,2ª superiore,Equazioni di secondo grado,Equazioni parametriche,/blog/equazioni-parametriche/,in programma,S
+Matematica,2ª superiore,Equazioni di secondo grado,"Equazioni di grado superiore: binomie, trinomie e biquadratiche",/blog/equazioni-grado-superiore-binomie-trinomie-biquadratiche/,in programma,S
+Matematica,2ª superiore,Equazioni di secondo grado,Problemi di secondo grado,/blog/problemi-secondo-grado/,in programma,S
+Matematica,2ª superiore,Disequazioni e sistemi di disequazioni,Disequazioni di secondo grado,/blog/disequazioni-secondo-grado/,prima ondata,S
+Matematica,2ª superiore,Disequazioni e sistemi di disequazioni,Disequazioni di grado superiore,/blog/disequazioni-grado-superiore/,in programma,S
+Matematica,2ª superiore,Disequazioni e sistemi di disequazioni,Disequazioni fratte,/blog/disequazioni-fratte/,in programma,S
+Matematica,2ª superiore,Disequazioni e sistemi di disequazioni,Studio del segno di un prodotto,/blog/studio-segno-prodotto/,in programma,S
+Matematica,2ª superiore,Disequazioni e sistemi di disequazioni,Sistemi di disequazioni,/blog/sistemi-disequazioni-2a-superiore/,in programma,S
+Matematica,2ª superiore,La retta nel piano cartesiano,Equazione della retta e coefficiente angolare,/blog/equazione-retta-coefficiente-angolare/,in programma,S
+Matematica,2ª superiore,La retta nel piano cartesiano,Retta per due punti,/blog/retta-due-punti/,in programma,S
+Matematica,2ª superiore,La retta nel piano cartesiano,Rette parallele e perpendicolari,/blog/rette-parallele-perpendicolari/,in programma,S
+Matematica,2ª superiore,La retta nel piano cartesiano,Distanza di un punto da una retta,/blog/distanza-punto-retta/,in programma,S
+Matematica,2ª superiore,La retta nel piano cartesiano,Fascio di rette,/blog/fascio-rette/,in programma,S
+Matematica,2ª superiore,La retta nel piano cartesiano,Problemi con la retta,/blog/problemi-retta/,in programma,S
+Matematica,2ª superiore,"Geometria: circonferenza, equivalenza, similitudine","Circonferenza, cerchio e angoli alla circonferenza",/blog/circonferenza-cerchio-angoli-circonferenza/,in programma,G+S
+Matematica,2ª superiore,"Geometria: circonferenza, equivalenza, similitudine",Poligoni inscritti e circoscritti,/blog/poligoni-inscritti-circoscritti/,in programma,G+S
+Matematica,2ª superiore,"Geometria: circonferenza, equivalenza, similitudine",Equivalenza e aree dei poligoni,/blog/equivalenza-aree-poligoni/,in programma,G+S
+Matematica,2ª superiore,"Geometria: circonferenza, equivalenza, similitudine",Teorema di Pitagora,/blog/teorema-pitagora/,in programma,G+S
+Matematica,2ª superiore,"Geometria: circonferenza, equivalenza, similitudine",Teoremi di Euclide,/blog/teoremi-euclide/,in programma,G+S
+Matematica,2ª superiore,"Geometria: circonferenza, equivalenza, similitudine",Similitudine e criteri di similitudine,/blog/similitudine-criteri-similitudine/,in programma,G+S
+Matematica,2ª superiore,"Geometria: circonferenza, equivalenza, similitudine",Teorema di Talete,/blog/teorema-talete/,in programma,G+S
+Matematica,2ª superiore,Introduzione alla probabilità,Probabilità classica,/blog/probabilita-classica/,in programma,S
+Matematica,2ª superiore,Introduzione alla probabilità,Eventi composti: unione e intersezione,/blog/eventi-composti-unione-intersezione/,in programma,S
+Matematica,2ª superiore,Introduzione alla probabilità,Probabilità condizionata,/blog/probabilita-condizionata/,in programma,S
+Matematica,2ª superiore,Introduzione alla probabilità,Eventi indipendenti,/blog/eventi-indipendenti/,in programma,S
+Matematica,3ª superiore,"Funzioni: dominio, segno e trasformazioni",Come calcolare il dominio di una funzione,/blog/calcolare-dominio-funzione/,in programma,S
+Matematica,3ª superiore,"Funzioni: dominio, segno e trasformazioni",Segno di una funzione e intersezioni con gli assi,/blog/segno-funzione-intersezioni-assi/,in programma,S
+Matematica,3ª superiore,"Funzioni: dominio, segno e trasformazioni",Funzioni pari e dispari,/blog/funzioni-pari-dispari/,in programma,S
+Matematica,3ª superiore,"Funzioni: dominio, segno e trasformazioni",Funzioni composte,/blog/funzioni-composte/,in programma,S
+Matematica,3ª superiore,"Funzioni: dominio, segno e trasformazioni",Funzione inversa,/blog/funzione-inversa/,in programma,S
+Matematica,3ª superiore,"Funzioni: dominio, segno e trasformazioni",Trasformazioni geometriche di un grafico,/blog/trasformazioni-geometriche-grafico/,in programma,S
+Matematica,3ª superiore,"Funzioni: dominio, segno e trasformazioni",Funzione valore assoluto e funzioni definite a tratti,/blog/funzione-valore-assoluto-funzioni-definite-tratti/,in programma,S
+Matematica,3ª superiore,Equazioni e disequazioni irrazionali e con valore assoluto,Equazioni irrazionali,/blog/equazioni-irrazionali/,in programma,G
+Matematica,3ª superiore,Equazioni e disequazioni irrazionali e con valore assoluto,Disequazioni irrazionali,/blog/disequazioni-irrazionali/,in programma,G
+Matematica,3ª superiore,Equazioni e disequazioni irrazionali e con valore assoluto,Equazioni con valore assoluto,/blog/equazioni-valore-assoluto/,in programma,G
+Matematica,3ª superiore,Equazioni e disequazioni irrazionali e con valore assoluto,Disequazioni con valore assoluto,/blog/disequazioni-valore-assoluto/,in programma,G
+Matematica,3ª superiore,La parabola,Equazione della parabola,/blog/equazione-parabola/,in programma,S
+Matematica,3ª superiore,La parabola,"Vertice, asse, fuoco e direttrice",/blog/vertice-asse-fuoco-direttrice/,in programma,S
+Matematica,3ª superiore,La parabola,Parabola e retta: secanti e tangenti,/blog/parabola-retta-secanti-tangenti/,in programma,S
+Matematica,3ª superiore,La parabola,Come trovare l'equazione di una parabola,/blog/trovare-l-equazione-parabola/,in programma,S
+Matematica,3ª superiore,La parabola,Fascio di parabole,/blog/fascio-parabole/,in programma,S
+Matematica,3ª superiore,La parabola,Segmento parabolico,/blog/segmento-parabolico/,in programma,S
+Matematica,3ª superiore,La circonferenza,Equazione della circonferenza,/blog/equazione-circonferenza/,in programma,S
+Matematica,3ª superiore,La circonferenza,Centro e raggio da un'equazione,/blog/centro-raggio-equazione/,in programma,S
+Matematica,3ª superiore,La circonferenza,Circonferenza e retta: posizioni reciproche,/blog/circonferenza-retta-posizioni-reciproche/,in programma,S
+Matematica,3ª superiore,La circonferenza,Rette tangenti da un punto,/blog/rette-tangenti-punto/,in programma,S
+Matematica,3ª superiore,La circonferenza,Posizione di due circonferenze,/blog/posizione-due-circonferenze/,in programma,S
+Matematica,3ª superiore,La circonferenza,Fascio di circonferenze,/blog/fascio-circonferenze/,in programma,S
+Matematica,3ª superiore,L'ellisse,Equazione canonica dell'ellisse,/blog/equazione-canonica-dell-ellisse/,in programma,S
+Matematica,3ª superiore,L'ellisse,Fuochi ed eccentricità,/blog/fuochi-eccentricita/,in programma,S
+Matematica,3ª superiore,L'ellisse,Ellisse e retta,/blog/ellisse-retta/,in programma,S
+Matematica,3ª superiore,L'ellisse,Ellisse traslata,/blog/ellisse-traslata/,in programma,S
+Matematica,3ª superiore,L'iperbole,Equazione canonica dell'iperbole,/blog/equazione-canonica-dell-iperbole/,in programma,S
+Matematica,3ª superiore,L'iperbole,Asintoti e fuochi,/blog/asintoti-fuochi/,in programma,S
+Matematica,3ª superiore,L'iperbole,Iperbole equilatera,/blog/iperbole-equilatera/,in programma,S
+Matematica,3ª superiore,L'iperbole,Iperbole e retta,/blog/iperbole-retta/,in programma,S
+Matematica,3ª superiore,Esponenziali e logaritmi,La funzione esponenziale,/blog/funzione-esponenziale/,in programma,S+G
+Matematica,3ª superiore,Esponenziali e logaritmi,Equazioni esponenziali,/blog/equazioni-esponenziali/,in programma,S+G
+Matematica,3ª superiore,Esponenziali e logaritmi,Disequazioni esponenziali,/blog/disequazioni-esponenziali/,in programma,S+G
+Matematica,3ª superiore,Esponenziali e logaritmi,Cos'è un logaritmo,/blog/logaritmo/,in programma,S+G
+Matematica,3ª superiore,Esponenziali e logaritmi,Proprietà dei logaritmi,/blog/proprieta-logaritmi/,in programma,S+G
+Matematica,3ª superiore,Esponenziali e logaritmi,Equazioni logaritmiche,/blog/equazioni-logaritmiche/,in programma,S+G
+Matematica,3ª superiore,Esponenziali e logaritmi,Disequazioni logaritmiche,/blog/disequazioni-logaritmiche/,in programma,S+G
+Matematica,3ª superiore,Esponenziali e logaritmi,Cambiamento di base,/blog/cambiamento-base/,in programma,S+G
+Matematica,3ª superiore,Successioni e progressioni,Successioni numeriche,/blog/successioni-numeriche/,in programma,G+S
+Matematica,3ª superiore,Successioni e progressioni,Progressioni aritmetiche,/blog/progressioni-aritmetiche/,in programma,G+S
+Matematica,3ª superiore,Successioni e progressioni,Progressioni geometriche,/blog/progressioni-geometriche/,in programma,G+S
+Matematica,3ª superiore,Successioni e progressioni,Somma dei termini di una progressione,/blog/somma-termini-progressione/,in programma,G+S
+Matematica,3ª superiore,Successioni e progressioni,Il principio di induzione,/blog/principio-induzione-3a-superiore/,in programma,G+S
+Matematica,4ª superiore,Goniometria,Misura degli angoli: gradi e radianti,/blog/misura-angoli-gradi-radianti/,in programma,S+M
+Matematica,4ª superiore,Goniometria,La circonferenza goniometrica,/blog/circonferenza-goniometrica/,in programma,S+M
+Matematica,4ª superiore,Goniometria,"Seno, coseno e tangente",/blog/seno-coseno-tangente/,in programma,S+M
+Matematica,4ª superiore,Goniometria,Grafici delle funzioni goniometriche,/blog/grafici-funzioni-goniometriche/,in programma,S+M
+Matematica,4ª superiore,Goniometria,Archi associati,/blog/archi-associati/,in programma,S+M
+Matematica,4ª superiore,Goniometria,Formule di addizione e sottrazione,/blog/formule-addizione-sottrazione/,in programma,S+M
+Matematica,4ª superiore,Goniometria,Formule di duplicazione e bisezione,/blog/formule-duplicazione-bisezione/,in programma,S+M
+Matematica,4ª superiore,Goniometria,"Formule parametriche, di prostaferesi e di Werner",/blog/formule-parametriche-prostaferesi-werner/,in programma,S+M
+Matematica,4ª superiore,Equazioni e disequazioni goniometriche,Equazioni goniometriche elementari,/blog/equazioni-goniometriche-elementari/,in programma,S
+Matematica,4ª superiore,Equazioni e disequazioni goniometriche,Equazioni lineari in seno e coseno,/blog/equazioni-lineari-seno-coseno/,in programma,S
+Matematica,4ª superiore,Equazioni e disequazioni goniometriche,Equazioni omogenee,/blog/equazioni-omogenee/,in programma,S
+Matematica,4ª superiore,Equazioni e disequazioni goniometriche,Equazioni risolvibili per sostituzione,/blog/equazioni-risolvibili-sostituzione/,in programma,S
+Matematica,4ª superiore,Equazioni e disequazioni goniometriche,Disequazioni goniometriche,/blog/disequazioni-goniometriche/,in programma,S
+Matematica,4ª superiore,Trigonometria,Triangoli rettangoli,/blog/triangoli-rettangoli/,in programma,S
+Matematica,4ª superiore,Trigonometria,Teorema dei seni,/blog/teorema-seni/,in programma,S
+Matematica,4ª superiore,Trigonometria,Teorema del coseno,/blog/teorema-coseno/,in programma,S
+Matematica,4ª superiore,Trigonometria,Area di un triangolo con la trigonometria,/blog/area-triangolo-trigonometria/,in programma,S
+Matematica,4ª superiore,Trigonometria,Risolvere un triangolo qualsiasi,/blog/risolvere-triangolo-qualsiasi/,in programma,S
+Matematica,4ª superiore,Trigonometria,Problemi con la trigonometria,/blog/problemi-trigonometria/,in programma,S
+Matematica,4ª superiore,Numeri complessi,L'unità immaginaria e la forma algebrica,/blog/l-unita-immaginaria-forma-algebrica/,in programma,M
+Matematica,4ª superiore,Numeri complessi,Il piano di Gauss,/blog/piano-gauss/,in programma,M
+Matematica,4ª superiore,Numeri complessi,La forma trigonometrica,/blog/forma-trigonometrica/,in programma,M
+Matematica,4ª superiore,Numeri complessi,Potenze e radici dei numeri complessi,/blog/potenze-radici-numeri-complessi/,in programma,M
+Matematica,4ª superiore,Numeri complessi,La formula di Eulero,/blog/formula-eulero/,in programma,M
+Matematica,4ª superiore,Calcolo combinatorio,Permutazioni,/blog/permutazioni/,in programma,G+S
+Matematica,4ª superiore,Calcolo combinatorio,Disposizioni,/blog/disposizioni/,in programma,G+S
+Matematica,4ª superiore,Calcolo combinatorio,Combinazioni,/blog/combinazioni/,in programma,G+S
+Matematica,4ª superiore,Calcolo combinatorio,Coefficiente binomiale e binomio di Newton,/blog/coefficiente-binomiale-binomio-newton/,in programma,G+S
+Matematica,4ª superiore,Probabilità,Probabilità condizionata e teorema di Bayes,/blog/probabilita-condizionata-teorema-bayes/,in programma,S
+Matematica,4ª superiore,Probabilità,Variabili casuali discrete,/blog/variabili-casuali-discrete/,in programma,S
+Matematica,4ª superiore,Probabilità,Distribuzione binomiale,/blog/distribuzione-binomiale-4a-superiore/,in programma,S
+Matematica,4ª superiore,Geometria nello spazio,Rette e piani nello spazio,/blog/rette-piani-nello-spazio/,in programma,G
+Matematica,4ª superiore,Geometria nello spazio,Poliedri,/blog/poliedri/,in programma,G
+Matematica,4ª superiore,Geometria nello spazio,Solidi di rotazione,/blog/solidi-rotazione/,in programma,G
+Matematica,4ª superiore,Geometria nello spazio,Aree e volumi dei solidi,/blog/aree-volumi-solidi/,in programma,G
+Matematica,4ª superiore,Geometria nello spazio,Principio di Cavalieri,/blog/principio-cavalieri/,in programma,G
+Matematica,5ª superiore,Limiti,L'idea di limite,/blog/l-idea-limite/,prima ondata,S+M
+Matematica,5ª superiore,Limiti,Definizione di limite e verifica,/blog/definizione-limite-verifica/,in programma,S+M
+Matematica,5ª superiore,Limiti,Teoremi sui limiti,/blog/teoremi-sui-limiti/,in programma,S+M
+Matematica,5ª superiore,Limiti,Algebra dei limiti,/blog/algebra-limiti/,in programma,S+M
+Matematica,5ª superiore,Limiti,Forme indeterminate,/blog/forme-indeterminate/,in programma,S+M
+Matematica,5ª superiore,Limiti,Limiti notevoli,/blog/limiti-notevoli-5a-superiore/,in programma,S+M
+Matematica,5ª superiore,Limiti,Infinitesimi e infiniti,/blog/infinitesimi-infiniti/,in programma,S+M
+Matematica,5ª superiore,Limiti,Asintoti,/blog/asintoti/,in programma,S+M
+Matematica,5ª superiore,Funzioni continue,Cos'è una funzione continua,/blog/funzione-continua/,in programma,S
+Matematica,5ª superiore,Funzioni continue,Punti di discontinuità,/blog/punti-discontinuita/,in programma,S
+Matematica,5ª superiore,Funzioni continue,Teorema di Weierstrass,/blog/teorema-weierstrass-5a-superiore/,in programma,S
+Matematica,5ª superiore,Funzioni continue,Teorema dei valori intermedi e teorema degli zeri,/blog/teorema-valori-intermedi-teorema-zeri/,in programma,S
+Matematica,5ª superiore,Derivate,La derivata come pendenza,/blog/derivata-pendenza/,prima ondata,S+M
+Matematica,5ª superiore,Derivate,Rapporto incrementale e definizione di derivata,/blog/rapporto-incrementale-definizione-derivata/,in programma,S+M
+Matematica,5ª superiore,Derivate,Derivate delle funzioni fondamentali,/blog/derivate-funzioni-fondamentali/,in programma,S+M
+Matematica,5ª superiore,Derivate,Regole di derivazione,/blog/regole-derivazione-5a-superiore/,in programma,S+M
+Matematica,5ª superiore,Derivate,Derivata di una funzione composta,/blog/derivata-funzione-composta/,in programma,S+M
+Matematica,5ª superiore,Derivate,Retta tangente a una curva,/blog/retta-tangente-curva/,in programma,S+M
+Matematica,5ª superiore,Derivate,Derivabilità e punti di non derivabilità,/blog/derivabilita-punti-non-derivabilita/,in programma,S+M
+Matematica,5ª superiore,Derivate,Derivate successive,/blog/derivate-successive/,in programma,S+M
+Matematica,5ª superiore,Teoremi del calcolo differenziale,Teorema di Rolle,/blog/teorema-rolle/,in programma,S+G
+Matematica,5ª superiore,Teoremi del calcolo differenziale,Teorema di Lagrange,/blog/teorema-lagrange/,in programma,S+G
+Matematica,5ª superiore,Teoremi del calcolo differenziale,Teorema di Cauchy,/blog/teorema-cauchy/,in programma,S+G
+Matematica,5ª superiore,Teoremi del calcolo differenziale,Teorema di De L'Hôpital,/blog/teorema-de-l-hopital-5a-superiore/,in programma,S+G
+Matematica,5ª superiore,Teoremi del calcolo differenziale,Massimi e minimi,/blog/massimi-minimi/,in programma,S+G
+Matematica,5ª superiore,Teoremi del calcolo differenziale,Concavità e flessi,/blog/concavita-flessi/,in programma,S+G
+Matematica,5ª superiore,Teoremi del calcolo differenziale,Problemi di ottimizzazione,/blog/problemi-ottimizzazione/,in programma,S+G
+Matematica,5ª superiore,Studio di funzione,Come si studia una funzione: la procedura completa,/blog/si-studia-funzione-procedura-completa/,in programma,G
+Matematica,5ª superiore,Studio di funzione,Studio di una funzione razionale,/blog/studio-funzione-razionale/,in programma,G
+Matematica,5ª superiore,Studio di funzione,Studio di una funzione irrazionale,/blog/studio-funzione-irrazionale/,in programma,G
+Matematica,5ª superiore,Studio di funzione,Studio di una funzione esponenziale o logaritmica,/blog/studio-funzione-esponenziale-o-logaritmica/,in programma,G
+Matematica,5ª superiore,Studio di funzione,Studio di una funzione goniometrica,/blog/studio-funzione-goniometrica/,in programma,G
+Matematica,5ª superiore,Studio di funzione,Dal grafico di f al grafico di f',/blog/grafico-f-grafico-f/,in programma,G
+Matematica,5ª superiore,Studio di funzione,Metodi numerici: bisezione e Newton,/blog/metodi-numerici-bisezione-newton/,in programma,G
+Matematica,5ª superiore,Integrali,Primitive e integrale indefinito,/blog/primitive-integrale-indefinito/,in programma,S+M
+Matematica,5ª superiore,Integrali,Integrali immediati,/blog/integrali-immediati/,in programma,S+M
+Matematica,5ª superiore,Integrali,Integrazione per sostituzione,/blog/integrazione-sostituzione/,in programma,S+M
+Matematica,5ª superiore,Integrali,Integrazione per parti,/blog/integrazione-parti/,in programma,S+M
+Matematica,5ª superiore,Integrali,Integrazione di funzioni razionali fratte,/blog/integrazione-funzioni-razionali-fratte/,in programma,S+M
+Matematica,5ª superiore,Integrali,L'integrale definito,/blog/l-integrale-definito/,in programma,S+M
+Matematica,5ª superiore,Integrali,Teorema fondamentale del calcolo integrale,/blog/teorema-fondamentale-calcolo-integrale-5a-superiore/,in programma,S+M
+Matematica,5ª superiore,Integrali,Calcolo di aree e volumi,/blog/calcolo-aree-volumi/,in programma,S+M
+Matematica,5ª superiore,Integrali,Integrali impropri,/blog/integrali-impropri/,in programma,S+M
+Matematica,5ª superiore,Equazioni differenziali,Equazioni differenziali del primo ordine a variabili separabili,/blog/equazioni-differenziali-primo-ordine-variabili-separabili/,in programma,G+S
+Matematica,5ª superiore,Equazioni differenziali,Equazioni differenziali lineari del primo ordine,/blog/equazioni-differenziali-lineari-primo-ordine/,in programma,G+S
+Matematica,5ª superiore,Equazioni differenziali,Problema di Cauchy,/blog/problema-cauchy-5a-superiore/,in programma,G+S
+Matematica,5ª superiore,Equazioni differenziali,Modelli: crescita e decadimento,/blog/modelli-crescita-decadimento/,in programma,G+S
+Matematica,5ª superiore,Distribuzioni di probabilità,Distribuzioni discrete e continue,/blog/distribuzioni-discrete-continue/,in programma,S
+Matematica,5ª superiore,Distribuzioni di probabilità,La distribuzione binomiale,/blog/distribuzione-binomiale-5a-superiore/,in programma,S
+Matematica,5ª superiore,Distribuzioni di probabilità,La distribuzione di Poisson,/blog/distribuzione-poisson/,in programma,S
+Matematica,5ª superiore,Distribuzioni di probabilità,La distribuzione normale,/blog/distribuzione-normale/,in programma,S
+Matematica,5ª superiore,Geometria analitica nello spazio,Coordinate nello spazio,/blog/coordinate-nello-spazio/,in programma,G
+Matematica,5ª superiore,Geometria analitica nello spazio,Piani e rette nello spazio,/blog/piani-rette-nello-spazio/,in programma,G
+Matematica,5ª superiore,Geometria analitica nello spazio,La sfera e la sua equazione,/blog/sfera-sua-equazione/,in programma,G
+Matematica,5ª superiore,Geometria analitica nello spazio,Distanze nello spazio,/blog/distanze-nello-spazio/,in programma,G
+Fisica,1ª superiore,Misure e grandezze,Grandezze fisiche e unità del Sistema Internazionale,/blog/grandezze-fisiche-unita-sistema-internazionale/,in programma,G+S
+Fisica,1ª superiore,Misure e grandezze,Notazione scientifica e ordine di grandezza,/blog/notazione-scientifica-ordine-grandezza/,in programma,G+S
+Fisica,1ª superiore,Misure e grandezze,Incertezza di una misura e cifre significative,/blog/incertezza-misura-cifre-significative/,in programma,G+S
+Fisica,1ª superiore,Misure e grandezze,Equivalenze tra unità di misura,/blog/equivalenze-unita-misura/,in programma,G+S
+Fisica,1ª superiore,Misure e grandezze,Densità,/blog/densita/,in programma,G+S
+Fisica,1ª superiore,I vettori,Grandezze scalari e vettoriali,/blog/grandezze-scalari-vettoriali/,in programma,S
+Fisica,1ª superiore,I vettori,Somma e differenza di vettori,/blog/somma-differenza-vettori/,in programma,S
+Fisica,1ª superiore,I vettori,Scomposizione di un vettore in componenti,/blog/scomposizione-vettore-componenti/,in programma,S
+Fisica,1ª superiore,I vettori,Prodotto scalare e prodotto vettoriale,/blog/prodotto-scalare-prodotto-vettoriale/,in programma,S
+Fisica,1ª superiore,Le forze,Forza peso e massa,/blog/forza-peso-massa/,in programma,S
+Fisica,1ª superiore,Le forze,Forza elastica e legge di Hooke,/blog/forza-elastica-legge-hooke/,in programma,S
+Fisica,1ª superiore,Le forze,Attrito statico e dinamico,/blog/attrito-statico-dinamico/,in programma,S
+Fisica,1ª superiore,Le forze,Reazioni vincolari,/blog/reazioni-vincolari/,in programma,S
+Fisica,1ª superiore,Le forze,Equilibrio del punto materiale,/blog/equilibrio-punto-materiale/,in programma,S
+Fisica,1ª superiore,Le forze,Il piano inclinato: equilibrio,/blog/piano-inclinato-equilibrio/,in programma,S
+Fisica,1ª superiore,L'equilibrio del corpo rigido,Momento di una forza,/blog/momento-forza/,in programma,S
+Fisica,1ª superiore,L'equilibrio del corpo rigido,Coppie di forze,/blog/coppie-forze/,in programma,S
+Fisica,1ª superiore,L'equilibrio del corpo rigido,Baricentro,/blog/baricentro/,in programma,S
+Fisica,1ª superiore,L'equilibrio del corpo rigido,Le leve,/blog/leve/,in programma,S
+Fisica,1ª superiore,L'equilibrio del corpo rigido,Equilibrio di un corpo rigido,/blog/equilibrio-corpo-rigido/,in programma,S
+Fisica,1ª superiore,I fluidi,Pressione e legge di Stevin,/blog/pressione-legge-stevin/,in programma,S
+Fisica,1ª superiore,I fluidi,Principio di Pascal,/blog/principio-pascal/,in programma,S
+Fisica,1ª superiore,I fluidi,Vasi comunicanti,/blog/vasi-comunicanti/,in programma,S
+Fisica,1ª superiore,I fluidi,Spinta di Archimede e galleggiamento,/blog/spinta-archimede-galleggiamento/,in programma,S
+Fisica,1ª superiore,I fluidi,La pressione atmosferica,/blog/pressione-atmosferica/,in programma,S
+Fisica,2ª superiore,Cinematica,Sistema di riferimento e traiettoria,/blog/sistema-riferimento-traiettoria/,in programma,S+M
+Fisica,2ª superiore,Cinematica,Velocità media e velocità istantanea,/blog/velocita-media-velocita-istantanea/,prima ondata,S+M
+Fisica,2ª superiore,Cinematica,Il moto rettilineo uniforme,/blog/moto-rettilineo-uniforme/,prima ondata,S+M
+Fisica,2ª superiore,Cinematica,Il moto uniformemente accelerato,/blog/moto-uniformemente-accelerato/,prima ondata,S+M
+Fisica,2ª superiore,Cinematica,Grafici spazio-tempo e velocità-tempo,/blog/grafici-spazio-tempo-velocita-tempo/,in programma,S+M
+Fisica,2ª superiore,Cinematica,La caduta libera,/blog/caduta-libera/,in programma,S+M
+Fisica,2ª superiore,Cinematica,Il moto del proiettile,/blog/moto-proiettile/,in programma,S+M
+Fisica,2ª superiore,Cinematica,Il moto circolare uniforme,/blog/moto-circolare-uniforme/,in programma,S+M
+Fisica,2ª superiore,Cinematica,Il moto armonico,/blog/moto-armonico/,in programma,S+M
+Fisica,2ª superiore,Cinematica,Composizione dei moti e velocità relativa,/blog/composizione-moti-velocita-relativa/,in programma,S+M
+Fisica,2ª superiore,Le leggi della dinamica,Il primo principio della dinamica,/blog/primo-principio-dinamica/,in programma,S
+Fisica,2ª superiore,Le leggi della dinamica,Il secondo principio: F = ma,/blog/secondo-principio-f-ma/,in programma,S
+Fisica,2ª superiore,Le leggi della dinamica,Il terzo principio,/blog/terzo-principio/,in programma,S
+Fisica,2ª superiore,Le leggi della dinamica,Il piano inclinato con l'attrito,/blog/piano-inclinato-l-attrito/,in programma,S
+Fisica,2ª superiore,Le leggi della dinamica,Sistemi di corpi: macchina di Atwood,/blog/sistemi-corpi-macchina-atwood/,in programma,S
+Fisica,2ª superiore,Le leggi della dinamica,La forza centripeta,/blog/forza-centripeta/,in programma,S
+Fisica,2ª superiore,Le leggi della dinamica,Sistemi di riferimento non inerziali e forze apparenti,/blog/sistemi-riferimento-non-inerziali-forze-apparenti/,in programma,S
+Fisica,2ª superiore,Lavoro ed energia,Il lavoro di una forza,/blog/lavoro-forza/,in programma,S
+Fisica,2ª superiore,Lavoro ed energia,La potenza,/blog/potenza/,in programma,S
+Fisica,2ª superiore,Lavoro ed energia,Energia cinetica e teorema dell'energia cinetica,/blog/energia-cinetica-teorema-dell-energia-cinetica/,in programma,S
+Fisica,2ª superiore,Lavoro ed energia,Energia potenziale gravitazionale ed elastica,/blog/energia-potenziale-gravitazionale-elastica/,in programma,S
+Fisica,2ª superiore,Lavoro ed energia,Conservazione dell'energia meccanica,/blog/conservazione-dell-energia-meccanica/,in programma,S
+Fisica,2ª superiore,Lavoro ed energia,Forze non conservative e dissipazione,/blog/forze-non-conservative-dissipazione/,in programma,S
+Fisica,2ª superiore,Termologia,Temperatura e scale termometriche,/blog/temperatura-scale-termometriche/,in programma,S
+Fisica,2ª superiore,Termologia,Dilatazione termica,/blog/dilatazione-termica/,in programma,S
+Fisica,2ª superiore,Termologia,Calore e calore specifico,/blog/calore-calore-specifico/,in programma,S
+Fisica,2ª superiore,Termologia,Calorimetria,/blog/calorimetria/,in programma,S
+Fisica,2ª superiore,Termologia,Cambiamenti di stato,/blog/cambiamenti-stato/,in programma,S
+Fisica,2ª superiore,Termologia,Propagazione del calore,/blog/propagazione-calore/,in programma,S
+Fisica,3ª superiore,Quantità di moto e urti,Quantità di moto e impulso,/blog/quantita-moto-impulso/,in programma,S
+Fisica,3ª superiore,Quantità di moto e urti,Conservazione della quantità di moto,/blog/conservazione-quantita-moto/,in programma,S
+Fisica,3ª superiore,Quantità di moto e urti,Urti elastici,/blog/urti-elastici/,in programma,S
+Fisica,3ª superiore,Quantità di moto e urti,Urti anelastici,/blog/urti-anelastici/,in programma,S
+Fisica,3ª superiore,Quantità di moto e urti,Centro di massa,/blog/centro-massa/,in programma,S
+Fisica,3ª superiore,Quantità di moto e urti,Urti in due dimensioni,/blog/urti-due-dimensioni/,in programma,S
+Fisica,3ª superiore,Dinamica del corpo rigido,Momento angolare,/blog/momento-angolare-3a-superiore/,in programma,S+M
+Fisica,3ª superiore,Dinamica del corpo rigido,Momento d'inerzia,/blog/momento-d-inerzia-3a-superiore/,in programma,S+M
+Fisica,3ª superiore,Dinamica del corpo rigido,Dinamica rotazionale,/blog/dinamica-rotazionale/,in programma,S+M
+Fisica,3ª superiore,Dinamica del corpo rigido,Conservazione del momento angolare,/blog/conservazione-momento-angolare/,in programma,S+M
+Fisica,3ª superiore,Gravitazione,Le leggi di Keplero,/blog/leggi-keplero/,in programma,S+M
+Fisica,3ª superiore,Gravitazione,La legge di gravitazione universale,/blog/legge-gravitazione-universale/,in programma,S+M
+Fisica,3ª superiore,Gravitazione,Campo gravitazionale,/blog/campo-gravitazionale/,in programma,S+M
+Fisica,3ª superiore,Gravitazione,Energia potenziale gravitazionale e velocità di fuga,/blog/energia-potenziale-gravitazionale-velocita-fuga/,in programma,S+M
+Fisica,3ª superiore,Gravitazione,Moto dei satelliti,/blog/moto-satelliti/,in programma,S+M
+Fisica,3ª superiore,Oscillazioni,Il moto armonico e la molla,/blog/moto-armonico-molla/,in programma,S
+Fisica,3ª superiore,Oscillazioni,Il pendolo,/blog/pendolo/,in programma,S
+Fisica,3ª superiore,Oscillazioni,L'energia nell'oscillatore armonico,/blog/l-energia-nell-oscillatore-armonico/,in programma,S
+Fisica,3ª superiore,Onde e suono,Onde meccaniche e loro grandezze,/blog/onde-meccaniche-loro-grandezze/,in programma,S
+Fisica,3ª superiore,Onde e suono,Le onde sonore,/blog/onde-sonore/,in programma,S
+Fisica,3ª superiore,Onde e suono,L'effetto Doppler,/blog/l-effetto-doppler/,in programma,S
+Fisica,3ª superiore,Onde e suono,Riflessione e rifrazione,/blog/riflessione-rifrazione/,in programma,S
+Fisica,3ª superiore,Onde e suono,Interferenza,/blog/interferenza/,in programma,S
+Fisica,3ª superiore,Onde e suono,Onde stazionarie,/blog/onde-stazionarie/,in programma,S
+Fisica,4ª superiore,Termodinamica,Le leggi dei gas,/blog/leggi-gas-4a-superiore/,in programma,S+G
+Fisica,4ª superiore,Termodinamica,L'equazione di stato del gas perfetto,/blog/l-equazione-stato-gas-perfetto/,in programma,S+G
+Fisica,4ª superiore,Termodinamica,La teoria cinetica dei gas,/blog/teoria-cinetica-gas/,in programma,S+G
+Fisica,4ª superiore,Termodinamica,Il primo principio della termodinamica,/blog/primo-principio-termodinamica/,in programma,S+G
+Fisica,4ª superiore,Termodinamica,Le trasformazioni termodinamiche,/blog/trasformazioni-termodinamiche/,in programma,S+G
+Fisica,4ª superiore,Termodinamica,Il secondo principio e le macchine termiche,/blog/secondo-principio-macchine-termiche/,in programma,S+G
+Fisica,4ª superiore,Termodinamica,Il ciclo di Carnot,/blog/ciclo-carnot/,in programma,S+G
+Fisica,4ª superiore,Termodinamica,L'entropia,/blog/l-entropia/,in programma,S+G
+Fisica,4ª superiore,Ottica,Riflessione e specchi,/blog/riflessione-specchi/,in programma,S
+Fisica,4ª superiore,Ottica,Rifrazione e legge di Snell,/blog/rifrazione-legge-snell/,in programma,S
+Fisica,4ª superiore,Ottica,Le lenti,/blog/lenti/,in programma,S
+Fisica,4ª superiore,Ottica,Interferenza e esperimento di Young,/blog/interferenza-esperimento-young/,in programma,S
+Fisica,4ª superiore,Ottica,Diffrazione,/blog/diffrazione/,in programma,S
+Fisica,4ª superiore,Elettrostatica,La carica elettrica e la legge di Coulomb,/blog/carica-elettrica-legge-coulomb/,in programma,S
+Fisica,4ª superiore,Elettrostatica,Il campo elettrico,/blog/campo-elettrico/,in programma,S
+Fisica,4ª superiore,Elettrostatica,Flusso del campo elettrico e teorema di Gauss,/blog/flusso-campo-elettrico-teorema-gauss/,in programma,S
+Fisica,4ª superiore,Elettrostatica,Potenziale elettrico,/blog/potenziale-elettrico-4a-superiore/,in programma,S
+Fisica,4ª superiore,Elettrostatica,Conduttori in equilibrio,/blog/conduttori-equilibrio/,in programma,S
+Fisica,4ª superiore,Elettrostatica,Condensatori,/blog/condensatori/,in programma,S
+Fisica,4ª superiore,La corrente elettrica,Intensità di corrente e prima legge di Ohm,/blog/intensita-corrente-prima-legge-ohm/,in programma,S
+Fisica,4ª superiore,La corrente elettrica,Resistenze in serie e in parallelo,/blog/resistenze-serie-parallelo/,in programma,S
+Fisica,4ª superiore,La corrente elettrica,Leggi di Kirchhoff,/blog/leggi-kirchhoff-4a-superiore/,in programma,S
+Fisica,4ª superiore,La corrente elettrica,Effetto Joule e potenza elettrica,/blog/effetto-joule-potenza-elettrica/,in programma,S
+Fisica,4ª superiore,La corrente elettrica,Circuiti RC,/blog/circuiti-rc-4a-superiore/,in programma,S
+Fisica,5ª superiore,Il campo magnetico,Magneti e campo magnetico,/blog/magneti-campo-magnetico/,in programma,S+M
+Fisica,5ª superiore,Il campo magnetico,La forza di Lorentz,/blog/forza-lorentz/,in programma,S+M
+Fisica,5ª superiore,Il campo magnetico,Moto di una carica in un campo magnetico,/blog/moto-carica-campo-magnetico/,in programma,S+M
+Fisica,5ª superiore,Il campo magnetico,Forza su un filo percorso da corrente,/blog/forza-filo-percorso-corrente/,in programma,S+M
+Fisica,5ª superiore,Il campo magnetico,Legge di Biot-Savart e legge di Ampère,/blog/legge-biot-savart-legge-ampere/,in programma,S+M
+Fisica,5ª superiore,Il campo magnetico,Il solenoide,/blog/solenoide/,in programma,S+M
+Fisica,5ª superiore,Induzione elettromagnetica,Flusso del campo magnetico,/blog/flusso-campo-magnetico/,in programma,S
+Fisica,5ª superiore,Induzione elettromagnetica,Legge di Faraday-Neumann-Lenz,/blog/legge-faraday-neumann-lenz/,in programma,S
+Fisica,5ª superiore,Induzione elettromagnetica,Autoinduzione e circuiti RL,/blog/autoinduzione-circuiti-rl/,in programma,S
+Fisica,5ª superiore,Induzione elettromagnetica,Corrente alternata,/blog/corrente-alternata-5a-superiore/,in programma,S
+Fisica,5ª superiore,Induzione elettromagnetica,Il trasformatore,/blog/trasformatore/,in programma,S
+Fisica,5ª superiore,Le equazioni di Maxwell e le onde elettromagnetiche,Le equazioni di Maxwell,/blog/equazioni-maxwell-5a-superiore/,in programma,G+M
+Fisica,5ª superiore,Le equazioni di Maxwell e le onde elettromagnetiche,Le onde elettromagnetiche,/blog/onde-elettromagnetiche/,in programma,G+M
+Fisica,5ª superiore,Le equazioni di Maxwell e le onde elettromagnetiche,Lo spettro elettromagnetico,/blog/spettro-elettromagnetico/,in programma,G+M
+Fisica,5ª superiore,Le equazioni di Maxwell e le onde elettromagnetiche,La polarizzazione,/blog/polarizzazione/,in programma,G+M
+Fisica,5ª superiore,Relatività ristretta,I postulati della relatività,/blog/postulati-relativita/,in programma,M
+Fisica,5ª superiore,Relatività ristretta,Dilatazione dei tempi,/blog/dilatazione-tempi/,in programma,M
+Fisica,5ª superiore,Relatività ristretta,Contrazione delle lunghezze,/blog/contrazione-lunghezze/,in programma,M
+Fisica,5ª superiore,Relatività ristretta,Trasformazioni di Lorentz,/blog/trasformazioni-lorentz/,in programma,M
+Fisica,5ª superiore,Relatività ristretta,Energia e quantità di moto relativistiche,/blog/energia-quantita-moto-relativistiche/,in programma,M
+Fisica,5ª superiore,Fisica quantistica,Il corpo nero e l'ipotesi di Planck,/blog/corpo-nero-l-ipotesi-planck/,in programma,S+G
+Fisica,5ª superiore,Fisica quantistica,L'effetto fotoelettrico,/blog/l-effetto-fotoelettrico/,in programma,S+G
+Fisica,5ª superiore,Fisica quantistica,L'effetto Compton,/blog/l-effetto-compton/,in programma,S+G
+Fisica,5ª superiore,Fisica quantistica,Il modello atomico di Bohr,/blog/modello-atomico-bohr/,in programma,S+G
+Fisica,5ª superiore,Fisica quantistica,Le onde di materia di De Broglie,/blog/onde-materia-de-broglie/,in programma,S+G
+Fisica,5ª superiore,Fisica quantistica,Il principio di indeterminazione,/blog/principio-indeterminazione/,in programma,S+G
+Fisica,5ª superiore,Fisica nucleare,Struttura del nucleo e radioattività,/blog/struttura-nucleo-radioattivita/,in programma,G
+Fisica,5ª superiore,Fisica nucleare,I decadimenti e la legge del decadimento,/blog/decadimenti-legge-decadimento/,in programma,G
+Fisica,5ª superiore,Fisica nucleare,Fissione e fusione,/blog/fissione-fusione/,in programma,G
+Università,Analisi 1,Fondamenti,Insiemi numerici e estremo superiore,/blog/insiemi-numerici-estremo-superiore/,in programma,G
+Università,Analisi 1,Fondamenti,Funzioni elementari e loro grafici,/blog/funzioni-elementari-loro-grafici/,in programma,G
+Università,Analisi 1,Fondamenti,Il principio di induzione,/blog/principio-induzione-analisi-1/,in programma,G
+Università,Analisi 1,Fondamenti,Il binomio di Newton e le sommatorie,/blog/binomio-newton-sommatorie/,in programma,G
+Università,Analisi 1,Successioni,Limite di una successione,/blog/limite-successione/,in programma,G+S
+Università,Analisi 1,Successioni,Teoremi sui limiti di successioni,/blog/teoremi-sui-limiti-successioni/,in programma,G+S
+Università,Analisi 1,Successioni,Successioni monotone e numero di Nepero,/blog/successioni-monotone-numero-nepero/,in programma,G+S
+Università,Analisi 1,Successioni,Sottosuccessioni e successioni di Cauchy,/blog/sottosuccessioni-successioni-cauchy/,in programma,G+S
+Università,Analisi 1,Limiti di funzioni,La definizione di limite con ε e δ,/blog/definizione-limite/,prima ondata,S+M
+Università,Analisi 1,Limiti di funzioni,Teoremi sui limiti di funzioni,/blog/teoremi-sui-limiti-funzioni/,in programma,S+M
+Università,Analisi 1,Limiti di funzioni,Limiti notevoli,/blog/limiti-notevoli-analisi-1/,in programma,S+M
+Università,Analisi 1,Limiti di funzioni,Il simbolo o e gli infinitesimi,/blog/simbolo-o-infinitesimi/,in programma,S+M
+Università,Analisi 1,Limiti di funzioni,Gerarchia degli infiniti e asintotici,/blog/gerarchia-infiniti-asintotici/,in programma,S+M
+Università,Analisi 1,Continuità,Funzioni continue,/blog/funzioni-continue/,in programma,G
+Università,Analisi 1,Continuità,Teorema di Weierstrass,/blog/teorema-weierstrass-analisi-1/,in programma,G
+Università,Analisi 1,Continuità,Teorema degli zeri e dei valori intermedi,/blog/teorema-zeri-valori-intermedi/,in programma,G
+Università,Analisi 1,Continuità,Continuità uniforme,/blog/continuita-uniforme/,in programma,G
+Università,Analisi 1,Derivate,Definizione di derivata e significato geometrico,/blog/definizione-derivata-significato-geometrico/,in programma,S
+Università,Analisi 1,Derivate,Regole di derivazione,/blog/regole-derivazione-analisi-1/,in programma,S
+Università,Analisi 1,Derivate,"Teoremi di Rolle, Lagrange e Cauchy",/blog/teoremi-rolle-lagrange-cauchy/,in programma,S
+Università,Analisi 1,Derivate,Teorema di De L'Hôpital,/blog/teorema-de-l-hopital-analisi-1/,in programma,S
+Università,Analisi 1,Derivate,Formula di Taylor,/blog/formula-taylor/,in programma,S
+Università,Analisi 1,Derivate,Convessità e studio di funzione,/blog/convessita-studio-funzione/,in programma,S
+Università,Analisi 1,Integrali,L'integrale di Riemann,/blog/l-integrale-riemann/,in programma,S+M
+Università,Analisi 1,Integrali,Teorema fondamentale del calcolo integrale,/blog/teorema-fondamentale-calcolo-integrale-analisi-1/,in programma,S+M
+Università,Analisi 1,Integrali,Tecniche di integrazione,/blog/tecniche-integrazione/,in programma,S+M
+Università,Analisi 1,Integrali,Integrali impropri e criteri di convergenza,/blog/integrali-impropri-criteri-convergenza/,in programma,S+M
+Università,Analisi 1,Serie numeriche,Cos'è una serie e quando converge,/blog/serie-quando-converge/,in programma,S
+Università,Analisi 1,Serie numeriche,"Criteri di convergenza: confronto, rapporto e radice",/blog/criteri-convergenza-confronto-rapporto-radice/,in programma,S
+Università,Analisi 1,Serie numeriche,Serie a segni alterni e criterio di Leibniz,/blog/serie-segni-alterni-criterio-leibniz/,in programma,S
+Università,Analisi 1,Serie numeriche,Convergenza assoluta,/blog/convergenza-assoluta/,in programma,S
+Università,Analisi 1,Serie numeriche,Serie di potenze e raggio di convergenza,/blog/serie-potenze-raggio-convergenza/,in programma,S
+Università,Analisi 1,Serie numeriche,Serie di Taylor,/blog/serie-taylor/,in programma,S
+Università,Analisi 1,Equazioni differenziali,Equazioni differenziali del primo ordine,/blog/equazioni-differenziali-primo-ordine/,in programma,G
+Università,Analisi 1,Equazioni differenziali,Il problema di Cauchy,/blog/problema-cauchy-analisi-1/,in programma,G
+Università,Analisi 1,Equazioni differenziali,Equazioni lineari del secondo ordine a coefficienti costanti,/blog/equazioni-lineari-secondo-ordine-coefficienti-costanti/,in programma,G
+Università,Algebra lineare,Matrici e sistemi lineari,Matrici e operazioni tra matrici,/blog/matrici-operazioni-matrici/,in programma,S
+Università,Algebra lineare,Matrici e sistemi lineari,Risolvere un sistema lineare con il metodo di Gauss,/blog/risolvere-sistema-lineare-metodo-gauss/,prima ondata,S
+Università,Algebra lineare,Matrici e sistemi lineari,Il rango di una matrice,/blog/rango-matrice/,in programma,S
+Università,Algebra lineare,Matrici e sistemi lineari,Il teorema di Rouché-Capelli,/blog/teorema-rouche-capelli/,in programma,S
+Università,Algebra lineare,Matrici e sistemi lineari,La matrice inversa,/blog/matrice-inversa/,in programma,S
+Università,Algebra lineare,Determinanti,Definizione di determinante,/blog/definizione-determinante/,in programma,G
+Università,Algebra lineare,Determinanti,Sviluppo di Laplace,/blog/sviluppo-laplace/,in programma,G
+Università,Algebra lineare,Determinanti,Proprietà del determinante,/blog/proprieta-determinante/,in programma,G
+Università,Algebra lineare,Determinanti,Regola di Cramer,/blog/regola-cramer/,in programma,G
+Università,Algebra lineare,Spazi vettoriali,Cos'è uno spazio vettoriale,/blog/spazio-vettoriale/,in programma,M
+Università,Algebra lineare,Spazi vettoriali,Sottospazi e combinazioni lineari,/blog/sottospazi-combinazioni-lineari/,in programma,M
+Università,Algebra lineare,Spazi vettoriali,Indipendenza lineare,/blog/indipendenza-lineare/,in programma,M
+Università,Algebra lineare,Spazi vettoriali,Basi e dimensione,/blog/basi-dimensione/,in programma,M
+Università,Algebra lineare,Spazi vettoriali,Formula di Grassmann,/blog/formula-grassmann/,in programma,M
+Università,Algebra lineare,Applicazioni lineari,Cos'è un'applicazione lineare,/blog/applicazione-lineare/,in programma,M
+Università,Algebra lineare,Applicazioni lineari,Nucleo e immagine,/blog/nucleo-immagine/,in programma,M
+Università,Algebra lineare,Applicazioni lineari,Il teorema del rango,/blog/teorema-rango/,in programma,M
+Università,Algebra lineare,Applicazioni lineari,Matrice associata e cambio di base,/blog/matrice-associata-cambio-base/,in programma,M
+Università,Algebra lineare,Autovalori e autovettori,Autovalori e polinomio caratteristico,/blog/autovalori-polinomio-caratteristico/,in programma,S+M
+Università,Algebra lineare,Autovalori e autovettori,Autospazi,/blog/autospazi/,in programma,S+M
+Università,Algebra lineare,Autovalori e autovettori,Diagonalizzabilità,/blog/diagonalizzabilita/,in programma,S+M
+Università,Algebra lineare,Autovalori e autovettori,Come si diagonalizza una matrice,/blog/si-diagonalizza-matrice/,in programma,S+M
+Università,Algebra lineare,Prodotto scalare e ortogonalità,Il prodotto scalare,/blog/prodotto-scalare/,in programma,S
+Università,Algebra lineare,Prodotto scalare e ortogonalità,Ortogonalità e proiezioni,/blog/ortogonalita-proiezioni/,in programma,S
+Università,Algebra lineare,Prodotto scalare e ortogonalità,Il metodo di Gram-Schmidt,/blog/metodo-gram-schmidt/,in programma,S
+Università,Algebra lineare,Prodotto scalare e ortogonalità,Matrici ortogonali e teorema spettrale,/blog/matrici-ortogonali-teorema-spettrale/,in programma,S
+Università,Algebra lineare,Geometria nello spazio,Rette e piani in R³,/blog/rette-piani-r3/,in programma,G
+Università,Algebra lineare,Geometria nello spazio,"Distanze tra punti, rette e piani",/blog/distanze-punti-rette-piani/,in programma,G
+Università,Fisica,Cinematica del punto,Vettori e sistemi di riferimento,/blog/vettori-sistemi-riferimento/,in programma,S
+Università,Fisica,Cinematica del punto,Moto in una dimensione,/blog/moto-dimensione/,in programma,S
+Università,Fisica,Cinematica del punto,Moto in due dimensioni,/blog/moto-due-dimensioni/,in programma,S
+Università,Fisica,Cinematica del punto,Moto relativo,/blog/moto-relativo/,in programma,S
+Università,Fisica,Dinamica del punto,Le leggi di Newton,/blog/leggi-newton/,in programma,S
+Università,Fisica,Dinamica del punto,Forze di attrito e vincoli,/blog/forze-attrito-vincoli/,in programma,S
+Università,Fisica,Dinamica del punto,Moto circolare,/blog/moto-circolare/,in programma,S
+Università,Fisica,Dinamica del punto,Sistemi di riferimento non inerziali,/blog/sistemi-riferimento-non-inerziali/,in programma,S
+Università,Fisica,Lavoro ed energia,Lavoro e energia cinetica,/blog/lavoro-energia-cinetica/,in programma,S
+Università,Fisica,Lavoro ed energia,Forze conservative ed energia potenziale,/blog/forze-conservative-energia-potenziale/,in programma,S
+Università,Fisica,Lavoro ed energia,Conservazione dell'energia,/blog/conservazione-dell-energia/,in programma,S
+Università,Fisica,Sistemi di punti materiali,Quantità di moto e centro di massa,/blog/quantita-moto-centro-massa/,in programma,S
+Università,Fisica,Sistemi di punti materiali,Urti,/blog/urti/,in programma,S
+Università,Fisica,Sistemi di punti materiali,Sistemi a massa variabile,/blog/sistemi-massa-variabile/,in programma,S
+Università,Fisica,Corpo rigido,Cinematica del corpo rigido,/blog/cinematica-corpo-rigido/,in programma,S+M
+Università,Fisica,Corpo rigido,Momento d'inerzia,/blog/momento-d-inerzia-fisica/,in programma,S+M
+Università,Fisica,Corpo rigido,Momento angolare,/blog/momento-angolare-fisica/,in programma,S+M
+Università,Fisica,Corpo rigido,Rotolamento,/blog/rotolamento/,in programma,S+M
+Università,Fisica,Corpo rigido,Equilibrio,/blog/equilibrio/,in programma,S+M
+Università,Fisica,Oscillazioni e onde,Oscillatore armonico,/blog/oscillatore-armonico/,in programma,S
+Università,Fisica,Oscillazioni e onde,"Oscillazioni smorzate e forzate, risonanza",/blog/oscillazioni-smorzate-forzate-risonanza/,in programma,S
+Università,Fisica,Oscillazioni e onde,L'equazione delle onde,/blog/l-equazione-onde/,in programma,S
+Università,Fisica,Oscillazioni e onde,Effetto Doppler,/blog/effetto-doppler/,in programma,S
+Università,Fisica,Fluidi,Statica dei fluidi,/blog/statica-fluidi/,in programma,S
+Università,Fisica,Fluidi,Dinamica dei fluidi e teorema di Bernoulli,/blog/dinamica-fluidi-teorema-bernoulli/,in programma,S
+Università,Fisica,Fluidi,Viscosità,/blog/viscosita/,in programma,S
+Università,Fisica,Termodinamica,Temperatura e calore,/blog/temperatura-calore/,in programma,S
+Università,Fisica,Termodinamica,Gas ideale,/blog/gas-ideale/,in programma,S
+Università,Fisica,Termodinamica,Primo e secondo principio,/blog/primo-secondo-principio/,in programma,S
+Università,Fisica,Termodinamica,Macchine termiche ed entropia,/blog/macchine-termiche-entropia/,in programma,S
+Università,Fisica,Elettrostatica,Legge di Coulomb e campo elettrico,/blog/legge-coulomb-campo-elettrico/,in programma,S
+Università,Fisica,Elettrostatica,Teorema di Gauss,/blog/teorema-gauss/,in programma,S
+Università,Fisica,Elettrostatica,Potenziale elettrico,/blog/potenziale-elettrico-fisica/,in programma,S
+Università,Fisica,Elettrostatica,"Conduttori, condensatori e dielettrici",/blog/conduttori-condensatori-dielettrici/,in programma,S
+Università,Fisica,Corrente e circuiti,Legge di Ohm e resistenze,/blog/legge-ohm-resistenze/,in programma,S
+Università,Fisica,Corrente e circuiti,Leggi di Kirchhoff,/blog/leggi-kirchhoff-fisica/,in programma,S
+Università,Fisica,Corrente e circuiti,Circuiti RC,/blog/circuiti-rc-fisica/,in programma,S
+Università,Fisica,Magnetismo,Campo magnetico e forza di Lorentz,/blog/campo-magnetico-forza-lorentz/,in programma,S+M
+Università,Fisica,Magnetismo,Biot-Savart e Ampère,/blog/biot-savart-ampere/,in programma,S+M
+Università,Fisica,Magnetismo,Materiali magnetici,/blog/materiali-magnetici/,in programma,S+M
+Università,Fisica,Induzione e circuiti,Legge di Faraday,/blog/legge-faraday/,in programma,S
+Università,Fisica,Induzione e circuiti,"Induttanza e circuiti RL, LC, RLC",/blog/induttanza-circuiti-rl-lc-rlc/,in programma,S
+Università,Fisica,Induzione e circuiti,Corrente alternata,/blog/corrente-alternata-fisica/,in programma,S
+Università,Fisica,Onde elettromagnetiche,Equazioni di Maxwell,/blog/equazioni-maxwell-fisica/,in programma,G+M
+Università,Fisica,Onde elettromagnetiche,Onde elettromagnetiche e vettore di Poynting,/blog/onde-elettromagnetiche-vettore-poynting/,in programma,G+M
+Università,Fisica,Onde elettromagnetiche,Ottica ondulatoria,/blog/ottica-ondulatoria/,in programma,G+M
+Metodo di studio,Metodo ORBIT,Studiare matematica e fisica,Il Metodo ORBIT: perché non ti do mai la soluzione subito,/blog/il-metodo-orbit-perche-non-ti-do-mai-la-soluzione-subito/,online,T
+Metodo di studio,Metodo ORBIT,Studiare matematica e fisica,Come studiare matematica senza memorizzare,/blog/studiare-matematica-senza-memorizzare/,prima ondata,T
+Metodo di studio,Metodo ORBIT,Studiare matematica e fisica,Come usare gli errori per migliorare,/blog/usare-errori-migliorare/,in programma,T
+Metodo di studio,Metodo ORBIT,Studiare matematica e fisica,Cosa fare quando non sai da dove partire,/blog/fare-quando-non-sai-dove-partire/,in programma,T
+Metodo di studio,Metodo ORBIT,Studiare matematica e fisica,Come prepararsi a una verifica nell'ultima settimana,/blog/prepararsi-verifica-nell-ultima-settimana/,in programma,T
+Metodo di studio,Metodo ORBIT,Studiare matematica e fisica,Come usare l'intelligenza artificiale senza farsi fare i compiti,/blog/usare-l-intelligenza-artificiale-senza-farsi-fare/,in programma,T
+Metodo di studio,Metodo ORBIT,Studiare matematica e fisica,Come si studia un teorema: cosa serve davvero,/blog/si-studia-teorema-serve-davvero/,in programma,T
+Metodo di studio,Metodo ORBIT,Studiare matematica e fisica,Come organizzare gli appunti di matematica,/blog/organizzare-appunti-matematica/,in programma,T
+Metodo di studio,Metodo ORBIT,Studiare matematica e fisica,Come preparare un esame di Analisi 1,/blog/preparare-esame-analisi-1/,in programma,T
+Metodo di studio,Metodo ORBIT,Studiare matematica e fisica,Come preparare un esame di Fisica 1,/blog/preparare-esame-fisica-1/,in programma,T
+Metodo di studio,Metodo ORBIT,Studiare matematica e fisica,Come si risolve un problema di fisica: la procedura,/blog/si-risolve-problema-fisica-procedura/,in programma,T
+Prossimamente,Chimica,Dalla materia alla mole,La materia e le misure,/blog/materia-misure/,in programma,G
+Prossimamente,Chimica,Dalla materia alla mole,Atomo e tavola periodica,/blog/atomo-tavola-periodica/,in programma,G
+Prossimamente,Chimica,Dalla materia alla mole,I legami chimici,/blog/legami-chimici/,in programma,G
+Prossimamente,Chimica,Dalla materia alla mole,Nomenclatura dei composti,/blog/nomenclatura-composti/,in programma,G
+Prossimamente,Chimica,Dalla materia alla mole,Reazioni e bilanciamento,/blog/reazioni-bilanciamento/,in programma,G
+Prossimamente,Chimica,Dalla materia alla mole,La mole e la stechiometria,/blog/mole-stechiometria/,in programma,G
+Prossimamente,Chimica,Dalla materia alla mole,Concentrazione delle soluzioni,/blog/concentrazione-soluzioni/,in programma,G
+Prossimamente,Chimica,Equilibri e reazioni,Le leggi dei gas,/blog/leggi-gas-chimica/,in programma,G+S
+Prossimamente,Chimica,Equilibri e reazioni,Equilibrio chimico,/blog/equilibrio-chimico/,in programma,G+S
+Prossimamente,Chimica,Equilibri e reazioni,"Acidi, basi e pH",/blog/acidi-basi-ph/,in programma,G+S
+Prossimamente,Chimica,Equilibri e reazioni,Ossidoriduzioni,/blog/ossidoriduzioni/,in programma,G+S
+Prossimamente,Chimica,Equilibri e reazioni,Termochimica e cinetica,/blog/termochimica-cinetica/,in programma,G+S
+Prossimamente,Chimica,Chimica organica,Gli idrocarburi,/blog/idrocarburi/,in programma,G
+Prossimamente,Chimica,Chimica organica,I gruppi funzionali,/blog/gruppi-funzionali/,in programma,G
+Prossimamente,Chimica,Chimica organica,Isomeria,/blog/isomeria/,in programma,G
+Prossimamente,Biologia,La cellula e la genetica,La cellula,/blog/cellula/,in programma,G
+Prossimamente,Biologia,La cellula e la genetica,DNA e replicazione,/blog/dna-replicazione/,in programma,G
+Prossimamente,Biologia,La cellula e la genetica,Sintesi proteica,/blog/sintesi-proteica/,in programma,G
+Prossimamente,Biologia,La cellula e la genetica,Mitosi e meiosi,/blog/mitosi-meiosi/,in programma,G
+Prossimamente,Biologia,La cellula e la genetica,Genetica mendeliana,/blog/genetica-mendeliana/,in programma,G
+Prossimamente,Biologia,Evoluzione ed ecologia,La selezione naturale,/blog/selezione-naturale/,in programma,G
+Prossimamente,Biologia,Evoluzione ed ecologia,Ecologia e ecosistemi,/blog/ecologia-ecosistemi/,in programma,G
+Prossimamente,Informatica · Python e robotica,Python da zero,Variabili e tipi di dato,/blog/variabili-tipi-dato/,in programma,T+S
+Prossimamente,Informatica · Python e robotica,Python da zero,Condizioni,/blog/condizioni/,in programma,T+S
+Prossimamente,Informatica · Python e robotica,Python da zero,Cicli,/blog/cicli/,in programma,T+S
+Prossimamente,Informatica · Python e robotica,Python da zero,Funzioni,/blog/funzioni/,in programma,T+S
+Prossimamente,Informatica · Python e robotica,Python da zero,Liste e dizionari,/blog/liste-dizionari/,in programma,T+S
+Prossimamente,Informatica · Python e robotica,Python da zero,Lavorare con i file,/blog/lavorare-file/,in programma,T+S
+Prossimamente,Informatica · Python e robotica,Algoritmi,Algoritmi di ricerca,/blog/algoritmi-ricerca/,in programma,S
+Prossimamente,Informatica · Python e robotica,Algoritmi,Algoritmi di ordinamento,/blog/algoritmi-ordinamento/,in programma,S
+Prossimamente,Informatica · Python e robotica,Algoritmi,Complessità computazionale,/blog/complessita-computazionale/,in programma,S
+Prossimamente,Informatica · Python e robotica,Algoritmi,Ricorsione,/blog/ricorsione/,in programma,S
+Prossimamente,Test universitari,Preparazione ai test,Matematica di base per i test,/blog/matematica-base-test/,in programma,T
+Prossimamente,Test universitari,Preparazione ai test,Fisica di base per i test,/blog/fisica-base-test/,in programma,T
+Prossimamente,Test universitari,Preparazione ai test,Logica e ragionamento,/blog/logica-ragionamento/,in programma,T
