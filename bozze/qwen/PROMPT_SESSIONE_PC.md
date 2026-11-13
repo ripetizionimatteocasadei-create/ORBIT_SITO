@@ -4,7 +4,7 @@ Incolla tutto quello che sta sotto la linea nella sessione sul PC.
 
 ---
 
-Ciao. Ti affido un lavoro grosso e lungo: far scrivere **a Qwen (locale, modello MoE ~35B)** tutto il blog di **matematica** del sito di Matteo Casadei (ORBIT | RIPETIZIONI, orbitripetizioni.it), dalla 1ª alla 5ª superiore. Tu fai l'ingegnere e il revisore; **il lavoro pesante lo fa Qwen**. Obiettivo secondario, importante: **consumare il meno possibile i token di Claude**. Qwen è gratis e locale, tu no.
+Ciao. **Questo prompt è per te (Claude Code), non per Qwen.** Qwen riceverà da te solo la scheda di stile e un compito alla volta. Ti affido un lavoro grosso e lungo: far scrivere **a Qwen (locale, modello MoE ~35B)** tutto il blog di **matematica** del sito di Matteo Casadei (ORBIT | RIPETIZIONI, orbitripetizioni.it), dalla 1ª alla 5ª superiore. Tu fai l'ingegnere e il revisore; **il lavoro pesante lo fa Qwen**. Obiettivo secondario, importante: **consumare il meno possibile i token di Claude**. Qwen è gratis e locale, tu no.
 
 Non devi chiedere nulla a Matteo: dove manca un'informazione scegli il default sensato e annotalo in `DECISIONI.md`. Italiano, risposte brevi.
 
@@ -25,7 +25,7 @@ Non devi chiedere nulla a Matteo: dove manca un'informazione scegli il default s
    - `bozze/CONOSCENZE_BLOG_ORBIT.md` (metodo ORBIT, scheletro del post, SEO, controlli §9)
    - `bozze/indice/albero.txt` (area `# Matematica`: 40 guide, 230 lezioni) e `bozze/indice/mappa_url.csv` (URL e slug già decisi)
 3. Studia il post modello già pronto: `blog/come-risolvere-equazioni-secondo-grado/index.html`, e gli strumenti che l'hanno prodotto: `bozze/strumenti/costruisci_post.py`, `controlli_post.py`, `katex_render.mjs`, `assets/js/equazione2.js` (+ `verifica_widget.py`), `assets/css/v2-blog-math.css`, `assets/vendor/katex/`. **Quel post è il "gold standard"**: stessa struttura, stesso stile, stessa qualità.
-4. Trova lo script con cui hai già lanciato Qwen in modalità MoE ottimizzata e avvialo (server locale compatibile OpenAI). Verifica: la finestra di contesto reale (aspettati 32k), velocità (circa 200 t/s lettura, 45 t/s scrittura). Prova se ha una modalità "senza ragionamento lungo" e usala se c'è. Annota tutto in `lavoro/NOTE.md`.
+4. **Qwen lo sai già lanciare e usare** (script MoE ottimizzato che hai creato in precedenza): usa quello, non reinventarlo e non rifare prove inutili. Controlla solo tre cose e annotale in `lavoro/NOTE.md`: contesto reale per sessione (aspettati 32k), velocità (circa 200 t/s in lettura, 45 t/s in scrittura), e se esiste una modalità senza ragionamento lungo (usala se c'è). Da qui in poi "Qwen" significa quel server locale, chiamato da script che lancio **tu**: Qwen non vede mai questo prompt, riceve solo la scheda di stile e il compito del singolo pezzo.
 5. Installa solo ciò che serve: `sympy`, `numpy`, `node` + `katex` (come in `bozze/strumenti/package.json`). **Manim** solo se si installa senza fatica (vedi §4.5); altrimenti niente.
 
 ## 2. COME SI LAVORA CON UN MODELLO CON POCA MEMORIA (32k token)
