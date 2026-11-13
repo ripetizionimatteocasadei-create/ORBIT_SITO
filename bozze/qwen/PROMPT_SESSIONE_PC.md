@@ -8,6 +8,12 @@ Ciao. **Questo prompt è per te (Claude Code), non per Qwen.** Qwen riceverà da
 
 Non devi chiedere nulla a Matteo: dove manca un'informazione scegli il default sensato e annotalo in `DECISIONI.md`. Italiano, risposte brevi.
 
+## OBIETTIVO DEL LAVORO (tienilo presente in ogni scelta)
+1. **Far crescere la visibilità su Google** (SEO) del sito: ogni post deve rispondere davvero a una domanda che uno studente scrive nel motore di ricerca ("come si risolve…", "differenza tra…", "esercizi su…"), meglio e più chiaramente della concorrenza. Quindi: risposta diretta in alto, parola chiave naturale nei punti giusti, contenuto originale e corretto, HTML completo, pagina veloce, link interni sensati. Mai testo riempitivo: pochi post forti battono tanti post sottili, e Google penalizza i contenuti in serie senza valore.
+2. **Far restare lo studente sul sito**: interattività e cose da fare (§4) per allungare il tempo di permanenza e far tornare.
+3. **Far conoscere Matteo e il Metodo ORBIT**: chi arriva da una ricerca di matematica deve capire in pochi secondi che dietro c'è un insegnante vero, con un metodo. La vendita è leggera e **una sola** per pagina (fine post). Di tutto ciò che è "contatto/vendita" mi occupo io in integrazione: tu non aggiungere altro oltre al riquadro finale del riferimento.
+In caso di dubbio tra "più testo" e "più chiarezza utile", scegli sempre la seconda.
+
 ## 0. REGOLE NON NEGOZIABILI
 1. **Nessun push, nessun deploy, niente Netlify. Mai.** Non pushare nemmeno su GitHub: la consegna è uno **zip** (sezione 8). Chi integra nel sito è un'altra sessione.
 2. Non leggere né stampare file `.env`, chiavi, token. Non toccare nulla fuori dalla cartella di lavoro.
